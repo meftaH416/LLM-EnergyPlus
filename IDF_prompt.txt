@@ -13,10 +13,10 @@ idf_prompts = {
         f"Write the IDF for `BuildingSurface:Detailed` for a {width} ft × {length} ft "
         f"single-story building with a {height} ft height. Return only IDF code.",
     
-    "fenestration": lambda num_windows, window_size, wall, door_size, door_location: 
-        f"Write the IDF for `FenestrationSurface:Detailed` to add {num_windows} windows of "
-        f"size {window_size} on the {wall}, and a door of size {door_size} at {door_location}. "
-        "Return only IDF code.",
+    "fenestration": lambda window_to_wall_ratio, window_size, wall, door_size, door_location: 
+		f"Write the IDF for `FenestrationSurface:Detailed` to add windows with a window-to-wall ratio of "
+		f"{window_to_wall_ratio} on the {wall}, with windows of size {window_size}, and a door of size {door_size} at {door_location}. "
+		"Return only IDF code.",
     
     "materials": lambda elements: 
         f"Write the IDF for materials and constructions for {', '.join(elements)}. "
@@ -64,8 +64,15 @@ def call_llm(prompt):
     )
     return response["choices"][0]["message"]["content"]
 
-# Function to generate full IDF step by step
-def generate_full_idf(location, version, width, length, height, zone, hvac_system_type):
+# Function to calculate window-to-wall ratio (WWR)
+def calculate_window_area(wall_area, wwr, window_size):
+    total_window_area = wall_area * wwr
+    # Calculate number of windows based on window size
+    num_windows = total_window_area / window_size
+    return round(num_windows)
+
+# Function to generate full IDF with WWR
+def generate_full_idf_with_wwr(location, version, width, length, height, zone, hvac_system_type, wwr, window_size):
     # Step 1: Basic IDF Template
     initial_prompt = idf_prompts["initial"](location, version)
     idf_code = call_llm(initial_prompt)
@@ -75,17 +82,24 @@ def generate_full_idf(location, version, width, length, height, zone, hvac_syste
     building_code = call_llm(building_prompt)
     idf_code += "\n" + building_code
 
-    # Step 3: Zones and Thermostats
+    # Step 3: Calculate Wall Area and Window Area
+    wall_area = 2 * (width * height + length * height)  # Assuming all walls are external
+    num_windows = calculate_window_area(wall_area, wwr, window_size)
+    fenestration_prompt = idf_prompts["fenestration"](num_windows, window_size, "west wall", "3x7 ft", "middle")
+    fenestration_code = call_llm(fenestration_prompt)
+    idf_code += "\n" + fenestration_code
+
+    # Step 4: Zones and Thermostats
     zone_prompt = idf_prompts["zones"](zone, 68, 72)
     zone_code = call_llm(zone_prompt)
     idf_code += "\n" + zone_code
 
-    # Step 4: HVAC System
+    # Step 5: HVAC System
     hvac_prompt = idf_prompts["hvac"](hvac_system_type, zone)
     hvac_code = call_llm(hvac_prompt)
     idf_code += "\n" + hvac_code
 
-    # Step 5: Output Variables
+    # Step 6: Output Variables
     outputs_prompt = idf_prompts["outputs"](["Zone Air Temperature", "Electricity:Facility"])
     outputs_code = call_llm(outputs_prompt)
     idf_code += "\n" + outputs_code
@@ -100,7 +114,9 @@ length = 50
 height = 10
 zone = "Zone1"
 hvac_system_type = "Packaged Rooftop Heat Pump"
+wwr = 0.25  # Window-to-Wall Ratio (25%)
+window_size = 21  # Window size in ft² (e.g., 3x7 ft windows)
 
-# Generate the IDF
-generated_idf = generate_full_idf(location, version, width, length, height, zone, hvac_system_type)
-print(generated_idf)
+# Generate the IDF with WWR
+generated_idf_with_wwr = generate_full_idf_with_wwr(location, version, width, length, height, zone, hvac_system_type, wwr, window_size)
+print(generated_idf_with_wwr)
