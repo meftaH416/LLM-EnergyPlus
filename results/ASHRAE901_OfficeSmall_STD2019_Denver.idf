@@ -88,8 +88,6 @@
 
 !------------------ Mandatory items for all IDF file-----------------------
 
-
-
   Schedule:Compact,
     BLDG_LIGHT_SCH,          !- Name
     Fraction,                !- Schedule Type Limits Name

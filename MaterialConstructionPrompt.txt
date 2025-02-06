@@ -1,0 +1,754 @@
+[
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A3 - 6 IN LIGHTWEIGHT CONCRETE, ! Material Name\nRough, ! Roughness\n0.1524000, ! Thickness {m}\n1.300000, ! Conductivity {W/M*K}\n1600.000, ! Density {Kg/M**3}\n920.0000, ! Specific Heat {J/Kg*K}\n0.8500000, ! Thermal Absorptance\n0.8900000, ! Solar Absorptance\n0.9000000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B1 - 3 IN POLYURETHANE INSULATION, ! Material Name\nSmooth, ! Roughness\n0.0450000, ! Thickness {m}\n0.020000, ! Conductivity {W/M*K}\n30.000, ! Density {Kg/M**3}\n1500.0000, ! Specific Heat {J/Kg*K}\n0.6000000, ! Thermal Absorptance\n0.6500000, ! Solar Absorptance\n0.6200000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A2 - 5 IN CONCRETE BLOCK, ! Material Name\nRough, ! Roughness\n0.1000000, ! Thickness {m}\n1.400000, ! Conductivity {W/M*K}\n2100.000, ! Density {Kg/M**3}\n950.0000, ! Specific Heat {J/Kg*K}\n0.8500000, ! Thermal Absorptance\n0.9200000, ! Solar Absorptance\n0.9100000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A4 - 4 IN MDF, ! Material Name\nSmooth, ! Roughness\n0.0800000, ! Thickness {m}\n0.150000, ! Conductivity {W/M*K}\n800.000, ! Density {Kg/M**3}\n1800.0000, ! Specific Heat {J/Kg*K}\n0.7500000, ! Thermal Absorptance\n0.8500000, ! Solar Absorptance\n0.8700000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B2 - 3 IN CERAMIC TILE, ! Material Name\nSmooth, ! Roughness\n0.0700000, ! Thickness {m}\n1.200000, ! Conductivity {W/M*K}\n1900.000, ! Density {Kg/M**3}\n1000.0000, ! Specific Heat {J/Kg*K}\n0.9500000, ! Thermal Absorptance\n0.9400000, ! Solar Absorptance\n0.9600000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A5 - 2 IN THERMAL GLASS, ! Material Name\nSmooth, ! Roughness\n0.0500000, ! Thickness {m}\n0.900000, ! Conductivity {W/M*K}\n2500.000, ! Density {Kg/M**3}\n800.0000, ! Specific Heat {J/Kg*K}\n0.7000000, ! Thermal Absorptance\n0.8000000, ! Solar Absorptance\n0.7500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B3 - 6 IN STYROFOAM INSULATION, ! Material Name\nSmooth, ! Roughness\n0.0800000, ! Thickness {m}\n0.030000, ! Conductivity {W/M*K}\n35.000, ! Density {Kg/M**3}\n1200.0000, ! Specific Heat {J/Kg*K}\n0.5000000, ! Thermal Absorptance\n0.6000000, ! Solar Absorptance\n0.5500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A2 - 8 IN CINDER BLOCK, ! Material Name\nRough, ! Roughness\n0.2500000, ! Thickness {m}\n1.100000, ! Conductivity {W/M*K}\n1900.000, ! Density {Kg/M**3}\n1000.0000, ! Specific Heat {J/Kg*K}\n0.8000000, ! Thermal Absorptance\n0.8800000, ! Solar Absorptance\n0.8700000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A6 - 3 IN CEDAR WOOD, ! Material Name\nSmooth, ! Roughness\n0.0700000, ! Thickness {m}\n0.120000, ! Conductivity {W/M*K}\n600.000, ! Density {Kg/M**3}\n1500.0000, ! Specific Heat {J/Kg*K}\n0.6500000, ! Thermal Absorptance\n0.7000000, ! Solar Absorptance\n0.7200000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B4 - 6 IN GRANITE, ! Material Name\nRough, ! Roughness\n0.1500000, ! Thickness {m}\n1.600000, ! Conductivity {W/M*K}\n2700.000, ! Density {Kg/M**3}\n800.0000, ! Specific Heat {J/Kg*K}\n0.7000000, ! Thermal Absorptance\n0.8600000, ! Solar Absorptance\n0.8400000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A7 - 4 IN RUBBER, ! Material Name\nSmooth, ! Roughness\n0.0500000, ! Thickness {m}\n0.300000, ! Conductivity {W/M*K}\n1200.000, ! Density {Kg/M**3}\n1500.0000, ! Specific Heat {J/Kg*K}\n0.7000000, ! Thermal Absorptance\n0.7800000, ! Solar Absorptance\n0.8000000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B5 - 6 IN ALUMINUM SHEET, ! Material Name\nSmooth, ! Roughness\n0.0800000, ! Thickness {m}\n200.000, ! Conductivity {W/M*K}\n2700.000, ! Density {Kg/M**3}\n900.0000, ! Specific Heat {J/Kg*K}\n0.9500000, ! Thermal Absorptance\n0.9800000, ! Solar Absorptance\n0.9500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A8 - 3 IN ALUMINUM, ! Material Name\nSmooth, ! Roughness\n0.1000000, ! Thickness {m}\n200.000, ! Conductivity {W/M*K}\n2700.000, ! Density {Kg/M**3}\n950.0000, ! Specific Heat {J/Kg*K}\n0.9300000, ! Thermal Absorptance\n0.9500000, ! Solar Absorptance\n0.9500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B6 - 4 IN STONE, ! Material Name\nRough, ! Roughness\n0.1200000, ! Thickness {m}\n1.500000, ! Conductivity {W/M*K}\n2500.000, ! Density {Kg/M**3}\n850.0000, ! Specific Heat {J/Kg*K}\n0.8000000, ! Thermal Absorptance\n0.8900000, ! Solar Absorptance\n0.8700000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A9 - 2 IN LEAD, ! Material Name\nSmooth, ! Roughness\n0.0200000, ! Thickness {m}\n40.0000, ! Conductivity {W/M*K}\n11300.000, ! Density {Kg/M**3}\n1300.0000, ! Specific Heat {J/Kg*K}\n0.9000000, ! Thermal Absorptance\n0.9500000, ! Solar Absorptance\n0.9300000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B7 - 8 IN STONE, ! Material Name\nRough, ! Roughness\n0.2000000, ! Thickness {m}\n1.700000, ! Conductivity {W/M*K}\n2300.000, ! Density {Kg/M**3}\n950.0000, ! Specific Heat {J/Kg*K}\n0.8500000, ! Thermal Absorptance\n0.9200000, ! Solar Absorptance\n0.9000000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A10 - 4 IN BRICK, ! Material Name\nRough, ! Roughness\n0.1000000, ! Thickness {m}\n0.800000, ! Conductivity {W/M*K}\n2100.000, ! Density {Kg/M**3}\n850.0000, ! Specific Heat {J/Kg*K}\n0.7500000, ! Thermal Absorptance\n0.8200000, ! Solar Absorptance\n0.8000000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B8 - 3 IN STONEWARE, ! Material Name\nSmooth, ! Roughness\n0.0700000, ! Thickness {m}\n1.300000, ! Conductivity {W/M*K}\n2200.000, ! Density {Kg/M**3}\n900.0000, ! Specific Heat {J/Kg*K}\n0.8000000, ! Thermal Absorptance\n0.9100000, ! Solar Absorptance\n0.9000000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A11 - 2 IN COPPER, ! Material Name\nSmooth, ! Roughness\n0.0500000, ! Thickness {m}\n400.000, ! Conductivity {W/M*K}\n8900.000, ! Density {Kg/M**3}\n380.0000, ! Specific Heat {J/Kg*K}\n0.9000000, ! Thermal Absorptance\n0.9500000, ! Solar Absorptance\n0.9500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B9 - 2 IN IRON, ! Material Name\nSmooth, ! Roughness\n0.0300000, ! Thickness {m}\n80.0000, ! Conductivity {W/M*K}\n7800.000, ! Density {Kg/M**3}\n450.0000, ! Specific Heat {J/Kg*K}\n0.8800000, ! Thermal Absorptance\n0.9300000, ! Solar Absorptance\n0.9200000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A12 - 3 IN VENEER, ! Material Name\nSmooth, ! Roughness\n0.0600000, ! Thickness {m}\n0.120000, ! Conductivity {W/M*K}\n600.000, ! Density {Kg/M**3}\n1200.0000, ! Specific Heat {J/Kg*K}\n0.7500000, ! Thermal Absorptance\n0.8500000, ! Solar Absorptance\n0.8700000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, B10 - 5 IN FOAM, ! Material Name\nSmooth, ! Roughness\n0.0800000, ! Thickness {m}\n0.020000, ! Conductivity {W/M*K}\n35.000, ! Density {Kg/M**3}\n1000.0000, ! Specific Heat {J/Kg*K}\n0.6000000, ! Thermal Absorptance\n0.7000000, ! Solar Absorptance\n0.7500000 ; ! Visible Absorptance"
+  },
+  {
+    "user": "Make a material with these properties?",
+    "answer": "Material, A13 - 4 IN FIBERBOARD, ! Material Name\nSmooth, ! Roughness\n0.0800000, ! Thickness {m}\n0.080000, ! Conductivity {W/M*K}\n500.000, ! Density {Kg/M**3}\n1300.0000, ! Specific Heat {J/Kg*K}\n0.7000000, ! Thermal Absorptance\n0.7500000, ! Solar Absorptance\n0.7700000 ; ! Visible Absorptance"
+  },
+  
+  
+  
+  
+  {
+    "user": "Create a no-mass material for wall insulation with a resistance of 2.290965.",
+    "answer": "Material:NoMass, R13LAYER, !- Material Name; Rough, !- Roughness; 2.290965, !- Resistance {m2K/W}; 0.9000000, !- Thermal Absorptance; 0.7500000, !- Solar Absorptance; 0.7500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a no-mass material named R19LAYER with a resistance of 3.336.",
+    "answer": "Material:NoMass, R19LAYER, !- Material Name; Rough, !- Roughness; 3.336, !- Resistance {m2K/W}; 0.9000000, !- Thermal Absorptance; 0.7500000, !- Solar Absorptance; 0.7500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Add a no-mass material named ROOFINSULATION with a resistance of 5.5.",
+    "answer": "Material:NoMass, ROOFINSULATION, !- Material Name; MediumRough, !- Roughness; 5.5, !- Resistance {m2K/W}; 0.9500000, !- Thermal Absorptance; 0.8000000, !- Solar Absorptance; 0.8000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a material for ceiling insulation with high thermal absorptance and a resistance of 4.2.",
+    "answer": "Material:NoMass, CEILINGINSULATION, !- Material Name; Rough, !- Roughness; 4.2, !- Resistance {m2K/W}; 0.9700000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a low-absorptance material for reflective insulation with a resistance of 1.5.",
+    "answer": "Material:NoMass, REFLECTIVEINSULATION, !- Material Name; Smooth, !- Roughness; 1.5, !- Resistance {m2K/W}; 0.6000000, !- Thermal Absorptance; 0.2000000, !- Solar Absorptance; 0.2000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a generic no-mass material named WALLLAYER with a resistance of 2.0.",
+    "answer": "Material:NoMass, WALLLAYER, !- Material Name; MediumRough, !- Roughness; 2.0, !- Resistance {m2K/W}; 0.8500000, !- Thermal Absorptance; 0.6500000, !- Solar Absorptance; 0.6500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a material for partition walls with a resistance of 1.8.",
+    "answer": "Material:NoMass, PARTITIONWALL, !- Material Name; Rough, !- Roughness; 1.8, !- Resistance {m2K/W}; 0.9000000, !- Thermal Absorptance; 0.7500000, !- Solar Absorptance; 0.7500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a no-mass material named EXTERIORWALL with medium roughness and resistance of 3.5.",
+    "answer": "Material:NoMass, EXTERIORWALL, !- Material Name; MediumRough, !- Roughness; 3.5, !- Resistance {m2K/W}; 0.9000000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define an interior wall material with resistance 1.2 and high visible absorptance.",
+    "answer": "Material:NoMass, INTERIORWALL, !- Material Name; MediumSmooth, !- Roughness; 1.2, !- Resistance {m2K/W}; 0.8500000, !- Thermal Absorptance; 0.6500000, !- Solar Absorptance; 0.9000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Add a reflective material with a resistance of 0.9 and low solar absorptance.",
+    "answer": "Material:NoMass, REFLECTIVEMATERIAL, !- Material Name; Smooth, !- Roughness; 0.9, !- Resistance {m2K/W}; 0.7000000, !- Thermal Absorptance; 0.3000000, !- Solar Absorptance; 0.3000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a material for high thermal resistance wall with a value of 4.8.",
+    "answer": "Material:NoMass, HIGHRESISTANCEWALL, !- Material Name; Rough, !- Roughness; 4.8, !- Resistance {m2K/W}; 0.9500000, !- Thermal Absorptance; 0.7500000, !- Solar Absorptance; 0.7500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a roof insulation material with a resistance of 6.5 and low absorptance.",
+    "answer": "Material:NoMass, ROOFINSULATION, !- Material Name; MediumRough, !- Roughness; 6.5, !- Resistance {m2K/W}; 0.8000000, !- Thermal Absorptance; 0.5000000, !- Solar Absorptance; 0.5000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a no-mass material named FLOORINSULATION with resistance 3.2.",
+    "answer": "Material:NoMass, FLOORINSULATION, !- Material Name; MediumSmooth, !- Roughness; 3.2, !- Resistance {m2K/W}; 0.8500000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a special ceiling layer with resistance 2.8 and medium roughness.",
+    "answer": "Material:NoMass, SPECIALCEILINGLAYER, !- Material Name; MediumRough, !- Roughness; 2.8, !- Resistance {m2K/W}; 0.8800000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a material for external shading devices with resistance 0.5.",
+    "answer": "Material:NoMass, SHADINGDEVICE, !- Material Name; Smooth, !- Roughness; 0.5, !- Resistance {m2K/W}; 0.6000000, !- Thermal Absorptance; 0.3000000, !- Solar Absorptance; 0.3000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a material for internal partition with resistance 1.4 and roughness MediumSmooth.",
+    "answer": "Material:NoMass, INTERNALPARTITION, !- Material Name; MediumSmooth, !- Roughness; 1.4, !- Resistance {m2K/W}; 0.8500000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Add a layer for an attic with resistance 2.6 and high thermal absorptance.",
+    "answer": "Material:NoMass, ATTICLAYER, !- Material Name; MediumRough, !- Roughness; 2.6, !- Resistance {m2K/W}; 0.9500000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a no-mass material named R22LAYER with resistance 4.2.",
+    "answer": "Material:NoMass, R22LAYER, !- Material Name; Rough, !- Roughness; 4.2, !- Resistance {m2K/W}; 0.9000000, !- Thermal Absorptance; 0.7500000, !- Solar Absorptance; 0.7500000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define an exterior facade material with resistance 3.9 and medium roughness.",
+    "answer": "Material:NoMass, EXTERIORFACADE, !- Material Name; MediumRough, !- Roughness; 3.9, !- Resistance {m2K/W}; 0.8800000, !- Thermal Absorptance; 0.7000000, !- Solar Absorptance; 0.7000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Add a reflective coating material with resistance 1.1.",
+    "answer": "Material:NoMass, REFLECTIVECOATING, !- Material Name; Smooth, !- Roughness; 1.1, !- Resistance {m2K/W}; 0.7000000, !- Thermal Absorptance; 0.3000000, !- Solar Absorptance; 0.3000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Create a low thermal absorptance material for skylight coverings with resistance 0.7.",
+    "answer": "Material:NoMass, SKYLIGHTCOVER, !- Material Name; Smooth, !- Roughness; 0.7, !- Resistance {m2K/W}; 0.6500000, !- Thermal Absorptance; 0.2000000, !- Solar Absorptance; 0.2000000; !- Visible Absorptance"
+  },
+  {
+    "user": "Define a special material for HVAC duct insulation with resistance 1.8.",
+    "answer": "Material:NoMass, HVACDUCTINSULATION, !- Material Name; MediumRough, !- Roughness; 1.8, !- Resistance {m2K/W}; 0.8700000, !- Thermal Absorptance; 0.6500000, !- Solar Absorptance; 0.6500000; !- Visible Absorptance"
+  },
+  
+  
+  
+  {
+    "user": "Define an air gap material with resistance 0.200 {m^2K/W} for a wall.",
+    "answer": "Material:AirGap, WallAirGap, !- Material Name; 0.200; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for roof construction with resistance 0.150 {m^2K/W}.",
+    "answer": "Material:AirGap, RoofAirGap, !- Material Name; 0.150; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material for window assembly with resistance 0.120 {m^2K/W}.",
+    "answer": "Material:AirGap, WindowAirGap, !- Material Name; 0.120; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material with resistance 0.180 {m^2K/W} for insulation.",
+    "answer": "Material:AirGap, InsulationAirGap, !- Material Name; 0.180; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.250 {m^2K/W} for attic construction.",
+    "answer": "Material:AirGap, AtticAirGap, !- Material Name; 0.250; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.300 {m^2K/W} for a floor assembly.",
+    "answer": "Material:AirGap, FloorAirGap, !- Material Name; 0.300; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for cavity wall insulation with resistance 0.220 {m^2K/W}.",
+    "answer": "Material:AirGap, CavityWallAirGap, !- Material Name; 0.220; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.270 {m^2K/W} for a lightweight structure.",
+    "answer": "Material:AirGap, LightweightAirGap, !- Material Name; 0.270; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.320 {m^2K/W} for thermal break.",
+    "answer": "Material:AirGap, ThermalBreakAirGap, !- Material Name; 0.320; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for exterior wall assembly with resistance 0.350 {m^2K/W}.",
+    "answer": "Material:AirGap, ExteriorWallAirGap, !- Material Name; 0.350; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.140 {m^2K/W} for a door assembly.",
+    "answer": "Material:AirGap, DoorAirGap, !- Material Name; 0.140; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.200 {m^2K/W} for an acoustic panel.",
+    "answer": "Material:AirGap, AcousticPanelAirGap, !- Material Name; 0.200; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for an interior partition with resistance 0.180 {m^2K/W}.",
+    "answer": "Material:AirGap, InteriorPartitionAirGap, !- Material Name; 0.180; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.160 {m^2K/W} for gypsum board assembly.",
+    "answer": "Material:AirGap, GypsumBoardAirGap, !- Material Name; 0.160; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.100 {m^2K/W} for an HVAC duct.",
+    "answer": "Material:AirGap, HVACDuctAirGap, !- Material Name; 0.100; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for brick veneer wall with resistance 0.210 {m^2K/W}.",
+    "answer": "Material:AirGap, BrickVeneerAirGap, !- Material Name; 0.210; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.190 {m^2K/W} for concrete block wall.",
+    "answer": "Material:AirGap, ConcreteBlockAirGap, !- Material Name; 0.190; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.240 {m^2K/W} for roof truss assembly.",
+    "answer": "Material:AirGap, RoofTrussAirGap, !- Material Name; 0.240; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for attic ventilation with resistance 0.260 {m^2K/W}.",
+    "answer": "Material:AirGap, AtticVentilationAirGap, !- Material Name; 0.260; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.130 {m^2K/W} for lightweight flooring.",
+    "answer": "Material:AirGap, LightweightFloorAirGap, !- Material Name; 0.130; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.280 {m^2K/W} for ventilated façade.",
+    "answer": "Material:AirGap, VentilatedFacadeAirGap, !- Material Name; 0.280; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for timber wall assembly with resistance 0.300 {m^2K/W}.",
+    "answer": "Material:AirGap, TimberWallAirGap, !- Material Name; 0.300; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.190 {m^2K/W} for glass fiber insulation.",
+    "answer": "Material:AirGap, GlassFiberInsulationAirGap, !- Material Name; 0.190; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.110 {m^2K/W} for metal wall assembly.",
+    "answer": "Material:AirGap, MetalWallAirGap, !- Material Name; 0.110; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for steel truss assembly with resistance 0.230 {m^2K/W}.",
+    "answer": "Material:AirGap, SteelTrussAirGap, !- Material Name; 0.230; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.150 {m^2K/W} for plasterboard assembly.",
+    "answer": "Material:AirGap, PlasterboardAirGap, !- Material Name; 0.150; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.270 {m^2K/W} for stone cladding.",
+    "answer": "Material:AirGap, StoneCladdingAirGap, !- Material Name; 0.270; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Create an air gap material for ceramic tile wall with resistance 0.220 {m^2K/W}.",
+    "answer": "Material:AirGap, CeramicTileAirGap, !- Material Name; 0.220; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Set an air gap material with resistance 0.210 {m^2K/W} for PVC cladding.",
+    "answer": "Material:AirGap, PVCCladdingAirGap, !- Material Name; 0.210; !- Resistance {M**2K/W}"
+  },
+  {
+    "user": "Define an air gap material with resistance 0.250 {m^2K/W} for a metal roof system.",
+    "answer": "Material:AirGap, MetalRoofAirGap, !- Material Name; 0.250; !- Resistance {M**2K/W}"
+  },
+  
+
+
+
+  {
+    "user": "I want a roof vegetation material with high leaf area index.",
+    "answer": "Material:RoofVegetation ,\nHighLAI ,\n0.5,\n10,\n0.2,\n0.95,\n180,\nEcoRoofSoil ,\nMediumSmooth ,\n0.18,\n0.4,\n641,\n1100,\n0.95,\n0.8,\n0.7,\n0.4,\n0.01,\n0.2,\nSimple;"
+  },
+  {
+    "user": "I need a vegetative material with a low leaf area index.",
+    "answer": "Material:RoofVegetation ,\nLowLAI ,\n0.3,\n0.5,\n0.3,\n0.9,\n150,\nEcoRoofSoil ,\nSmooth ,\n0.2,\n0.5,\n600,\n1200,\n0.85,\n0.75,\n0.6,\n0.3,\n0.02,\n0.25,\nSimple;"
+  },
+  {
+    "user": "Could you suggest roof vegetation with high emissivity?",
+    "answer": "Material:RoofVegetation ,\nHighEmissivity ,\n0.7,\n6,\n0.1,\n0.98,\n190,\nEcoRoofSoil ,\nSmooth ,\n0.25,\n0.45,\n650,\n1150,\n0.9,\n0.85,\n0.8,\n0.35,\n0.01,\n0.18,\nSimple;"
+  },
+  {
+    "user": "What roof material can provide good insulation?",
+    "answer": "Material:RoofVegetation ,\nInsulationPlant ,\n0.6,\n4,\n0.15,\n0.93,\n175,\nEcoRoofSoil ,\nRough ,\n0.3,\n0.55,\n660,\n1250,\n0.92,\n0.85,\n0.75,\n0.4,\n0.02,\n0.22,\nSimple;"
+  },
+  {
+    "user": "Looking for a roof vegetation material that supports a medium soil layer.",
+    "answer": "Material:RoofVegetation ,\nMediumSoilSupport ,\n0.8,\n5,\n0.25,\n0.96,\n185,\nEcoRoofSoil ,\nMediumSmooth ,\n0.2,\n0.6,\n640,\n1100,\n0.88,\n0.82,\n0.78,\n0.35,\n0.03,\n0.25,\nSimple;"
+  },
+  {
+    "user": "Can you help me with a material having high solar absorptance?",
+    "answer": "Material:RoofVegetation ,\nHighSolarAbs ,\n0.75,\n3,\n0.3,\n0.92,\n170,\nEcoRoofSoil ,\nMedium ,\n0.22,\n0.6,\n630,\n1050,\n0.87,\n0.92,\n0.65,\n0.45,\n0.01,\n0.2,\nSimple;"
+  },
+  {
+    "user": "Can you generate a material with good moisture retention?",
+    "answer": "Material:RoofVegetation ,\nMoistureRetention ,\n0.5,\n8,\n0.2,\n0.93,\n160,\nEcoRoofSoil ,\nRough ,\n0.25,\n0.55,\n670,\n1200,\n0.9,\n0.8,\n0.7,\n0.6,\n0.03,\n0.3,\nSimple;"
+  },
+  {
+    "user": "I need roof vegetation for low water retention.",
+    "answer": "Material:RoofVegetation ,\nLowWaterRetention ,\n0.4,\n2,\n0.25,\n0.91,\n180,\nEcoRoofSoil ,\nSmooth ,\n0.2,\n0.5,\n640,\n1100,\n0.8,\n0.75,\n0.65,\n0.35,\n0.01,\n0.1,\nSimple;"
+  },
+  {
+    "user": "I'm looking for roof vegetation with a moderate thermal absorptance.",
+    "answer": "Material:RoofVegetation ,\nModerateThermalAbs ,\n0.6,\n4,\n0.3,\n0.92,\n175,\nEcoRoofSoil ,\nSmooth ,\n0.18,\n0.5,\n650,\n1150,\n0.85,\n0.8,\n0.7,\n0.35,\n0.01,\n0.2,\nSimple;"
+  },
+  {
+    "user": "Can you provide a vegetation material for a dry roof environment?",
+    "answer": "Material:RoofVegetation ,\nDryRoof ,\n0.4,\n3,\n0.2,\n0.95,\n190,\nEcoRoofSoil ,\nSmooth ,\n0.18,\n0.45,\n620,\n1100,\n0.87,\n0.85,\n0.8,\n0.4,\n0.02,\n0.25,\nSimple;"
+  },
+  {
+    "user": "I need roof vegetation material for a high moisture environment.",
+    "answer": "Material:RoofVegetation ,\nHighMoistureEnv ,\n0.8,\n10,\n0.2,\n0.95,\n160,\nEcoRoofSoil ,\nMedium ,\n0.2,\n0.6,\n650,\n1200,\n0.9,\n0.75,\n0.7,\n0.5,\n0.03,\n0.28,\nSimple;"
+  },
+  {
+    "user": "I'm looking for roof vegetation material with good leaf reflectivity.",
+    "answer": "Material:RoofVegetation ,\nHighReflectivity ,\n0.5,\n7,\n0.4,\n0.9,\n180,\nEcoRoofSoil ,\nMediumSmooth ,\n0.25,\n0.6,\n620,\n1100,\n0.9,\n0.8,\n0.7,\n0.5,\n0.02,\n0.18,\nSimple;"
+  },
+  {
+    "user": "Can you suggest roof vegetation material with a high leaf area index?",
+    "answer": "Material:RoofVegetation ,\nHighLeafArea ,\n1.0,\n12,\n0.25,\n0.85,\n190,\nEcoRoofSoil ,\nMedium ,\n0.3,\n0.55,\n630,\n1200,\n0.88,\n0.83,\n0.76,\n0.45,\n0.02,\n0.2,\nSimple;"
+  },
+  {
+    "user": "Looking for a material with good heat capacity for a hot roof.",
+    "answer": "Material:RoofVegetation ,\nHighHeatCapacity ,\n0.6,\n5,\n0.3,\n0.93,\n170,\nEcoRoofSoil ,\nRough ,\n0.3,\n0.5,\n640,\n1150,\n0.92,\n0.88,\n0.7,\n0.4,\n0.01,\n0.3,\nSimple;"
+  },
+  {
+    "user": "I need a material for roof vegetation that can handle extreme temperatures.",
+    "answer": "Material:RoofVegetation ,\nExtremeTempHandling ,\n0.75,\n8,\n0.2,\n0.9,\n200,\nEcoRoofSoil ,\nMedium ,\n0.35,\n0.55,\n650,\n1200,\n0.85,\n0.82,\n0.75,\n0.5,\n0.03,\n0.25,\nSimple;"
+  },
+  {
+    "user": "Can you suggest a roof vegetation material with good drought resistance?",
+    "answer": "Material:RoofVegetation ,\nDroughtResistant ,\n0.6,\n6,\n0.3,\n0.9,\n180,\nEcoRoofSoil ,\nMedium ,\n0.25,\n0.6,\n640,\n1100,\n0.87,\n0.85,\n0.77,\n0.4,\n0.02,\n0.2,\nSimple;"
+  },
+  {
+    "user": "Looking for a roof vegetation material with moderate moisture diffusion.",
+    "answer": "Material:RoofVegetation ,\nModerateMoistureDiffusion ,\n0.5,\n5,\n0.25,\n0.95,\n170,\nEcoRoofSoil ,\nSmooth ,\n0.2,\n0.55,\n630,\n1100,\n0.9,\n0.8,\n0.7,\n0.45,\n0.01,\n0.2,\nSimple;"
+  },
+  {
+    "user": "Can you provide a roof vegetation material with low solar absorptance?",
+    "answer": "Material:RoofVegetation ,\nLowSolarAbs ,\n0.4,\n3,\n0.35,\n0.88,\n190,\nEcoRoofSoil ,\nMedium ,\n0.18,\n0.5,\n610,\n1150,\n0.83,\n0.75,\n0.65,\n0.3,\n0.02,\n0.15,\nSimple;"
+  },
+  {
+    "user": "I need a roof vegetation material with good UV resistance.",
+    "answer": "Material:RoofVegetation ,\nUVResistance ,\n0.65,\n7,\n0.2,\n0.93,\n180,\nEcoRoofSoil ,\nRough ,\n0.3,\n0.55,\n650,\n1200,\n0.9,\n0.8,\n0.75,\n0.4,\n0.02,\n0.18,\nSimple;"
+  },
+  {
+    "user": "Looking for roof vegetation material with high thermal stability.",
+    "answer": "Material:RoofVegetation ,\nThermalStability ,\n0.8,\n9,\n0.25,\n0.9,\n190,\nEcoRoofSoil ,\nSmooth ,\n0.2,\n0.55,\n640,\n1150,\n0.85,\n0.8,\n0.7,\n0.5,\n0.03,\n0.22,\nSimple;"
+  },
+  {
+    "user": "Can you provide a roof vegetation material with low maintenance?",
+    "answer": "Material:RoofVegetation ,\nLowMaintenance ,\n0.5,\n4,\n0.2,\n0.85,\n160,\nEcoRoofSoil ,\nMedium ,\n0.25,\n0.55,\n630,\n1100,\n0.88,\n0.8,\n0.75,\n0.3,\n0.01,\n0.2,\nSimple;"
+  },
+
+
+
+  {
+    "user": "Create a double-pane window material with these properties?",
+    "answer": "WindowMaterial:Glazing, DOUBLE CLEAR 6MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.006, !- Thickness {m}\n0.780, !- Solar Transmittance at Normal Incidence\n0.080, !- Front Side Solar Reflectance at Normal Incidence\n0.080, !- Back Side Solar Reflectance at Normal Incidence\n0.860, !- Visible Transmittance at Normal Incidence\n0.070, !- Front Side Visible Reflectance at Normal Incidence\n0.070, !- Back Side Visible Reflectance at Normal Incidence\n0.030, !- Infrared Transmittance at Normal Incidence\n0.80, !- Front Side Infrared Hemispherical Emissivity\n0.80, !- Back Side Infrared Hemispherical Emissivity\n0.92; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Create a single-pane window material with these characteristics?",
+    "answer": "WindowMaterial:Glazing, SINGLE CLEAR 5MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.005, !- Thickness {m}\n0.900, !- Solar Transmittance at Normal Incidence\n0.070, !- Front Side Solar Reflectance at Normal Incidence\n0.070, !- Back Side Solar Reflectance at Normal Incidence\n0.910, !- Visible Transmittance at Normal Incidence\n0.080, !- Front Side Visible Reflectance at Normal Incidence\n0.080, !- Back Side Visible Reflectance at Normal Incidence\n0.0, !- Infrared Transmittance at Normal Incidence\n0.85, !- Front Side Infrared Hemispherical Emissivity\n0.85, !- Back Side Infrared Hemispherical Emissivity\n0.95; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Design a triple-pane window material with low solar reflectance?",
+    "answer": "WindowMaterial:Glazing, TRIPLE CLEAR 8MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.008, !- Thickness {m}\n0.780, !- Solar Transmittance at Normal Incidence\n0.050, !- Front Side Solar Reflectance at Normal Incidence\n0.050, !- Back Side Solar Reflectance at Normal Incidence\n0.850, !- Visible Transmittance at Normal Incidence\n0.060, !- Front Side Visible Reflectance at Normal Incidence\n0.060, !- Back Side Visible Reflectance at Normal Incidence\n0.010, !- Infrared Transmittance at Normal Incidence\n0.75, !- Front Side Infrared Hemispherical Emissivity\n0.75, !- Back Side Infrared Hemispherical Emissivity\n1.05; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Generate a material for a double-pane window with high insulation?",
+    "answer": "WindowMaterial:Glazing, DOUBLE INSULATING 6MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.006, !- Thickness {m}\n0.700, !- Solar Transmittance at Normal Incidence\n0.080, !- Front Side Solar Reflectance at Normal Incidence\n0.080, !- Back Side Solar Reflectance at Normal Incidence\n0.850, !- Visible Transmittance at Normal Incidence\n0.090, !- Front Side Visible Reflectance at Normal Incidence\n0.090, !- Back Side Visible Reflectance at Normal Incidence\n0.020, !- Infrared Transmittance at Normal Incidence\n0.70, !- Front Side Infrared Hemispherical Emissivity\n0.70, !- Back Side Infrared Hemispherical Emissivity\n1.10; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Design a triple-pane window with a low U-factor?",
+    "answer": "WindowMaterial:Glazing, TRIPLE LOW-E 10MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.010, !- Thickness {m}\n0.750, !- Solar Transmittance at Normal Incidence\n0.060, !- Front Side Solar Reflectance at Normal Incidence\n0.060, !- Back Side Solar Reflectance at Normal Incidence\n0.900, !- Visible Transmittance at Normal Incidence\n0.040, !- Front Side Visible Reflectance at Normal Incidence\n0.040, !- Back Side Visible Reflectance at Normal Incidence\n0.015, !- Infrared Transmittance at Normal Incidence\n0.80, !- Front Side Infrared Hemispherical Emissivity\n0.80, !- Back Side Infrared Hemispherical Emissivity\n1.20; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Create a single-pane window with high solar transmittance?",
+    "answer": "WindowMaterial:Glazing, SINGLE CLEAR 4MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.004, !- Thickness {m}\n0.920, !- Solar Transmittance at Normal Incidence\n0.040, !- Front Side Solar Reflectance at Normal Incidence\n0.040, !- Back Side Solar Reflectance at Normal Incidence\n0.950, !- Visible Transmittance at Normal Incidence\n0.030, !- Front Side Visible Reflectance at Normal Incidence\n0.030, !- Back Side Visible Reflectance at Normal Incidence\n0.0, !- Infrared Transmittance at Normal Incidence\n0.90, !- Front Side Infrared Hemispherical Emissivity\n0.90, !- Back Side Infrared Hemispherical Emissivity\n1.10; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Generate a double-pane material with infrared reflective properties?",
+    "answer": "WindowMaterial:Glazing, DOUBLE TINTED 6MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.006, !- Thickness {m}\n0.750, !- Solar Transmittance at Normal Incidence\n0.090, !- Front Side Solar Reflectance at Normal Incidence\n0.090, !- Back Side Solar Reflectance at Normal Incidence\n0.820, !- Visible Transmittance at Normal Incidence\n0.060, !- Front Side Visible Reflectance at Normal Incidence\n0.060, !- Back Side Visible Reflectance at Normal Incidence\n0.020, !- Infrared Transmittance at Normal Incidence\n0.75, !- Front Side Infrared Hemispherical Emissivity\n0.75, !- Back Side Infrared Hemispherical Emissivity\n1.00; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Design a single-pane window with low visible transmittance?",
+    "answer": "WindowMaterial:Glazing, SINGLE TINTED 5MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.005, !- Thickness {m}\n0.780, !- Solar Transmittance at Normal Incidence\n0.070, !- Front Side Solar Reflectance at Normal Incidence\n0.070, !- Back Side Solar Reflectance at Normal Incidence\n0.700, !- Visible Transmittance at Normal Incidence\n0.080, !- Front Side Visible Reflectance at Normal Incidence\n0.080, !- Back Side Visible Reflectance at Normal Incidence\n0.025, !- Infrared Transmittance at Normal Incidence\n0.70, !- Front Side Infrared Hemispherical Emissivity\n0.70, !- Back Side Infrared Hemispherical Emissivity\n0.95; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Create a triple-pane window with high solar reflectance?",
+    "answer": "WindowMaterial:Glazing, TRIPLE TINTED 8MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.008, !- Thickness {m}\n0.710, !- Solar Transmittance at Normal Incidence\n0.100, !- Front Side Solar Reflectance at Normal Incidence\n0.100, !- Back Side Solar Reflectance at Normal Incidence\n0.800, !- Visible Transmittance at Normal Incidence\n0.090, !- Front Side Visible Reflectance at Normal Incidence\n0.090, !- Back Side Visible Reflectance at Normal Incidence\n0.030, !- Infrared Transmittance at Normal Incidence\n0.75, !- Front Side Infrared Hemispherical Emissivity\n0.75, !- Back Side Infrared Hemispherical Emissivity\n1.15; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Design a double-pane window with high infrared emissivity?",
+    "answer": "WindowMaterial:Glazing, DOUBLE CLEAR 7MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.007, !- Thickness {m}\n0.800, !- Solar Transmittance at Normal Incidence\n0.060, !- Front Side Solar Reflectance at Normal Incidence\n0.060, !- Back Side Solar Reflectance at Normal Incidence\n0.850, !- Visible Transmittance at Normal Incidence\n0.070, !- Front Side Visible Reflectance at Normal Incidence\n0.070, !- Back Side Visible Reflectance at Normal Incidence\n0.040, !- Infrared Transmittance at Normal Incidence\n0.85, !- Front Side Infrared Hemispherical Emissivity\n0.85, !- Back Side Infrared Hemispherical Emissivity\n1.00; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Create a material for a triple-pane window with low solar transmittance?",
+    "answer": "WindowMaterial:Glazing, TRIPLE TINTED 6MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.006, !- Thickness {m}\n0.650, !- Solar Transmittance at Normal Incidence\n0.070, !- Front Side Solar Reflectance at Normal Incidence\n0.070, !- Back Side Solar Reflectance at Normal Incidence\n0.750, !- Visible Transmittance at Normal Incidence\n0.060, !- Front Side Visible Reflectance at Normal Incidence\n0.060, !- Back Side Visible Reflectance at Normal Incidence\n0.020, !- Infrared Transmittance at Normal Incidence\n0.80, !- Front Side Infrared Hemispherical Emissivity\n0.80, !- Back Side Infrared Hemispherical Emissivity\n1.05; !- Conductivity {W/m-K}"
+  },
+  {
+    "user": "Design a single-pane window with good thermal performance?",
+    "answer": "WindowMaterial:Glazing, SINGLE LOW-E 4MM, !- Name\nSpectralAverage, !- Optical Data Type\n, !- Window Glass Spectral Data Set Name\n0.004, !- Thickness {m}\n0.850, !- Solar Transmittance at Normal Incidence\n0.050, !- Front Side Solar Reflectance at Normal Incidence\n0.050, !- Back Side Solar Reflectance at Normal Incidence\n0.900, !- Visible Transmittance at Normal Incidence\n0.060, !- Front Side Visible Reflectance at Normal Incidence\n0.060, !- Back Side Visible Reflectance at Normal Incidence\n0.020, !- Infrared Transmittance at Normal Incidence\n0.80, !- Front Side Infrared Hemispherical Emissivity\n0.80, !- Back Side Infrared Hemispherical Emissivity\n0.95; !- Conductivity {W/m-K}"
+  },
+
+
+
+  {
+    "user": "Create a material with a 10mm air gap between the panes?",
+    "answer": "WindowMaterial:Gas,\nAIR 10MM, !- Name\nAir, !- Gas Type\n0.0100; !- Thickness {m}"
+  },
+  {
+    "user": "Generate a material with argon gas in a 12mm gap?",
+    "answer": "WindowMaterial:Gas,\nARGON 12MM, !- Name\nArgon, !- Gas Type\n0.0120; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with krypton gas in a 8mm gap?",
+    "answer": "WindowMaterial:Gas,\nKRYPTON 8MM, !- Name\nKrypton, !- Gas Type\n0.0080; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with a 15mm air gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 15MM, !- Name\nAir, !- Gas Type\n0.0150; !- Thickness {m}"
+  },
+  {
+    "user": "Make a material with argon gas and a 20mm gap?",
+    "answer": "WindowMaterial:Gas,\nARGON 20MM, !- Name\nArgon, !- Gas Type\n0.0200; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with xenon gas in a 10mm gap?",
+    "answer": "WindowMaterial:Gas,\nXENON 10MM, !- Name\nXenon, !- Gas Type\n0.0100; !- Thickness {m}"
+  },
+  {
+    "user": "Generate a material with a 5mm argon gap?",
+    "answer": "WindowMaterial:Gas,\nARGON 5MM, !- Name\nArgon, !- Gas Type\n0.0050; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with 8mm krypton gas?",
+    "answer": "WindowMaterial:Gas,\nKRYPTON 8MM, !- Name\nKrypton, !- Gas Type\n0.0080; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with air gas and a 25mm gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 25MM, !- Name\nAir, !- Gas Type\n0.0250; !- Thickness {m}"
+  },
+  {
+    "user": "Make a material with xenon gas in a 15mm gap?",
+    "answer": "WindowMaterial:Gas,\nXENON 15MM, !- Name\nXenon, !- Gas Type\n0.0150; !- Thickness {m}"
+  },
+  {
+    "user": "Generate a material with argon in a 10mm gap?",
+    "answer": "WindowMaterial:Gas,\nARGON 10MM, !- Name\nArgon, !- Gas Type\n0.0100; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with krypton gas and a 10mm gap?",
+    "answer": "WindowMaterial:Gas,\nKRYPTON 10MM, !- Name\nKrypton, !- Gas Type\n0.0100; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with argon in a 30mm gap?",
+    "answer": "WindowMaterial:Gas,\nARGON 30MM, !- Name\nArgon, !- Gas Type\n0.0300; !- Thickness {m}"
+  },
+  {
+    "user": "Generate a material with air and a 12mm gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 12MM, !- Name\nAir, !- Gas Type\n0.0120; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with xenon gas and a 20mm gap?",
+    "answer": "WindowMaterial:Gas,\nXENON 20MM, !- Name\nXenon, !- Gas Type\n0.0200; !- Thickness {m}"
+  },
+  {
+    "user": "Make a material with krypton and a 5mm gap?",
+    "answer": "WindowMaterial:Gas,\nKRYPTON 5MM, !- Name\nKrypton, !- Gas Type\n0.0050; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with xenon gas and a 25mm gap?",
+    "answer": "WindowMaterial:Gas,\nXENON 25MM, !- Name\nXenon, !- Gas Type\n0.0250; !- Thickness {m}"
+  },
+  {
+    "user": "Generate a material with a 4mm air gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 4MM, !- Name\nAir, !- Gas Type\n0.0040; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with krypton gas and a 6mm gap?",
+    "answer": "WindowMaterial:Gas,\nKRYPTON 6MM, !- Name\nKrypton, !- Gas Type\n0.0060; !- Thickness {m}"
+  },
+  {
+    "user": "Design a material with a 16mm air gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 16MM, !- Name\nAir, !- Gas Type\n0.0160; !- Thickness {m}"
+  },
+  {
+    "user": "Make a material with xenon gas and an 18mm gap?",
+    "answer": "WindowMaterial:Gas,\nXENON 18MM, !- Name\nXenon, !- Gas Type\n0.0180; !- Thickness {m}"
+  },
+  {
+    "user": "Create a material with air gas and an 8mm gap?",
+    "answer": "WindowMaterial:Gas,\nAIR 8MM, !- Name\nAir, !- Gas Type\n0.0080; !- Thickness {m}"
+  },
+  
+  
+  
+  
+  {
+    "user": "Create a construction with these 5 layers?",
+    "answer": "Construction,\n    Medium Roof,            !- Name\n    M07 75mm concrete,      !- Outside Layer\n    G01a 25mm insulation board, !- Layer 2\n    F02 Roof air space resistance, !- Layer 3\n    G02b 10mm plywood,      !- Layer 4\n    M13 50mm brick;         !- Layer 5"
+  },
+  {
+    "user": "Design a construction with these layers?",
+    "answer": "Construction,\n    Heavy Partition,        !- Name\n    G02b 100mm wood,        !- Outside Layer\n    M10 50mm brick;        !- Layer 2\n    I01 30mm insulation board; !- Layer 3"
+  },
+  {
+    "user": "What is the construction for the floor?",
+    "answer": "Construction,\n    Light Floor,            !- Name\n    G01b 50mm wood,         !- Outside Layer\n    F05 Floor air space resistance; !- Layer 2"
+  },
+  {
+    "user": "Create a construction for the roof with these materials?",
+    "answer": "Construction,\n    Heavy Roof,             !- Name\n    F06 50mm plaster,       !- Outside Layer\n    M05 100mm concrete,     !- Layer 2\n    F10 Roof air space resistance; !- Layer 3"
+  },
+  {
+    "user": "Make a construction with a 4-layer system?",
+    "answer": "Construction,\n    Medium Wall,            !- Name\n    M03 150mm brick,        !- Outside Layer\n    G01a 50mm insulation board, !- Layer 2\n    F02 Air gap 30mm,        !- Layer 3\n    M07 100mm concrete;     !- Layer 4"
+  },
+  {
+    "user": "Design a floor construction with these layers?",
+    "answer": "Construction,\n    Heavy Floor,            !- Name\n    G01b 100mm wood,        !- Outside Layer\n    F05 Floor air space resistance, !- Layer 2\n    M02 Concrete 50mm;      !- Layer 3"
+  },
+  {
+    "user": "Create a roof construction with 3 layers?",
+    "answer": "Construction,\n    Roof with Insulation,   !- Name\n    M04 200mm concrete,     !- Outside Layer\n    F07 Roof insulation 50mm; !- Layer 2\n    F02 Roof air space resistance; !- Layer 3"
+  },
+  {
+    "user": "Generate a construction with these layers for a ceiling?",
+    "answer": "Construction,\n    Ceiling with Insulation, !- Name\n    G01a 50mm insulation board, !- Outside Layer\n    M07 150mm wood;         !- Layer 2\n    F06 Ceiling air space resistance; !- Layer 3"
+  },
+  {
+    "user": "Create a partition wall with multiple layers?",
+    "answer": "Construction,\n    Multi-Layer Partition,   !- Name\n    M02 100mm concrete,     !- Outside Layer\n    G02b 50mm insulation board, !- Layer 2\n    F02 Air gap 20mm,        !- Layer 3\n    M07 150mm brick;        !- Layer 4"
+  },
+  {
+    "user": "Make a partition wall construction with these materials?",
+    "answer": "Construction,\n    Brick Partition,        !- Name\n    M05 120mm brick,        !- Outside Layer\n    F02 Air gap 30mm;       !- Layer 2\n    G01a 50mm insulation board; !- Layer 3"
+  },
+  {
+    "user": "Create a roof construction with plaster and concrete?",
+    "answer": "Construction,\n    Roof with Concrete,     !- Name\n    F06 50mm plaster,       !- Outside Layer\n    M05 150mm concrete,     !- Layer 2\n    F10 Roof air space resistance; !- Layer 3"
+  },
+  {
+    "user": "Design a floor with concrete and air space?",
+    "answer": "Construction,\n    Concrete Floor,         !- Name\n    M02 100mm concrete,     !- Outside Layer\n    F02 Floor air space resistance; !- Layer 2"
+  },
+  {
+    "user": "Create a construction with 4 materials for a wall?",
+    "answer": "Construction,\n    Multi-Material Wall,     !- Name\n    M10 150mm brick,        !- Outside Layer\n    F02 Air gap 40mm,        !- Layer 2\n    G01b 60mm wood,          !- Layer 3\n    F07 Insulation 50mm;    !- Layer 4"
+  },
+  {
+    "user": "Generate a construction with plaster and insulation for a roof?",
+    "answer": "Construction,\n    Insulated Roof,          !- Name\n    F06 50mm plaster,       !- Outside Layer\n    G02a 80mm insulation board, !- Layer 2\n    F10 Roof air space resistance; !- Layer 3"
+  },
+  {
+    "user": "Create a multi-layer construction with these materials?",
+    "answer": "Construction,\n    Multi-Layer Roof,        !- Name\n    M04 150mm concrete,     !- Outside Layer\n    G01a 50mm insulation board, !- Layer 2\n    F02 Roof air space resistance, !- Layer 3\n    G02b 20mm plywood,      !- Layer 4\n    M07 100mm brick;        !- Layer 5"
+  },
+  
+
+
+  
+  {
+    "user": "Create a single pane window?",
+    "answer": "Construction, SINGLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;"
+  },
+  {
+    "user": "Make a double pane window?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 10MM, !- Gas between panes"
+  },
+  {
+    "user": "Design a triple pane window?",
+    "answer": "Construction, TRIPLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 10MM, !- Gas between panes 1\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 10MM, !- Gas between panes 2"
+  },
+  {
+    "user": "Create a window with 2 panes?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 12MM, !- Gas between panes"
+  },
+  {
+    "user": "Make a single pane window with clear glass?",
+    "answer": "Construction, SINGLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;"
+  },
+  {
+    "user": "Create a window with triple layers of glass?",
+    "answer": "Construction, TRIPLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/8 IN;\nAIR 8MM, !- Gas between panes 1\nGLASS - CLEAR SHEET 1/8 IN;\nAIR 8MM, !- Gas between panes 2\nGLASS - CLEAR SHEET 1/8 IN;"
+  },
+  {
+    "user": "Make a double pane window with argon gas?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nARGON 12MM, !- Gas between panes"
+  },
+  {
+    "user": "Design a window with two panes and a 15mm air gap?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 15MM, !- Gas between panes"
+  },
+  {
+    "user": "Create a triple pane window with krypton gas?",
+    "answer": "Construction, TRIPLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nKRYPTON 10MM, !- Gas between panes 1\nGLASS - CLEAR SHEET 1/4 IN;\nKRYPTON 10MM, !- Gas between panes 2"
+  },
+  {
+    "user": "Design a double pane window with 10mm air gap?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 10MM, !- Gas between panes"
+  },
+  {
+    "user": "Make a single pane window with a low-e coating?",
+    "answer": "Construction, SINGLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN; LOW-E COATING;"
+  },
+  {
+    "user": "Create a window with triple glass layers and a 5mm gap?",
+    "answer": "Construction, TRIPLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/8 IN;\nAIR 5MM, !- Gas between panes 1\nGLASS - CLEAR SHEET 1/8 IN;\nAIR 5MM, !- Gas between panes 2\nGLASS - CLEAR SHEET 1/8 IN;"
+  },
+  {
+    "user": "Make a double pane window with visible transmittance?",
+    "answer": "Construction, DOUBLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 12MM, !- Gas between panes"
+  },
+  {
+    "user": "Create a single pane window with high thermal resistance?",
+    "answer": "Construction, SINGLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN; HIGH THERMAL RESISTANCE;"
+  },
+  {
+    "user": "Design a triple pane window with an air gap and argon gas?",
+    "answer": "Construction, TRIPLE PANE WINDOW, !- Material layer names follow:\nGLASS - CLEAR SHEET 1/4 IN;\nAIR 10MM, !- Gas between panes 1\nGLASS - CLEAR SHEET 1/4 IN;\nARGON 10MM, !- Gas between panes 2"
+  },
+  
+  
+  
+
+  {
+    "user": "Create a window material with U and SHGF properties?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:TRIPLE PANE WINDOW, !- Name\n1.450, !- U-Factor\n0.820, !- Solar Heat Gain Coefficient\n0.750 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Define a window material with U-Factor and SHGC?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:DOUBLE PANE WINDOW, !- Name\n2.800, !- U-Factor\n0.750, !- Solar Heat Gain Coefficient\n0.760 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Set a window material using U and Solar Heat Gain Coefficient?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:DUAL PANE WINDOW, !- Name\n2.100, !- U-Factor\n0.780, !- Solar Heat Gain Coefficient\n0.800 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Define a new window material with U and SHGF?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:QUAD PANE WINDOW, !- Name\n1.300, !- U-Factor\n0.860, !- Solar Heat Gain Coefficient\n0.880 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Specify window material properties with U and Solar Heat Gain?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:INSULATED DOUBLE WINDOW, !- Name\n1.850, !- U-Factor\n0.830, !- Solar Heat Gain Coefficient\n0.780 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Create a window material for energy efficiency with U and SHGC?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:ENERGY STAR WINDOW, !- Name\n1.600, !- U-Factor\n0.700, !- Solar Heat Gain Coefficient\n0.740 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Generate a window material with U-Factor and SHGF for high insulation?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:SUPER INSULATED WINDOW, !- Name\n1.200, !- U-Factor\n0.880, !- Solar Heat Gain Coefficient\n0.900 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Create window material with specific U-Factor and Solar Heat Gain?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:LOW-E WINDOW, !- Name\n2.500, !- U-Factor\n0.700, !- Solar Heat Gain Coefficient\n0.800 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Set window material using U and Solar Heat Gain Coefficient?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:HIGH PERFORMANCE WINDOW, !- Name\n1.100, !- U-Factor\n0.900, !- Solar Heat Gain Coefficient\n0.920 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Define the window material with U and SHGF values?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:THERMAL BARRIER WINDOW, !- Name\n1.700, !- U-Factor\n0.740, !- Solar Heat Gain Coefficient\n0.770 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Specify the SimpleGlazingSystem window material properties with U and SHGF?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:ENERGY EFFICIENT WINDOW, !- Name\n1.950, !- U-Factor\n0.760, !- Solar Heat Gain Coefficient\n0.760 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Create a window material with U-Factor and Solar Heat Gain?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:REFLECTIVE WINDOW, !- Name\n1.400, !- U-Factor\n0.850, !- Solar Heat Gain Coefficient\n0.850 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Generate a window material using U-Factor and SHGC?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:DOUBLE GLAZED WINDOW, !- Name\n2.200, !- U-Factor\n0.820, !- Solar Heat Gain Coefficient\n0.780 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Set window material properties with U-Factor and Solar Heat Gain?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:STANDARD WINDOW, !- Name\n2.600, !- U-Factor\n0.700, !- Solar Heat Gain Coefficient\n0.750 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Create a high efficiency window with U-Factor and SHGF?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:HIGH PERFORMANCE LOW-E WINDOW, !- Name\n1.000, !- U-Factor\n0.950, !- Solar Heat Gain Coefficient\n0.930 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Generate a window material with U and SHGF values for insulation?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:SUPERIOR INSULATED WINDOW, !- Name\n1.250, !- U-Factor\n0.870, !- Solar Heat Gain Coefficient\n0.890 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Set window material with U-Factor and SHGF for optimal performance?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:ULTRA HIGH PERFORMANCE WINDOW, !- Name\n1.050, !- U-Factor\n0.950, !- Solar Heat Gain Coefficient\n0.920 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Define a window material with specific U-Factor and Solar Heat Gain?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:LOW-E COATED WINDOW, !- Name\n1.800, !- U-Factor\n0.730, !- Solar Heat Gain Coefficient\n0.770 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Specify a window material with U-Factor and SHGF values?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:PREMIUM INSULATED WINDOW, !- Name\n1.600, !- U-Factor\n0.860, !- Solar Heat Gain Coefficient\n0.800 ; !- Visible Transmittance"
+  },
+  {
+    "user": "Create a window material based on U and Solar Heat Gain Coefficient?",
+    "answer": "WindowMaterial:SimpleGlazingSystem,\nSimpleWindow:DUAL COATED WINDOW, !- Name\n1.300, !- U-Factor\n0.880, !- Solar Heat Gain Coefficient\n0.850 ; !- Visible Transmittance"
+  }
+  
+]
+  
+  
