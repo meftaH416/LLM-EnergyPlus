@@ -280,6 +280,7 @@ necessarily need to define the frame, it is a more accurate approach since the h
 through the frame usually has significant impacts the overall performance of a window. Note
 that the area of the Fenestration:Detailed object is the glazed area without the frame. The
 frame extends beyond the glazed area. See the PurchAirWithDaylighting.idf example file.
+
 • WindowProperty:AirflowControl - defines windows that have forced air flow between the
 panes of glass, also called heat-extract windows or climate windows. See the example file
 AirflowWindowsAndBetweenGlassBlinds.idf.
@@ -308,14 +309,19 @@ peak occupancy occurs for more than a few hours per year if at all and this is e
 for retail stores, theaters, and sports complexes. Even offce buildings when counting vacations and
 people out of the building for meetings will rarely have peak occupancy.
 The most common internal gain input objects that are shown in almost all the example files are:
+
 • People – specifies not only the sensible, latent and radiant heat from people but also includes
 ways of reporting the comfort of occupants using a variety of thermal comfort models. The
 DynamicClothing.idf example file shows how to use the thermal comfort models.
+
 • Lights – describes the heat related to lighting systems.
+
 • ElectricEquipment – describes the heat related to electrical appliances, offce equipment, and
 other heat sources that are powered by electricity.
+
 • GasEquipment - specifies the heat related to cooking appliances and other equipment that
 uses natural gas.
+
 Less common internal gains input objects include:
 • OtherEquipment - describes any heat gain or loss (sensible, radiant, and/or latent) that
 impacts the space but does not consume utility energy in the simulation. Typically used to
@@ -332,24 +338,32 @@ The input objects include modeling components that impact contaminant concentrat
 scheduled, pressure driven, use a cut off model, assume a decaying source, surface diffusion, or using
 a deposition velocity model. The input objects described in this section are further explained in
 the InputOutputReference under the heading “Group-Internal Gains.”
+
 4.7 Daylighting
 Reducing the amount of powered lighting that is used when suffcient natural daylight illuminates
 the interior building through windows and skylights is called daylighting. Automatics daylighting
 control systems are a very common energy effciency measure in buildings and are often required
 for new building designs depending on the energy code that applies to the building location. The
 most common input objects related to daylighting are:
+
 • Daylighting:Controls – specifies the algorithm used for daylighting, the dimming of lights is
 continuous or stepped, and how glare calculations are performed.
+
 • Daylighting:ReferencePoint – specifies the location of the sensors for the daylighting control
 system.
+
 The InputOutputReference includes not only a description of these input objects but also extra
 guidance on how they should be applied. The PurchAirWithDaylighting.idf contains examples of
 these input objects.
 Figure 4.5: Daylighting with Continuous Dimming42 CHAPTER 4. INPUT OBJECT GROUPS
 Three different devices can be used with daylighting:
+
 • DaylightingDevice:Tubular - see the DaylightingDeviceTubular.idf example file.
+
 • DaylightingDevice:Shelf - see the DaylightingDeviceShelf.idf example file.
+
 • DaylightingDevice:LightWell - see the GeometryTest.idf example file.
+
 An input object called Daylighting:DELight:ComplexFenestration is used with one of the two control
 methods specified in the Daylighting:Controls input object when used in conjunction with complex
 fenestration systems such as prismatic and holographic glass.
@@ -368,15 +382,19 @@ The group of input objects contains many special cases for more sophisticated mo
 constructions, surfaces, and zones. As part of this, one of the ways to model building foundations
 called Kiva is described. See the ZoneCoupledKivaBasement.idf and ZoneCoupledKivaSlab.idf
 example files for example of these input objects.
+
 • Foundation:Kiva - describes the insulation depth and width for interior and exterior horizontal
 and vertical insulated foundations as well as the construction for the wall footing, see Figure
 X .
+
 • Foundation:Kiva:Settings - sets the soil conditions and other parameters related to the
 Foundation:Kiva input object.
+
 • SurfaceProperty:ExposedFoundationPerimeter - used to set the portion of the foundation
 that is along the exterior perimeter of the building that undergoes heat transfer with the
 environment. Edges of underground surfaces that are fully under the building and not along
 the perimeter are not expected to have any heat transfer with the environment.
+
 Input objects of interest in this group not related to Kiva include
 • SurfaceControl:MovableInsulation - allows the modeling of insulation panels that are
 removable for walls, floors, and roofs but not windows. See MovableExtInsulationSimple.idf
