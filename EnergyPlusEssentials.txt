@@ -398,8 +398,10 @@ the perimeter are not expected to have any heat transfer with the environment.
 Input objects of interest in this group not related to Kiva include
 • SurfaceControl:MovableInsulation - allows the modeling of insulation panels that are
 removable for walls, floors, and roofs but not windows. See MovableExtInsulationSimple.idf
+
 and MovableIntInsulationLightsLowE.idf example files.4.8. ADVANCED CONSTRUCTION, SURFACE, ZONE CONCEPTS 43
 Figure 4.6: Structural and insulation components of Foundation:Kiva input objects44 CHAPTER 4. INPUT OBJECT GROUPS
+
 • SurfaceProperty:Underwater - allows the outside of the building to be modeled as underwater
 and even as moving through the water allowing EnergyPlus to model vessels. See the
 VaryingLocationAndOrientation.idf example file.
@@ -421,8 +423,10 @@ While equipment that is outside of a building does not impact the thermal perfor
 building, the accounting of all end-uses including those outside of the building is important
 for many compliance and incentive programs that require building energy modeling. See the
 ExteriorLightsAndEq.idf example file for these input objects.
+
 • Exterior:Lights - describes the external site lighting for the building grounds, entrances, and
 facades which are either controlled by a schedule or when the sun is set.
+
 • Exterior:FuelEquipment - describes other energy consumption on the site that is external to
 the building other than lighting.
 • Exterior:WaterEquipment - describes the flow rate of water use on the building site outside
@@ -432,28 +436,35 @@ the heading “Group-Exterior Energy Use Equipment.”
 4.10 Zone Airflow
 The Zone Airflow input object group provides a way to model the airflow between zones and airflow
 due to natural ventilation (e.g., open windows) or mechanically-induced ventilation (e.g., exhaust
-air fans).
+air fans.
+
 • ZoneInfiltration:DesignFlowRate - provides a way to describe the air infiltration into a building
 through leaks in the envelope including around windows or the normal operation of doors.
 The leakage can be a function of temperature and wind speed and can be expressed as either
 a total flow rate, a flow rate per floor area, per wall area, or as an air change rate. This input
 object appears in most example files.4.11. HVAC TEMPLATES 45
+
 • ZoneInfiltration:EffectiveLeakageArea - similar to the previous input object but uses a
 different equation to express the infiltration rate. The DirectIndirectEvapCoolers.idf file
 contains an example.
+
 • ZoneInfiltration:FlowCoeffcient - also similar to the ZoneInfiltration:DesignFlowRate input
 object but uses yet a different equation.The DirectIndirectEvapCoolers.idf file contains an
 example.
+
 • ZoneVentilation:DesignFlowRate - a method to add outside air to a zone with similar inputs
 to the ZoneInfiltration:DesignFlowRate but this would represent a purposeful introduction of
 outdoor air into the space. See the 5ZoneNightVent2.idf example file.
+
 • ZoneVentilation:WindandStackOpenArea - describes the natural ventilation driven
 introduction of outdoor air into the zone using a simpler method than an AirflowNetwork
 model. The inputs include the opening area and effectiveness as well as simple controls based
 on zone or outdoor temperature or the difference between the two or wind speed. See the
 VentilationSimpleTest.idf file.
+
 • ZoneMixing, ZoneCrossMixing, and ZoneRefrigerationDoorMixing - these three input objects
 provide simplified treatments of air exchange between zones.
+
 • ZoneEarthtube - provides a way to model an earth tube which is a way to draw outdoor into
 the zone through an underground pipe in order to cool the air in the summer and heat it in
 the winter. An example of this input object is in the EarthTubeSimpleTest.idf file.
@@ -502,65 +513,93 @@ model:
 • Dedicated outdoor air systems (DOAS) combined with zonal template systems
 The Input Output Reference includes a list of exactly which input objects are needed for each of
 these configurations
+
 • HVACTemplate:Thermostat - describes the heating and cooling setpoints for a thermostat.
 This input object can be referenced by multiple HVACTemplate:Zone input objects if all the
 zones have the same setpoints.
+
 • HVACTemplate:Zone:IdealLoadsAirSystem - provides an idealized system that supplies air to
 the zone that meets all loads and uses no energy. Best used for load calculations.
+
 • HVACTemplate:Zone:BaseboardHeat - allows the simulation of electric or hot water
 thermostatically controlled baseboard heaters.4.11. HVAC TEMPLATES 47
+
 • HVACTemplate:Zone:FanCoil - describes a four-pipe fan coil system with outdoor air intake.
+
 • HVACTemplate:Zone:PTAC - models a packaged terminal air conditioner with either electric,
 gas or hot water heating coil most commonly used in residential or hotel applications.
+
 • HVACTemplate:Zone:PTHP - models a packaged terminal heat pump system most commonly
 used in residential or hotel applications with either electric or gas supplementary heater.
+
 • HVACTemplate:Zone:WaterToAirHeatPump - describes the distributed “terminal” portions
 of a system which uses a medium temperature loop and heat pumps to provide heating and
 cooling to the building (also see HVACTemplate:Plant:MixedWaterLoop).
+
 • HVACTemplate:Zone:VRF - provides input for variable refrigerant flow terminal units.
+
 • HVACTemplate:Zone:Unitary - describes a constant volume direct-expansion system such as
 a rooftop system or split system. Often paired with a single HVACTemplate:System:Unitary
 for a single zone system but can also be part of a multizone system.
+
 • HVACTemplate:Zone:VAV - simulates the terminal of a variable air volume system with
 reheat.
+
 • HVACTemplate:Zone:VAV:FanPowered - simulates either a parallel or series fan power
 terminal of a variable air volume system.
+
 • HVACTemplate:Zone:VAV:HeatAndCool - simulates the terminal of a variable air volume
 system.
+
 • HVACTemplate:Zone:ConstantVolume - simulates the terminal of a constant air volume
 system.
+
 • HVACTemplate:Zone:DualDuct - simulates the zone portion of a constant volume or variable
 volume dual-duct HVAC system.
+
 • HVACTemplate:System:VRF - simulates the variable refrigerant flow system.
+
 • HVACTemplate:System:Unitary - describes the system portion of a rooftop or split DX cooling
 system with electric, gas or hot water heating.
+
 • HVACTemplate:System:UnitaryHeatPump:AirToAir - details the system portion of a rooftop
 or split DX air-to-air heat pump system.
+
 • HVACTemplate:System:UnitarySystem - models the system portion of a rooftop or split
 system and has more flexibility than the previous two input objects.
 • HVACTemplate:System:VAV - simulates the system portion of a variable air volume HVAC
 configuration with chilled water cooling and several different heating options.
+
 • HVACTemplate:System:PackagedVAV - describes the system portion of a packaged directexpansion (DX) based variable air volume HVAC configuration with several different heating
 options.48 CHAPTER 4. INPUT OBJECT GROUPS
+
 • HVACTemplate:System:ConstantVolume - provides input for the system portion of a constant
 air volume HVAC configuration with optional chilled water cooling and several different
 heating options.
+
 • HVACTemplate:System:DualDuct - models the system portion of a constant air volume or
 variable air volume dual-duct HVAC configuration with optional chilled water cooling and
 several different heating options.
+
 • HVACTemplate:System:DedicatedOutdoorAir - adds a dedicated outdoor air system (DOAS)
 which can be used with several of the HVACTemplate:Zone input objects and contains heating
 and cooling coils and heat recovery.
+
 • HVACTemplate:Plant:ChilledWaterLoop - models the chilled water loop connecting chillers
 to chilled water coils as well as the condenser water loop that connects chillers with cooling
 towers.
+
 • HVACTemplate:Plant:Chiller - describes a vapor-compression chiller that provides chilled
 water to the loop.
+
 • HVACTemplate:Plant:Tower - models an evaporative cooling tower used to reject heat from
 chillers.
+
 • HVACTemplate:Plant:HotWaterLoop - models the hot water loop connecting boilers to hot
 water coils.
+
 • HVACTemplate:Plant:Boiler - models a boiler that provides hot water to the loop.
+
 • HVACTemplate:Plant:MixedWaterLoop - models the medium temperature loop that serves
 water-to-air heat pumps as well as cooling towers and boilers.
 In addition, this group of input objects includes three plant input objects that allow the referencing

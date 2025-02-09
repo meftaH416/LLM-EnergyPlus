@@ -4409,86 +4409,86 @@
   
   {
     "user": "Specify a zone ventilation system with a constant airflow rate and fan efficiency of 0.9.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 1,ZONE 2,Simple Vent,Flow/Zone,6.131944,,,,INTAKE,400.0,0.9,0.6060000,2.0199999E-02,5.9800001E-04,0.0000000E+00,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 1,ZONE 2,Simple Vent,Flow/Zone,6.131944,,,,INTAKE,400.0,0.9,0.6060000,2.0199999E-02,5.9800001E-04,0.0000000E+00,18.0,,,,1.0;"
   },
   {
     "user": "Define a ventilation system with fan pressure rise of 350 Pa and a temperature term coefficient of 0.01.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 2,ZONE 3,Simple Vent,Flow/Zone,8.0,,,,INTAKE,350.0,0.85,0.5000000,1.0000000E-02,4.0000000E-04,0.0000000E+00,20.0,,,,1.5;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 2,ZONE 3,Simple Vent,Flow/Zone,8.0,,,,INTAKE,350.0,0.85,0.5000000,1.0000000E-02,4.0000000E-04,0.0000000E+00,20.0,,,,1.5;"
   },
   {
     "user": "Create a ventilation system for Zone 4 with airflow rate per person and maximum indoor temperature of 25°C.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 3,ZONE 4,Simple Vent,Flow/Person,,,,INTAKE,500.0,0.88,0.7000000,3.0000000E-02,1.5000000E-03,0.0000000E+00,22.0,,,,25.0;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 3,ZONE 4,Simple Vent,Flow/Person,,,,INTAKE,500.0,0.88,0.7000000,3.0000000E-02,1.5000000E-03,0.0000000E+00,22.0,,,,25.0;"
   },
   {
     "user": "Specify a zone ventilation with a temperature term coefficient of 0.015 and velocity term coefficient of 0.0001.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 4,ZONE 5,Simple Vent,Flow/Zone,7.5,,,,INTAKE,450.0,0.9,0.8000000,1.5000000E-02,1.0000000E-04,0.0000000E+00,19.0,,,,2.0;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 4,ZONE 5,Simple Vent,Flow/Zone,7.5,,,,INTAKE,450.0,0.9,0.8000000,1.5000000E-02,1.0000000E-04,0.0000000E+00,19.0,,,,2.0;"
   },
   {
     "user": "Model a ventilation system for Zone 6 with 0.7 m³/s per area and fan total efficiency of 0.75.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 5,ZONE 6,Simple Vent,Flow/Area,,,,INTAKE,550.0,0.75,0.6500000,4.0000000E-02,2.5000000E-03,0.0000000E+00,21.0,,,,1.2;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 5,ZONE 6,Simple Vent,Flow/Area,,,,INTAKE,550.0,0.75,0.6500000,4.0000000E-02,2.5000000E-03,0.0000000E+00,21.0,,,,1.2;"
   },
   {
     "user": "Create a ventilation system with 400 Pa fan pressure rise, optimized for air changes per hour.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 6,ZONE 7,Simple Vent,AirChanges/Hour,,,,INTAKE,400.0,0.85,0.7500000,3.0000000E-02,1.0000000E-03,0.0000000E+00,18.0,,,,1.5;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 6,ZONE 7,Simple Vent,AirChanges/Hour,,,,INTAKE,400.0,0.85,0.7500000,3.0000000E-02,1.0000000E-03,0.0000000E+00,18.0,,,,1.5;"
   },
   {
     "user": "Define a ventilation system for Zone 8 with a high air change rate and low fan efficiency.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 7,ZONE 8,Simple Vent,AirChanges/Hour,,,,INTAKE,450.0,0.7,0.5000000,2.0000000E-02,6.0000000E-04,0.0000000E+00,16.0,,,,1.0;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 7,ZONE 8,Simple Vent,AirChanges/Hour,,,,INTAKE,450.0,0.7,0.5000000,2.0000000E-02,6.0000000E-04,0.0000000E+00,16.0,,,,1.0;"
   },
   {
     "user": "Create a zone ventilation system with a fan pressure rise of 600 Pa and velocity squared term coefficient of 0.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 8,ZONE 9,Simple Vent,Flow/Zone,9.0,,,,INTAKE,600.0,0.8,0.7500000,2.0000000E-02,1.2000000E-03,0.0000000E+00,19.0,,,,1.8;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 8,ZONE 9,Simple Vent,Flow/Zone,9.0,,,,INTAKE,600.0,0.8,0.7500000,2.0000000E-02,1.2000000E-03,0.0000000E+00,19.0,,,,1.8;"
   },
   {
     "user": "Model a ventilation system with no maximum indoor temperature and airflow based on zone area.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 9,ZONE 10,Simple Vent,Flow/Area,,,,INTAKE,350.0,0.9,0.8500000,2.0000000E-02,4.5000000E-04,0.0000000E+00,17.0,,,,;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 9,ZONE 10,Simple Vent,Flow/Area,,,,INTAKE,350.0,0.9,0.8500000,2.0000000E-02,4.5000000E-04,0.0000000E+00,17.0,,,,;"
   },
   {
     "user": "Define a ventilation system with minimal temperature change and constant flow rate per person.",
-    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 10,ZONE 11,Simple Vent,Flow/Person,,,,INTAKE,400.0,0.8,0.6000000,3.0000000E-02,2.0000000E-03,0.0000000E+00,20.0,,,,0.5;"
+    "assistant": "ZoneVentilation:DesignFlowRate,Ventilation 10,ZONE 11,Simple Vent,Flow/Person,,,,INTAKE,400.0,0.8,0.6000000,3.0000000E-02,2.0000000E-03,0.0000000E+00,20.0,,,,0.5;"
   },
   
   
   
   {
     "user": "Define a wind and stack ventilation system for Zone 1 with an opening area of 1.0 m².",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 1 Ventl 1,ZONE 1,1.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 1 Ventl 1,ZONE 1,1.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Create a ventilation system for Zone 2 with a smaller opening area and different discharge coefficient.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 2 Ventl 1,ZONE 2,0.3,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 2 Ventl 1,ZONE 2,0.3,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Define a ventilation system for Zone 3 with no schedule for temperature limits.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,ZONE 3 Ventl 1,ZONE 3,0.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,ZONE 3 Ventl 1,ZONE 3,0.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Specify ventilation for Zone 4 with a larger opening area and higher delta temperature.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 4 Ventl 1,ZONE 4,1.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.5;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 4 Ventl 1,ZONE 4,1.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.5;"
   },
   {
     "user": "Create a wind and stack ventilation system for Zone 5 with no minimum indoor temperature.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 5 Ventl 1,ZONE 5,0.4,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 5 Ventl 1,ZONE 5,0.4,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Define a ventilation system with a custom schedule for indoor temperature in Zone 6.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 6 Ventl 1,ZONE 6,0.6,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,CustomScheduleName,,CustomScheduleName,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 6 Ventl 1,ZONE 6,0.6,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,CustomScheduleName,,CustomScheduleName,,1.0;"
   },
   {
     "user": "Set up a ventilation system for Zone 7 with minimum and maximum indoor temperatures defined.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 7 Ventl 1,ZONE 7,0.7,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,MinTempScheduleName,MaxTempScheduleName,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 7 Ventl 1,ZONE 7,0.7,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,MinTempScheduleName,MaxTempScheduleName,,1.0;"
   },
   {
     "user": "Define a ZoneVentilation for Zone 8 with a small opening area and auto-calculated discharge coefficient.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 8 Ventl 1,ZONE 8,0.25,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 8 Ventl 1,ZONE 8,0.25,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Set a ventilation system for Zone 9 with an opening area of 2.0 m² and no temperature limits.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 9 Ventl 1,ZONE 9,2.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 9 Ventl 1,ZONE 9,2.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   {
     "user": "Define a wind and stack ventilation system for Zone 10 with an opening area of 0.8 m² and auto-calculated discharge coefficient.",
-    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 10 Ventl 1,ZONE 10,0.8,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+    "assistant": "ZoneVentilation:WindandStackOpenArea,Zone 10 Ventl 1,ZONE 10,0.8,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
   },
   
   
@@ -4496,47 +4496,1551 @@
   
   {
     "user": "Define a kitchen exhaust fan mixing zone with a design flow rate.",
-    "answer": "ZoneMixing,Kitchen_ZN_1_FLR_1 Exhaust Fanmixing_0,Kitchen_ZN_1_FLR_1,Hours_of_operation,Flow/Zone,1.4540,,,CAFETERIA_ZN_1_FLR_1,0.0;"
+    "assistant": "ZoneMixing,Kitchen_ZN_1_FLR_1 Exhaust Fanmixing_0,Kitchen_ZN_1_FLR_1,Hours_of_operation,Flow/Zone,1.4540,,,CAFETERIA_ZN_1_FLR_1,0.0;"
   },
   {
     "user": "Set up a zone mixing with air changes per hour for the cafeteria exhaust system.",
-    "answer": "ZoneMixing,Cafeteria_ExhaustMixing_1,Cafeteria_ZN_1_FLR_1,Hours_of_operation,Air Changes per Hour,1.0,,,Kitchen_ZN_1_FLR_1,0.5;"
+    "assistant": "ZoneMixing,Cafeteria_ExhaustMixing_1,Cafeteria_ZN_1_FLR_1,Hours_of_operation,Air Changes per Hour,1.0,,,Kitchen_ZN_1_FLR_1,0.5;"
   },
   {
     "user": "Create a zone mixing for a hallway with no exhaust.",
-    "answer": "ZoneMixing,Hallway_Mixing_0,Hallway_ZN_1_FLR_1,Always_on,Flow/Zone,2.0,,,Conference_Room_ZN_1_FLR_1,0.0;"
+    "assistant": "ZoneMixing,Hallway_Mixing_0,Hallway_ZN_1_FLR_1,Always_on,Flow/Zone,2.0,,,Conference_Room_ZN_1_FLR_1,0.0;"
   },
   {
     "user": "Specify a kitchen exhaust fan with a custom schedule and flow rate per person.",
-    "answer": "ZoneMixing,Kitchen_ExhaustFan_1,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,,1.2,,0.5,CAFETERIA_ZN_1_FLR_1,1.0;"
+    "assistant": "ZoneMixing,Kitchen_ExhaustFan_1,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,,1.2,,0.5,CAFETERIA_ZN_1_FLR_1,1.0;"
   },
   {
     "user": "Set zone mixing for a meeting room with high ventilation needs.",
-    "answer": "ZoneMixing,MeetingRoom_Mixing_1,MeetingRoom_ZN_1_FLR_1,HighVent_Schedule,Flow/Zone,3.0,,,Lobby_ZN_1_FLR_1,1.5;"
+    "assistant": "ZoneMixing,MeetingRoom_Mixing_1,MeetingRoom_ZN_1_FLR_1,HighVent_Schedule,Flow/Zone,3.0,,,Lobby_ZN_1_FLR_1,1.5;"
   },
   {
     "user": "Create zone mixing for a conference room with specific delta temperature.",
-    "answer": "ZoneMixing,ConferenceRoom_Mixing_0,ConferenceRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,2.0,,,BreakRoom_ZN_1_FLR_1,2.0;"
+    "assistant": "ZoneMixing,ConferenceRoom_Mixing_0,ConferenceRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,2.0,,,BreakRoom_ZN_1_FLR_1,2.0;"
   },
   {
     "user": "Define zone mixing for an office area with no delta temperature adjustment.",
-    "answer": "ZoneMixing,Office_Mixing_1,Office_ZN_1_FLR_1,Office_Schedule,Flow/Zone,1.5,,,Storage_ZN_1_FLR_1,0.0;"
+    "assistant": "ZoneMixing,Office_Mixing_1,Office_ZN_1_FLR_1,Office_Schedule,Flow/Zone,1.5,,,Storage_ZN_1_FLR_1,0.0;"
   },
   {
     "user": "Model a ventilation system for a restroom with no air changes per hour.",
-    "answer": "ZoneMixing,Restroom_Ventilation_0,Restroom_ZN_1_FLR_1,Always_on,Flow/Zone,0.8,,,Hallway_ZN_1_FLR_1,0.0;"
+    "assistant": "ZoneMixing,Restroom_Ventilation_0,Restroom_ZN_1_FLR_1,Always_on,Flow/Zone,0.8,,,Hallway_ZN_1_FLR_1,0.0;"
   },
   {
     "user": "Create a mixing system for a kitchen zone with exhaust fan control.",
-    "answer": "ZoneMixing,Kitchen_ExhaustFan_2,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,1.0,,,DiningRoom_ZN_1_FLR_1,0.0;"
+    "assistant": "ZoneMixing,Kitchen_ExhaustFan_2,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,1.0,,,DiningRoom_ZN_1_FLR_1,0.0;"
   },
   {
     "user": "Set up zone mixing with a custom flow rate per area for the break room.",
-    "answer": "ZoneMixing,BreakRoom_Mixing_1,BreakRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,,1.0,,0.6,Lounge_ZN_1_FLR_1,0.5;"
+    "assistant": "ZoneMixing,BreakRoom_Mixing_1,BreakRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,,1.0,,0.6,Lounge_ZN_1_FLR_1,0.5;"
   },
   
   
   
   
+  {
+    "user": "Define a thermostat for an office with heating and cooling schedules.",
+    "assistant": "HVACTemplate:Thermostat,Office Thermostat,Htg-SetP-Sch,,Clg-SetP-Sch;"
+  },
+  {
+    "user": "Set up a thermostat for a residential zone with constant heating and cooling setpoints.",
+    "assistant": "HVACTemplate:Thermostat,Residential Thermostat,,21,,24;"
+  },
+  {
+    "user": "Create a thermostat with only a heating schedule.",
+    "assistant": "HVACTemplate:Thermostat,HeatingOnly Thermostat,Htg-SetP-Sch,,;"
+  },
+  {
+    "user": "Define a thermostat with only a cooling setpoint of 26°C.",
+    "assistant": "HVACTemplate:Thermostat,CoolingOnly Thermostat,,26,Clg-SetP-Sch;"
+  },
+  {
+    "user": "Specify a thermostat with a heating setpoint of 20°C and a cooling schedule.",
+    "assistant": "HVACTemplate:Thermostat,Custom Thermostat,,20,Clg-SetP-Sch;"
+  },
+  {
+    "user": "Model a thermostat with both heating and cooling schedules but no constant setpoints.",
+    "assistant": "HVACTemplate:Thermostat,ScheduleBased Thermostat,Htg-SetP-Sch,,Clg-SetP-Sch;"
+  },
+  {
+    "user": "Create a thermostat for a conference room with constant setpoints of 22°C for heating and 25°C for cooling.",
+    "assistant": "HVACTemplate:Thermostat,Conference Thermostat,,22,,25;"
+  },
+  {
+    "user": "Define a thermostat with a heating schedule and a constant cooling setpoint of 24°C.",
+    "assistant": "HVACTemplate:Thermostat,Mixed Thermostat,Htg-SetP-Sch,,24;"
+  },
+  {
+    "user": "Set up a thermostat with a constant heating setpoint of 21°C and no cooling control.",
+    "assistant": "HVACTemplate:Thermostat,HeatingOnly Fixed,,21,,;"
+  },
+  {
+    "user": "Specify a thermostat with a cooling schedule and a heating setpoint of 19°C.",
+    "assistant": "HVACTemplate:Thermostat,Hybrid Thermostat,,19,Clg-SetP-Sch;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define an ideal air system for Zone A with a heating limit of 5000 W and no cooling limit.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Zone A,All Zones,FanAvailSched,50,13,0.0156,0.0077,LimitCapacity,,5000,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Set up an ideal loads air system for Office Zone with dehumidification control and humidification setpoint at 35%.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Office Zone,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,35,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Configure a zone ideal loads air system with a cooling capacity limit of 10000 W and heating availability schedule.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Zone 3,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,LimitCapacity,,10000,HeatingAvailSched,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Define an ideal loads system for a residential unit with an outdoor air flow rate per floor area of 0.001 m3/s-m2.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Residential Unit,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.001,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Specify a conference room HVAC template with demand-controlled ventilation and an economizer.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Conference Room,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,SingleZoneDCV,FixedDryBulb,None,0.70,0.65;"
+  },
+  {
+    "user": "Create an ideal air system for a lab with a high dehumidification setpoint of 65%.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Lab Zone,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,65,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Define a small classroom HVAC system with heat recovery and a sensible heat recovery effectiveness of 80%.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Small Classroom,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,Sensible,0.80,0.65;"
+  },
+  {
+    "user": "Set up an ideal loads air system for a hospital room with a fixed outdoor air flow rate of 0.05 m3/s.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Hospital Room,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.05,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Define an HVAC system for a gymnasium with a cooling supply air temperature of 16°C.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Gymnasium,All Zones,FanAvailSched,50,16,0.0156,0.0077,NoLimit,,,NoLimit,,,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  {
+    "user": "Configure an ideal loads air system for a data center with a cooling limit of 20000 W.",
+    "assistant": "HVACTemplate:Zone:IdealLoadsAirSystem,Data Center,All Zones,FanAvailSched,50,13,0.0156,0.0077,NoLimit,,,LimitCapacity,,20000,ConstantSensibleHeatRatio,0.7,60,None,30,flow/person,0.00944,0.0,0.0,,None,NoEconomizer,None,0.70,0.65;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define baseboard heating for a single zone with autosized capacity.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE1,Thermostat1,,HotWater,,Autosize,,flow/person,0.00944,0.0,0.0,,;"
+  },
+  {
+    "user": "Specify an electric baseboard heating system with a fixed capacity.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE2,Thermostat2,,Electric,,5000,,flow/area,0.0,0.001,0.0,,;"
+  },
+  {
+    "user": "Model a baseboard heating system using a dedicated outdoor air system.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE3,Thermostat3,,HotWater,,Autosize,DOAS1,flow/person,0.008,0.0,0.0,,;"
+  },
+  {
+    "user": "Create a hydronic baseboard heating system with an outdoor air flow rate per zone.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE4,Thermostat4,,HotWater,,Autosize,,flow/zone,0.0,0.0,0.05,,;"
+  },
+  {
+    "user": "Define an electric baseboard heating system with per-area outdoor air method.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE5,Thermostat5,,Electric,,Autosize,,flow/area,0.0,0.002,0.0,,;"
+  },
+  {
+    "user": "Specify a hot water baseboard heating system with a custom outdoor air object.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE6,Thermostat6,,HotWater,,Autosize,,flow/person,0.007,0.0,0.0,CustomOAObject,;"
+  },
+  {
+    "user": "Model a baseboard heating system with an availability schedule.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE7,Thermostat7,,HotWater,HeatingSchedule,Autosize,,flow/person,0.009,0.0,0.0,,;"
+  },
+  {
+    "user": "Define a zone with baseboard heating and a specified outdoor air method.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE8,Thermostat8,,Electric,,Autosize,,flow/person,0.01,0.0,0.0,,;"
+  },
+  {
+    "user": "Set up a baseboard heating system with both per-person and per-area outdoor air flow.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE9,Thermostat9,,HotWater,,Autosize,,sum,0.008,0.0005,0.0,,;"
+  },
+  {
+    "user": "Configure a baseboard heating system with no outdoor air requirements.",
+    "assistant": "HVACTemplate:Zone:BaseboardHeat,ZONE10,Thermostat10,,Electric,,Autosize,,none,0.0,0.0,0.0,,;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a fan coil unit for a small office space with chilled water cooling and hot water heating.",
+    "assistant": "HVACTemplate:Zone:FanCoil,SmallOffice,All Zones,autosize,,,flow/person,0.008,0.0,0.0,FanAvailSched,0.7,75,0.9,1,ChilledWater,,12.0,HotWater,,50,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Set up a fan coil unit with a constant air volume control method and electric heating.",
+    "assistant": "HVACTemplate:Zone:FanCoil,ConferenceRoom,All Zones,autosize,,,flow/person,0.010,0.0,0.0,FanAvailSched,0.75,80,0.92,1,ChilledWater,,13.0,Electric,,48,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Configure a fan coil system with no outdoor air ventilation and a medium-speed flow ratio.",
+    "assistant": "HVACTemplate:Zone:FanCoil,Warehouse,All Zones,autosize,,,None,0.0,0.0,0.0,FanAvailSched,0.72,70,0.91,1,ChilledWater,,12.5,HotWater,,45,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,0.5,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Define a hotel guest room fan coil unit with variable air volume control.",
+    "assistant": "HVACTemplate:Zone:FanCoil,HotelRoom,All Zones,autosize,,,flow/person,0.0075,0.0,0.0,FanAvailSched,0.68,72,0.88,1,ChilledWater,,11.5,HotWater,,50,,SupplyAirTemperature,,SupplyAirTemperature,,,VariableFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Set up a fan coil unit with a dedicated outdoor air system (DOAS) and electric heating.",
+    "assistant": "HVACTemplate:Zone:FanCoil,OfficeDOAS,All Zones,autosize,,,flow/person,0.009,0.0,0.0,FanAvailSched,0.7,78,0.9,1,ChilledWater,,12.0,Electric,,45,DOAS_System,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Configure a fan coil unit for a school classroom with high-efficiency supply fan.",
+    "assistant": "HVACTemplate:Zone:FanCoil,Classroom,All Zones,autosize,,,flow/person,0.011,0.0,0.0,FanAvailSched,0.8,60,0.95,1,ChilledWater,,13.0,HotWater,,50,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Define a fan coil system with low-speed airflow operation for a quiet environment.",
+    "assistant": "HVACTemplate:Zone:FanCoil,Library,All Zones,autosize,,,flow/person,0.006,0.0,0.0,FanAvailSched,0.65,70,0.87,1,ChilledWater,,12.5,HotWater,,47,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,0.4,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Set up a fan coil unit for a hospital room with precise temperature control.",
+    "assistant": "HVACTemplate:Zone:FanCoil,HospitalRoom,All Zones,autosize,,,flow/person,0.009,0.0,0.0,FanAvailSched,0.78,80,0.92,1,ChilledWater,,11.0,HotWater,,55,,SupplyAirTemperature,,SupplyAirTemperature,,,VariableFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  {
+    "user": "Define a fan coil unit with a high outdoor air fraction and a baseboard heating system.",
+    "assistant": "HVACTemplate:Zone:FanCoil,Auditorium,All Zones,autosize,,,flow/person,0.015,0.0,0.0,FanAvailSched,0.7,85,0.89,1,ChilledWater,,12.5,HotWater,,50,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,HotWater,,Autosize;"
+  },
+  {
+    "user": "Configure a fan coil unit with a low fan power and an autosized heating capacity.",
+    "assistant": "HVACTemplate:Zone:FanCoil,Residential,All Zones,autosize,,,flow/person,0.0085,0.0,0.0,FanAvailSched,0.72,65,0.91,1,ChilledWater,,12.0,HotWater,,50,,SupplyAirTemperature,,SupplyAirTemperature,,,ConstantFanVariableFlow,,,OUTAIRFANCOILSCHEDULE,None,,Autosize;"
+  },
+  
+  
 
+
+  {
+    "user": "Define a PTAC system with standard airflow and autosized cooling capacity for a small office.",
+    "assistant": "HVACTemplate:Zone:PTAC,SmallOffice,All Zones,autosize,autosize,,0.9,,flow/person,0.0085,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.8,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Model a PTAC system with a higher outdoor air rate per person and an electric heating coil.",
+    "assistant": "HVACTemplate:Zone:PTAC,ConferenceRoom,All Zones,autosize,autosize,,,flow/person,0.012,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.85,,,SupplyAirTemperature,13.5,,SupplyAirTemperature,48.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Specify a PTAC unit with a gas heating coil and no baseboard heating.",
+    "assistant": "HVACTemplate:Zone:PTAC,MeetingRoom,All Zones,autosize,autosize,,,flow/person,0.009,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Gas,,autosize,0.9,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Define a PTAC system for a dormitory with a lower cooling COP and scheduled availability.",
+    "assistant": "HVACTemplate:Zone:PTAC,DormRoom,DormSchedule,autosize,autosize,,,flow/person,0.0075,,,DrawThrough,0.65,80,0.88,SingleSpeedDX,DormCoolingSchedule,autosize,autosize,2.8,Electric,DormHeatingSchedule,autosize,0.8,,,SupplyAirTemperature,15.0,,SupplyAirTemperature,45.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Model a PTAC system with a constant fan mode for an open-plan office.",
+    "assistant": "HVACTemplate:Zone:PTAC,OpenOffice,All Zones,autosize,autosize,,,flow/person,0.0095,,,DrawThrough,0.72,70,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.82,,,SupplyAirTemperature,13.0,,SupplyAirTemperature,47.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Specify a PTAC system for a hotel room with a dedicated outdoor air system.",
+    "assistant": "HVACTemplate:Zone:PTAC,HotelRoom,All Zones,autosize,autosize,,,flow/person,0.008,,DOAS_Schedule,DrawThrough,0.75,72,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.8,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Define a PTAC system with a fixed outdoor air rate per zone floor area for a school classroom.",
+    "assistant": "HVACTemplate:Zone:PTAC,Classroom,SchoolSchedule,autosize,autosize,,,flow/area,,0.0012,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.85,,,SupplyAirTemperature,14.5,,SupplyAirTemperature,49.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Model a PTAC unit for a residential unit with a set cooling temperature difference.",
+    "assistant": "HVACTemplate:Zone:PTAC,Apartment,All Zones,autosize,autosize,,,flow/person,0.009,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.8,,,TemperatureDifference,,10.0,SupplyAirTemperature,48.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Specify a PTAC system with a higher heating coil efficiency and gas heating for a restaurant.",
+    "assistant": "HVACTemplate:Zone:PTAC,Restaurant,All Zones,autosize,autosize,,,flow/person,0.010,,,DrawThrough,0.68,78,0.88,SingleSpeedDX,,autosize,autosize,3,Gas,,autosize,0.92,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Define a PTAC unit with autosized airflow and a set cooling supply air temperature.",
+    "assistant": "HVACTemplate:Zone:PTAC,Laboratory,LabSchedule,autosize,autosize,,,flow/person,0.0092,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,Electric,,autosize,0.8,,,SupplyAirTemperature,13.0,,SupplyAirTemperature,50.0,,,,None,,Autosize,None;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a PTHP system for a small office space with autosized capacities.",
+    "assistant": "HVACTemplate:Zone:PTHP,SmallOffice,All Zones,autosize,autosize,,,flow/person,0.00944,,,,DrawThrough,0.7,75,0.9,SingleSpeedDX,,autosize,autosize,3,SingleSpeedDXHeatPump,,autosize,2.75,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,21,0.8,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Set up a PTHP system for a residential zone with reduced defrost period fraction.",
+    "assistant": "HVACTemplate:Zone:PTHP,ResidentialZone,All Zones,autosize,autosize,,,flow/person,0.0085,,,,DrawThrough,0.75,80,0.88,SingleSpeedDX,,autosize,autosize,3.2,SingleSpeedDXHeatPump,,autosize,2.8,-10,4,ReverseCycle,Timed,0.045,Electric,,autosize,18,0.82,,,SupplyAirTemperature,14.5,,SupplyAirTemperature,49.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Model a hotel room PTHP with specific outdoor air per floor area.",
+    "assistant": "HVACTemplate:Zone:PTHP,HotelRoom,All Zones,autosize,autosize,,,flow/area,,0.0003,,,DrawThrough,0.72,70,0.89,SingleSpeedDX,,autosize,autosize,3.1,SingleSpeedDXHeatPump,,autosize,2.7,-9,6,ReverseCycle,Timed,0.055,Electric,,autosize,22,0.78,,,SupplyAirTemperature,13.5,,SupplyAirTemperature,51.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Configure a PTHP for a retail store with a DOAS system.",
+    "assistant": "HVACTemplate:Zone:PTHP,RetailStore,All Zones,autosize,autosize,,,flow/person,0.01,,,,DrawThrough,0.71,72,0.87,SingleSpeedDX,,autosize,autosize,3.0,SingleSpeedDXHeatPump,,autosize,2.9,-7,5,ReverseCycle,Timed,0.06,Electric,,autosize,20,0.79,,DOAS1,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.5,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Set up a PTHP system with a gas supplemental heating coil.",
+    "assistant": "HVACTemplate:Zone:PTHP,GasHeatZone,All Zones,autosize,autosize,,,flow/person,0.009,,,,DrawThrough,0.69,78,0.9,SingleSpeedDX,,autosize,autosize,3.3,SingleSpeedDXHeatPump,,autosize,2.85,-9,6,ReverseCycle,Timed,0.057,Gas,,autosize,19,0.85,30,,SupplyAirTemperature,13.8,,SupplyAirTemperature,49.5,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Define a PTHP system for a classroom with specified air flow per zone.",
+    "assistant": "HVACTemplate:Zone:PTHP,Classroom,All Zones,autosize,autosize,,,flow/zone,,,0.5,,DrawThrough,0.74,76,0.91,SingleSpeedDX,,autosize,autosize,3.15,SingleSpeedDXHeatPump,,autosize,2.78,-8,4.5,ReverseCycle,Timed,0.05,Electric,,autosize,20.5,0.81,,,SupplyAirTemperature,14.2,,SupplyAirTemperature,50.2,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Model a PTHP system with a high-efficiency fan and coil.",
+    "assistant": "HVACTemplate:Zone:PTHP,HighEfficiencyZone,All Zones,autosize,autosize,,,flow/person,0.0095,,,,DrawThrough,0.78,70,0.93,SingleSpeedDX,,autosize,autosize,3.5,SingleSpeedDXHeatPump,,autosize,3.0,-10,5.5,ReverseCycle,Timed,0.052,Electric,,autosize,22,0.86,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Configure a PTHP system for a server room with a lower cooling setpoint.",
+    "assistant": "HVACTemplate:Zone:PTHP,ServerRoom,All Zones,autosize,autosize,,,flow/person,0.012,,,,DrawThrough,0.68,85,0.88,SingleSpeedDX,,autosize,autosize,3.0,SingleSpeedDXHeatPump,,autosize,2.75,-8,4.5,ReverseCycle,Timed,0.06,Electric,,autosize,23,0.82,,,SupplyAirTemperature,12.0,,SupplyAirTemperature,48.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Define a PTHP system with a higher heating COP and reduced auxiliary heating.",
+    "assistant": "HVACTemplate:Zone:PTHP,HighCOPZone,All Zones,autosize,autosize,,,flow/person,0.0088,,,,DrawThrough,0.7,74,0.9,SingleSpeedDX,,autosize,autosize,3.4,SingleSpeedDXHeatPump,,autosize,3.1,-9,5,ReverseCycle,Timed,0.048,Electric,,autosize,19,0.9,,,SupplyAirTemperature,14.5,,SupplyAirTemperature,51.0,,,None,,Autosize,None;"
+  },
+  {
+    "user": "Configure a PTHP for an apartment unit with lower supplemental heating use.",
+    "assistant": "HVACTemplate:Zone:PTHP,ApartmentUnit,All Zones,autosize,autosize,,,flow/person,0.0092,,,,DrawThrough,0.73,77,0.91,SingleSpeedDX,,autosize,autosize,3.2,SingleSpeedDXHeatPump,,autosize,2.85,-7.5,5,ReverseCycle,Timed,0.05,Electric,,autosize,21,0.83,,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,None,,Autosize,None;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a basic water-to-air heat pump system for a small office zone.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,Office_Zone,Default_TStat,autosize,autosize,, , ,Flow/Person,0.0085,, , ,DrawThrough,0.7,75,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.2,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.8,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,, ;"
+  },
+  {
+    "user": "Set up a heat pump system with a higher outdoor air rate per person for a conference room.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,ConferenceRoom,Default_TStat,autosize,autosize,, , ,Flow/Person,0.012,, , ,DrawThrough,0.7,80,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.0,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.7,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,13.5,,SupplyAirTemperature,48.0,, ;"
+  },
+  {
+    "user": "Configure a water-to-air heat pump for a classroom with dedicated outdoor air.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,Classroom,Default_TStat,autosize,autosize,, , ,Flow/Person,0.009,, ,DOAS_Schedule,DrawThrough,0.7,70,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.1,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.6,,autosize,2.5,60,0.01,60,DOAS_System,Electric,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,, ;"
+  },
+  {
+    "user": "Define a high-efficiency water-to-air heat pump for a residential apartment.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,Apartment_Zone,Apartment_TStat,autosize,autosize,, , ,Flow/Person,0.0075,, , ,DrawThrough,0.75,65,0.92,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.5,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,3.0,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,13.0,,SupplyAirTemperature,48.0,, ;"
+  },
+  {
+    "user": "Model a water-to-air heat pump for a gym with a higher fan efficiency.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,Gym_Zone,Gym_TStat,autosize,autosize,, , ,Flow/Person,0.011,, , ,DrawThrough,0.75,90,0.95,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.3,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.9,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,14.5,,SupplyAirTemperature,50.0,, ;"
+  },
+  {
+    "user": "Create a heat pump system with a specified heating sizing factor for an auditorium.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,Auditorium,Auditorium_TStat,autosize,autosize,,1.2, ,Flow/Person,0.010,, , ,DrawThrough,0.7,85,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.0,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.75,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,, ;"
+  },
+  {
+    "user": "Configure a heat pump with a specific supply air temperature difference for an open workspace.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,OpenWorkspace,Workspace_TStat,autosize,autosize,, , ,Flow/Person,0.008,, , ,DrawThrough,0.7,70,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.1,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.6,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,,12.0,SupplyAirTemperature,,45.0, ;"
+  },
+  {
+    "user": "Define a compact heat pump for a small retail store.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,RetailStore,Retail_TStat,autosize,autosize,, , ,Flow/Person,0.007,, , ,DrawThrough,0.7,60,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.2,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.7,,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,, ;"
+  },
+  {
+    "user": "Set up a heat pump system for a large meeting room with supplemental heating.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,MeetingRoom,Meeting_TStat,autosize,autosize,, , ,Flow/Person,0.009,, , ,DrawThrough,0.7,80,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.0,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.8,Heating_Schedule,autosize,2.5,60,0.01,60,,Electric,SupplyAirTemperature,13.5,,SupplyAirTemperature,48.0,, ;"
+  },
+  {
+    "user": "Model a heat pump system with a specified maximum cycling rate for a hotel room.",
+    "assistant": "HVACTemplate:Zone:WaterToAirHeatPump,HotelRoom,Hotel_TStat,autosize,autosize,, , ,Flow/Person,0.0065,, , ,DrawThrough,0.7,65,0.9,Coil:Cooling:WaterToAirHeatPump:EquationFit,autosize,autosize,3.3,Coil:Heating:WaterToAirHeatPump:EquationFit,autosize,2.85,,autosize,3.0,45,0.02,45,,Electric,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,, ;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VRF zone template for an office space with autosized airflow rates.",
+    "assistant": "HVACTemplate:Zone:VRF,Office_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Create a VRF zone template with a fixed outdoor air rate per floor area.",
+    "assistant": "HVACTemplate:Zone:VRF,FixedOA_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/area,,0.003,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Model a VRF zone with constant fan operation and a dedicated outdoor air system.",
+    "assistant": "HVACTemplate:Zone:VRF,ConstantFan_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,DOAS_Schedule,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,DOAS_System,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Define a VRF zone template with a scheduled system availability.",
+    "assistant": "HVACTemplate:Zone:VRF,Scheduled_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,System_Schedule,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Create a VRF zone with a specified heating and cooling sizing factor.",
+    "assistant": "HVACTemplate:Zone:VRF,Sized_Zone,All Zones,1.2,1.15,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Model a VRF zone with a cooling design supply air temperature difference.",
+    "assistant": "HVACTemplate:Zone:VRF,CoolDeltaT_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,,11.0,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Define a VRF zone with a heating design supply air temperature difference.",
+    "assistant": "HVACTemplate:Zone:VRF,HeatDeltaT_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,,15.0,None,,Autosize;"
+  },
+  {
+    "user": "Model a VRF zone with a fixed outdoor air flow rate per zone.",
+    "assistant": "HVACTemplate:Zone:VRF,FixedOA_ZoneFlow,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/zone,,,0.1,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,None,,Autosize;"
+  },
+  {
+    "user": "Define a VRF zone with baseboard heating enabled.",
+    "assistant": "HVACTemplate:Zone:VRF,Baseboard_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,HotWater,,Autosize;"
+  },
+  {
+    "user": "Create a VRF zone with electric baseboard heating.",
+    "assistant": "HVACTemplate:Zone:VRF,ElecBaseboard_Zone,All Zones,,,,autosize,autosize,autosize,autosize,autosize,autosize,autosize,flow/person,0.00944,,,,,DrawThrough,0.7,75,0.9,VariableRefrigerantFlowDX,,autosize,autosize,VariableRefrigerantFlowDX,,autosize,0,0,,SupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,Electric,,Autosize;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a unitary system for OFFICE1 with a fixed outdoor air flow rate.",
+    "assistant": "HVACTemplate:Zone:Unitary,OFFICE1,UnitarySystem1,All Zones,autosize,,,flow/person,0.008,0.0,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Specify a unitary system for CONFERENCE_ROOM with a heating sizing factor.",
+    "assistant": "HVACTemplate:Zone:Unitary,CONFERENCE_ROOM,UnitarySystem2,All Zones,autosize,1.2,,flow/person,0.01,0.0,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Set up a unitary system for LAB1 with a cooling sizing factor.",
+    "assistant": "HVACTemplate:Zone:Unitary,LAB1,UnitarySystem3,All Zones,autosize,,1.15,flow/person,0.012,0.0,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Create a unitary system for CLASSROOM_A with specified baseboard heating.",
+    "assistant": "HVACTemplate:Zone:Unitary,CLASSROOM_A,UnitarySystem4,All Zones,autosize,,,flow/person,0.0075,0.0,0.0,,,HotWater,BaseboardSched,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Define a unitary system for HALLWAY with outdoor air flow per floor area.",
+    "assistant": "HVACTemplate:Zone:Unitary,HALLWAY,UnitarySystem5,All Zones,autosize,,,flow/area,0.0,0.002,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Specify a unitary system for LOBBY with a fixed outdoor air flow rate per zone.",
+    "assistant": "HVACTemplate:Zone:Unitary,LOBBY,UnitarySystem6,All Zones,autosize,,,flow/zone,0.0,0.0,0.3,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Set up a unitary system for STORAGE with no outdoor air ventilation.",
+    "assistant": "HVACTemplate:Zone:Unitary,STORAGE,UnitarySystem7,All Zones,autosize,,,,0.0,0.0,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Create a unitary system for BREAKROOM with a return plenum.",
+    "assistant": "HVACTemplate:Zone:Unitary,BREAKROOM,UnitarySystem8,All Zones,autosize,,,flow/person,0.009,0.0,0.0,,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,ReturnPlenum;"
+  },
+  {
+    "user": "Define a unitary system for MEETING_ROOM with a supply plenum.",
+    "assistant": "HVACTemplate:Zone:Unitary,MEETING_ROOM,UnitarySystem9,All Zones,autosize,,,flow/person,0.01,0.0,0.0,SupplyPlenum,,None,,Autosize,SystemSupplyAirTemperature,,SystemSupplyAirTemperature,,,;"
+  },
+  {
+    "user": "Specify a unitary system for SERVER_ROOM with a cooling temperature difference.",
+    "assistant": "HVACTemplate:Zone:Unitary,SERVER_ROOM,UnitarySystem10,All Zones,autosize,,,flow/person,0.006,0.0,0.0,,,None,,Autosize,TemperatureDifference,12,SystemSupplyAirTemperature,,,;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VAV system for Office Zone with hot water reheat and flow/person outdoor air method.",
+    "assistant": "HVACTemplate:Zone:VAV,Office Zone,VAV System 1,All Zones,autosize,,,Constant,0.3,,,flow/person,0.00944,0.0,0.0,HotWater,,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Create a VAV template for a conference room with electric reheat and a fixed minimum airflow rate of 0.5 m3/s.",
+    "assistant": "HVACTemplate:Zone:VAV,Conference Room,VAV System 2,Conf Thermostat,autosize,,,Fixed,0.3,0.5,,flow/person,0.012,0.0,0.0,Electric,,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Model a lab space with a VAV system, gas reheat, and minimum air flow fraction schedule.",
+    "assistant": "HVACTemplate:Zone:VAV,Lab Space,VAV System 3,Lab Thermostat,autosize,,,Constant,0.4,,MinFlowSchedule,flow/person,0.008,0.0,0.0,Gas,,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Define a hospital patient room with VAV, hot water reheat, and a zone cooling supply air temperature of 14°C.",
+    "assistant": "HVACTemplate:Zone:VAV,Patient Room,VAV System 4,Hosp Thermostat,autosize,,,Constant,0.35,,,flow/person,0.01,0.0,0.0,HotWater,,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,14.0,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Specify a classroom VAV system with a reheat coil availability schedule and a cooling supply air temp difference of 11°C.",
+    "assistant": "HVACTemplate:Zone:VAV,Classroom,VAV System 5,Class Thermostat,autosize,,,Constant,0.3,,,flow/person,0.009,0.0,0.0,HotWater,ReheatSchedule,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,,11,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Create a VAV system for an auditorium with a baseboard heating capacity of 5000 W and electric reheat.",
+    "assistant": "HVACTemplate:Zone:VAV,Auditorium,VAV System 6,Aud Thermostat,autosize,,,Constant,0.3,,,flow/person,0.012,0.0,0.0,Electric,,Reverse,,,,,HotWater,,5000,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Define a VAV system for a research lab with hot water reheat and maximum reheat air temperature of 35°C.",
+    "assistant": "HVACTemplate:Zone:VAV,Research Lab,VAV System 7,Lab Thermostat,autosize,,,Constant,0.3,,,flow/person,0.008,0.0,0.0,HotWater,,Reverse,,,35,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Specify a retail store VAV system with a fixed minimum air flow rate of 0.4 m3/s and gas reheat.",
+    "assistant": "HVACTemplate:Zone:VAV,Retail Store,VAV System 8,Retail Thermostat,autosize,,,Fixed,0.3,0.4,,flow/person,0.01,0.0,0.0,Gas,,Reverse,,,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Model a dormitory room with a VAV system using a supply plenum and electric reheat.",
+    "assistant": "HVACTemplate:Zone:VAV,Dorm Room,VAV System 9,Dorm Thermostat,autosize,,,Constant,0.3,,,flow/person,0.008,0.0,0.0,Electric,,Reverse,,,,SupplyPlenum,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  {
+    "user": "Create a VAV template for a cafeteria with hot water reheat and a baseboard heating type of electric.",
+    "assistant": "HVACTemplate:Zone:VAV,Cafeteria,VAV System 10,Cafe Thermostat,autosize,,,Constant,0.3,,,flow/person,0.011,0.0,0.0,HotWater,,Reverse,,,,,Electric,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0,,,;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VAV fan-powered system for a conference room with parallel fan flow and electric reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Conference_Room,VAV_Sys_1,All_Zones,autosize,,autosize,autosize,Parallel,autosize,flow/area,0.005,0.002,0.1,Electric,,0.65,800,0.85,,,None,,,autosize,SystemSupplyAirTemperature,,12.0,SupplyAirTemperature,40.0,,FanSchedule,OutdoorAirSpec,ZoneAirDistSpec;"
+  },
+  {
+    "user": "Set up a fan-powered VAV zone with series flow and gas reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Office_1,VAV_Sys_2,All_Zones,autosize,,autosize,autosize,Series,autosize,flow/person,0.008,0.0,0.05,Gas,,,0.7,900,0.88,,,None,,,autosize,SystemSupplyAirTemperature,12.5,,SupplyAirTemperature,45.0,,FanSchedule,OutdoorAirSpec,;"
+  },
+  {
+    "user": "Model a small retail space with parallel fan-powered VAV and hot water reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Retail_Space,VAV_Sys_3,All_Zones,autosize,,autosize,autosize,Parallel,autosize,flow/person,0.006,0.001,0.02,HotWater,,0.72,950,0.9,,,None,,,autosize,SystemSupplyAirTemperature,,12.5,SupplyAirTemperature,55.0,,,OutdoorAirSpec,ZoneAirDistSpec;"
+  },
+  {
+    "user": "Configure a VAV fan-powered zone with a fixed outdoor air rate per zone.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Lab_Zone,VAV_Sys_4,All_Zones,autosize,,autosize,autosize,Series,autosize,flow/person,0.007,0.0,0.15,HotWater,,0.68,850,0.87,,,None,,,autosize,SystemSupplyAirTemperature,,12.0,SupplyAirTemperature,50.0,,FanSchedule,,;"
+  },
+  {
+    "user": "Set up a VAV fan-powered system with no reheat and a supply plenum.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Warehouse,VAV_Sys_5,All_Zones,autosize,,autosize,autosize,Parallel,autosize,flow/person,0.004,0.001,0.05,None,,0.75,1000,0.9,SupplyPlenum,,None,,,autosize,SystemSupplyAirTemperature,,14.0,SupplyAirTemperature,48.0,,FanSchedule,OutdoorAirSpec,;"
+  },
+  {
+    "user": "Model a VAV fan-powered zone with a return plenum and electric reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Open_Office,VAV_Sys_6,All_Zones,autosize,,autosize,autosize,Series,autosize,flow/area,0.009,0.002,0.0,Electric,,0.7,950,0.88,,ReturnPlenum,None,,,autosize,SystemSupplyAirTemperature,,12.0,SupplyAirTemperature,52.0,,FanSchedule,OutdoorAirSpec,;"
+  },
+  {
+    "user": "Define a fan-powered VAV system with a fixed cooling supply air temperature.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Library,VAV_Sys_7,All_Zones,autosize,,autosize,autosize,Parallel,autosize,flow/person,0.006,0.002,0.08,HotWater,,0.72,850,0.9,,,None,,,autosize,SystemSupplyAirTemperature,13.0,,SupplyAirTemperature,50.0,,,OutdoorAirSpec,ZoneAirDistSpec;"
+  },
+  {
+    "user": "Set up a VAV fan-powered zone with a PIU fan schedule and gas reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Classroom,VAV_Sys_8,All_Zones,autosize,,autosize,autosize,Series,autosize,flow/person,0.0075,0.0,0.12,Gas,,0.7,900,0.88,,,None,,,autosize,SystemSupplyAirTemperature,,12.5,SupplyAirTemperature,45.0,,PIUFanSchedule,OutdoorAirSpec,;"
+  },
+  {
+    "user": "Define a small office zone with series fan-powered VAV and a baseboard heating system.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Small_Office,VAV_Sys_9,All_Zones,autosize,,autosize,autosize,Series,autosize,flow/person,0.006,0.0,0.07,HotWater,,0.68,875,0.87,,,HotWater,,autosize,SystemSupplyAirTemperature,,12.0,SupplyAirTemperature,50.0,,FanSchedule,OutdoorAirSpec,ZoneAirDistSpec;"
+  },
+  {
+    "user": "Configure a parallel fan-powered VAV zone with supply and return plenums.",
+    "assistant": "HVACTemplate:Zone:VAV:FanPowered,Auditorium,VAV_Sys_10,All_Zones,autosize,,autosize,autosize,Parallel,autosize,flow/area,0.005,0.001,0.02,Electric,,0.75,950,0.9,SupplyPlenum,ReturnPlenum,None,,,autosize,SystemSupplyAirTemperature,,12.5,SupplyAirTemperature,55.0,,FanSchedule,OutdoorAirSpec,;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VAV system with autosized air flow and hot water reheat for Office Zone.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Office Zone,VAV Sys 1,All Zones,autosize,,0.3,flow/person,0.00944,0.0,0.0,,,HotWater,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  {
+    "user": "Create a heat and cool VAV system for a conference room with electric reheat.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Conference Room,VAV Sys 2,Conference Thermostat,autosize,,0.25,flow/area,0.0,0.005,0.0,,,Electric,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,45.0;"
+  },
+  {
+    "user": "Specify a heat and cool VAV system with a fixed supply air flow rate for Classroom 101.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Classroom 101,VAV Sys 3,Classroom Thermostat,1.2,,0.2,flow/person,0.008,0.0,0.0,,,HotWater,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,55.0;"
+  },
+  {
+    "user": "Define a VAV system with hydronic baseboard heating for a library zone.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Library Zone,VAV Sys 4,Library Thermostat,autosize,,0.3,flow/person,0.009,0.0,0.0,,,HotWater,,,HotWater,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  {
+    "user": "Set up a heat and cool VAV system with constant minimum airflow fraction of 0.4 for Lab A.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Lab A,VAV Sys 5,Lab Thermostat,autosize,,0.4,flow/person,0.012,0.0,0.0,,,HotWater,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,48.0;"
+  },
+  {
+    "user": "Create a VAV system with district hot water reheat and a fixed outdoor air rate for Zone 5.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Zone 5,VAV Sys 6,Zone 5 Thermostat,autosize,,0.3,flow/person,0.0,0.004,0.1,,,DistrictHotWater,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  {
+    "user": "Define a heat and cool VAV system with direct gas-fired reheat for Gymnasium.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Gymnasium,VAV Sys 7,Gym Thermostat,autosize,,0.35,flow/person,0.01,0.0,0.0,,,Gas,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,52.0;"
+  },
+  {
+    "user": "Set up a VAV system with a maximum reheat air temperature limit for an Auditorium.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Auditorium,VAV Sys 8,Auditorium Thermostat,autosize,,0.3,flow/person,0.009,0.0,0.0,,,HotWater,,45.0,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  {
+    "user": "Define a VAV system with an electric baseboard heater for small office Room 201.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Room 201,VAV Sys 9,Office Thermostat,autosize,,0.25,flow/person,0.007,0.0,0.0,,,HotWater,,,Electric,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  {
+    "user": "Create a VAV system with a return plenum and autosized heating capacity for Zone 10.",
+    "assistant": "HVACTemplate:Zone:VAV:HeatAndCool,Zone 10,VAV Sys 10,Zone 10 Thermostat,autosize,,0.3,flow/person,0.009,0.0,0.0,,,HotWater,,,None,,autosize,SystemSupplyAirTemperature,,,SupplyAirTemperature,50.0;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a constant volume system with no reheat coil and standard outdoor air flow.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE1 -1,CAV Sys 1,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Specify a constant volume system with baseboard heating and cooling design parameters.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE2 -1,CAV Sys 2,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,50,30; "
+  },
+  {
+    "user": "Model a constant volume system with cooling and heating temperature differences set to 5°C.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE3 -1,CAV Sys 3,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,5.0,SupplyAirTemperature,50,5.0;"
+  },
+  {
+    "user": "Set up a zone with an autosized supply air flow rate and outdoor air flow per person method.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE4 -1,CAV Sys 4,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Create a zone with a constant volume system, reheat coil set to none, and cooling temperature parameters.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE5 -1,CAV Sys 5,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,None,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Model a constant volume system with a return plenum, cooling, and heating design temperatures.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE6 -1,CAV Sys 6,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Specify a constant volume system with the outdoor air flow rate per floor area method.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE7 -1,CAV Sys 7,All Zones,autosize,, ,flow/area,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Configure a constant volume system with no reheat coil, and an outdoor air flow rate per person method.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE8 -1,CAV Sys 8,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,None,, ,12.8,11.11,SupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Create a zone with an autosized supply air flow rate and specific heating supply air temperature difference.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE9 -1,CAV Sys 9,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SupplyAirTemperature,45,30;"
+  },
+  {
+    "user": "Define a constant volume system with the zone cooling supply air temperature input method.",
+    "assistant": "HVACTemplate:Zone:ConstantVolume,SPACE10 -1,CAV Sys 10,All Zones,autosize,, ,flow/person,0.00944,0.0,0.0,, ,HotWater,, ,12.8,11.11,SystemSupplyAirTemperature,50,30;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a dual duct system with default sizing and cooling temperature settings.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.2,flow/person,0.00944,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,12.8,11.11,SystemSupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Set up a dual duct system with a high supply air maximum flow rate and heating design supply air temperature.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.25,flow/person,0.01,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,12.8,11.11,SystemSupplyAirTemperature,60,30;"
+  },
+  {
+    "user": "Create a dual duct zone with a baseboard heating type set to None and no outdoor air flow rate.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.2,flow/person,0.0,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,12.8,11.11,SystemSupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Model a dual duct system with specified outdoor air flow rate per person and cooling supply air temperature.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.3,flow/person,0.012,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,14.0,12.0,SystemSupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Create a dual duct zone with specific heating and cooling supply air temperatures and capacity autosizing.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.15,flow/person,0.008,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,12.8,11.11,SystemSupplyAirTemperature,55,30;"
+  },
+  {
+    "user": "Set a dual duct system with outdoor air method based on flow per person and baseboard heating type as None.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.18,flow/person,0.0095,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,13.0,11.5,SystemSupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Define a dual duct zone with custom zone heating and cooling temperature differences.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.2,flow/person,0.009,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,12.0,10.0,SystemSupplyAirTemperature,45,28;"
+  },
+  {
+    "user": "Create a dual duct system with a larger outdoor air flow rate per person for a high-occupancy zone.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.4,flow/person,0.015,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,13.5,12.5,SystemSupplyAirTemperature,50,30;"
+  },
+  {
+    "user": "Model a dual duct zone with custom baseboard heating and cooling temperatures.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.2,flow/person,0.00944,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,14.0,12.0,SystemSupplyAirTemperature,52,30;"
+  },
+  {
+    "user": "Set up a dual duct zone with automatic sizing and both cooling and heating temperatures adjusted.",
+    "assistant": "HVACTemplate:Zone:DualDuct,SPACE1 -1,DD Sys 1,All Zones,autosize,, ,0.2,flow/person,0.00944,0.0,0.0,, , , ,None,,autosize,SystemSupplyAirTemperature,15.0,13.0,SystemSupplyAirTemperature,60,35;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VRF system with a cooling capacity of 10 kW and heating capacity of 12 kW, using a resistive defrost strategy.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Specify a VRF system with a maximum outdoor temperature of 40°C in cooling mode and an evaporative condenser.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,40,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Create a VRF system with minimum outdoor temperatures of -10°C in both cooling and heating modes.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-10,43,autosize,,3.40909,-10,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Model a VRF system with a defrost control time period fraction of 0.25 and a crankcase heater power of 50W.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,50,3,0.33,7,Resistive,Timed,0.25,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Specify a VRF system with a heating capacity of 8 kW and a maximum outdoor temperature of 35°C in heating mode.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,35,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Define a VRF system with an outdoor dry-bulb temperature limit for crankcase heater of 5°C and a resistive defrost strategy.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,5,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Create a VRF system with a crankcase heater power of 100W and an evaporative condenser type.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,100,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Specify a VRF system with a rated cooling capacity of 20 kW and a vertical height of 20 m for the piping correction factor.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,20,20,20,15,3,0.33,7,Resistive,Timed,,autosize,7,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Define a VRF system with a maximum outdoor temperature for defrost operation of 10°C.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,10,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,200,,;"
+  },
+  {
+    "user": "Create a VRF system with a basin heater capacity of 250W/K and an evaporative condenser air flow rate of 10 m3/s.",
+    "assistant": "HVACTemplate:System:VRF,VRF Heat Pump,VRFCondAvailSched,autosize,3.16038,-5,43,autosize,,3.40909,-20,15.5,0.25,SPACE1 -1,LoadPriority,,No,30,10,30,15,3,0.33,7,Resistive,Timed,,autosize,10,EvaporativelyCooled,MyVRFOANode,,,,autosize,autosize,,250,,;"
+  },
+  
+  
+  
+  
+  
+  {
+    "user": "Define a unitary system for a west zone with an electric heating coil and a dehumidification control set to 70%.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_WestZone, FanAndCoilAvailSched, WEST ZONE, autosize, FanModeSched, 0.75, 700, 0.92, 1, SingleSpeedDX, FanAndCoilAvailSched, 14.0, autosize, autosize, 3, Electric, FanAndCoilAvailSched, 45.0, autosize, 0.85, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 70, ElectricSteam, , 0.000001, 2690, WEST ZONE, 35, No, 0.75, 350, 0.91, 1.0;"
+  },
+  {
+    "user": "Create a unitary system for a cooling-only zone with high-efficiency components and a setpoint of 20°C.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_CoolingZone, FanAndCoilAvailSched, COOLING ZONE, autosize, FanModeSched, 0.8, 500, 0.95, 1, SingleSpeedDX, FanAndCoilAvailSched, 20.0, autosize, autosize, 4, Gas, FanAndCoilAvailSched, , autosize, 0.9, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 50, ElectricSteam, , 0.000001, 2690, COOLING ZONE, 25, No, 0.85, 250, 0.92, 1.0;"
+  },
+  {
+    "user": "Design a unitary system for a north zone with gas heating and an outdoor air flow rate of 0.3 m3/s.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_NorthZone, FanAndCoilAvailSched, NORTH ZONE, autosize, FanModeSched, 0.7, 600, 0.93, 1, SingleSpeedDX, FanAndCoilAvailSched, 15.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.8, 0, 0.3, 0.3, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, NORTH ZONE, 30, No, 0.75, 300, 0.9, 1.0;"
+  },
+  {
+    "user": "Configure a unitary system with heating, cooling, and dehumidification, and an outdoor air flow rate of 0.5 m3/s.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_HeatingCoolingDehumid, FanAndCoilAvailSched, CENTER ZONE, autosize, FanModeSched, 0.8, 650, 0.9, 1, SingleSpeedDX, FanAndCoilAvailSched, 13.5, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, 0.5, 0.5, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, CENTER ZONE, 35, No, 0.8, 350, 0.88, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system for a south zone with a high-efficiency gas heating coil and 25% dehumidification setpoint.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_SouthZone, FanAndCoilAvailSched, SOUTH ZONE, autosize, FanModeSched, 0.8, 550, 0.9, 1, SingleSpeedDX, FanAndCoilAvailSched, 16.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.9, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 25, ElectricSteam, , 0.000001, 2690, SOUTH ZONE, 30, No, 0.7, 300, 0.9, 1.0;"
+  },
+  {
+    "user": "Create a unitary system for a large commercial building with a variable air volume system and a cooling setpoint of 18°C.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_LargeCommercial, FanAndCoilAvailSched, COMMERCIAL ZONE, autosize, FanModeSched, 0.75, 1000, 0.91, 1, SingleSpeedDX, FanAndCoilAvailSched, 18.0, autosize, autosize, 4, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, COMMERCIAL ZONE, 35, No, 0.8, 400, 0.92, 1.0;"
+  },
+  {
+    "user": "Define a unitary system for a small zone with a low-efficiency gas heating coil and a humidifier setpoint of 40%.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_SmallZone, FanAndCoilAvailSched, SMALL ZONE, autosize, FanModeSched, 0.7, 400, 0.85, 1, SingleSpeedDX, FanAndCoilAvailSched, 14.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.75, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 40, ElectricSteam, , 0.000001, 2690, SMALL ZONE, 30, No, 0.7, 250, 0.85, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system for a zone with dehumidification control set to 50% and an economizer.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_DehumidEconomizer, FanAndCoilAvailSched, DEHUMID ZONE, autosize, FanModeSched, 0.8, 600, 0.92, 1, SingleSpeedDX, FanAndCoilAvailSched, 15.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, , Economizer, NoLockout, 25, 18, , , BlowThrough, CycleOnAny, , None, , , None, 50, ElectricSteam, , 0.000001, 2690, DEHUMID ZONE, 35, No, 0.75, 300, 0.9, 1.0;"
+  },
+  {
+    "user": "Define a unitary system for a mixed zone with a gas heating coil, dehumidification control, and 60% humidifier setpoint.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_MixedZone, FanAndCoilAvailSched, MIXED ZONE, autosize, FanModeSched, 0.75, 700, 0.93, 1, SingleSpeedDX, FanAndCoilAvailSched, 16.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, MIXED ZONE, 40, No, 0.8, 350, 0.91, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system for a zone with a cooling setpoint of 19°C, no economizer, and a return fan efficiency of 0.95.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_CoolOnlyZone, FanAndCoilAvailSched, COOL ZONE, autosize, FanModeSched, 0.8, 500, 0.90, 1, SingleSpeedDX, FanAndCoilAvailSched, 19.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.8, 0, autosize, autosize, , NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 50, ElectricSteam, , 0.000001, 2690, COOL ZONE, 30, Yes, 0.95, 350, 0.9, 1.0;"
+  },
+  {
+    "user": "Configure a unitary system with a fixed dry bulb economizer and cooling setpoint of 20°C.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_FixedDryBulb, FanAndCoilAvailSched, ZONE_A, autosize, FanModeSched, 0.75, 600, 0.90, 1, SingleSpeedDX, FanAndCoilAvailSched, 20.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, FixedDryBulb, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, ZONE_A, 30, No, 0.8, 300, 0.9, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system with a differential dry bulb economizer and 18°C cooling setpoint.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_DifferentialDryBulb, FanAndCoilAvailSched, ZONE_B, autosize, FanModeSched, 0.7, 500, 0.85, 1, SingleSpeedDX, FanAndCoilAvailSched, 18.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 45.0, autosize, 0.9, 0, autosize, autosize, DifferentialDryBulb, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 50, ElectricSteam, , 0.000001, 2690, ZONE_B, 30, No, 0.75, 350, 0.88, 1.0;"
+  },
+  {
+    "user": "Define a unitary system with a fixed enthalpy economizer and gas heating coil.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_FixedEnthalpy, FanAndCoilAvailSched, ZONE_C, autosize, FanModeSched, 0.8, 700, 0.92, 1, SingleSpeedDX, FanAndCoilAvailSched, 19.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, FixedEnthalpy, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, ZONE_C, 35, No, 0.8, 400, 0.9, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system with a differential enthalpy economizer, cooling setpoint of 17°C, and dehumidification.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_DifferentialEnthalpy, FanAndCoilAvailSched, ZONE_D, autosize, FanModeSched, 0.75, 600, 0.91, 1, SingleSpeedDX, FanAndCoilAvailSched, 17.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, DifferentialEnthalpy, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, ZONE_D, 30, No, 0.75, 300, 0.88, 1.0;"
+  },
+  {
+    "user": "Create a unitary system with an electronic enthalpy economizer and a humidifier setpoint of 45%.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_ElectronicEnthalpy, FanAndCoilAvailSched, ZONE_E, autosize, FanModeSched, 0.8, 650, 0.93, 1, SingleSpeedDX, FanAndCoilAvailSched, 20.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, ElectronicEnthalpy, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 45, ElectricSteam, , 0.000001, 2690, ZONE_E, 30, No, 0.75, 350, 0.9, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system with a fixed dew point and dry bulb economizer, cooling setpoint of 21°C.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_FixedDewPointAndDryBulb, FanAndCoilAvailSched, ZONE_F, autosize, FanModeSched, 0.75, 700, 0.90, 1, SingleSpeedDX, FanAndCoilAvailSched, 21.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, FixedDewPointAndDryBulb, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, ZONE_F, 30, No, 0.8, 400, 0.9, 1.0;"
+  },
+  {
+    "user": "Define a unitary system for a zone with a differential dry bulb and enthalpy economizer, 22°C cooling setpoint, and dehumidification control.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_DifferentialDryBulbAndEnthalpy, FanAndCoilAvailSched, ZONE_G, autosize, FanModeSched, 0.75, 650, 0.92, 1, SingleSpeedDX, FanAndCoilAvailSched, 22.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, DifferentialDryBulbAndEnthalpy, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 65, ElectricSteam, , 0.000001, 2690, ZONE_G, 30, No, 0.8, 350, 0.88, 1.0;"
+  },
+  {
+    "user": "Set up a unitary system for a zone with no economizer, gas heating, and cooling setpoint of 16°C.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_NoEconomizer, FanAndCoilAvailSched, ZONE_H, autosize, FanModeSched, 0.8, 600, 0.93, 1, SingleSpeedDX, FanAndCoilAvailSched, 16.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, NoEconomizer, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 60, ElectricSteam, , 0.000001, 2690, ZONE_H, 30, No, 0.75, 300, 0.9, 1.0;"
+  },
+  {
+    "user": "Create a unitary system with an economizer set to fixed dry bulb, and a humidifier with a setpoint of 55%.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_FixedDryBulbEconomizer, FanAndCoilAvailSched, ZONE_I, autosize, FanModeSched, 0.8, 650, 0.91, 1, SingleSpeedDX, FanAndCoilAvailSched, 20.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 55.0, autosize, 0.85, 0, autosize, autosize, FixedDryBulb, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 55, ElectricSteam, , 0.000001, 2690, ZONE_I, 30, No, 0.75, 400, 0.9, 1.0;"
+  },
+  {
+    "user": "Define a unitary system with electronic enthalpy economizer, cooling setpoint of 19°C, and dehumidification control set to 50%.",
+    "assistant": "HVACTemplate:System:Unitary, AHU_ElectronicEnthalpyEconomizer, FanAndCoilAvailSched, ZONE_J, autosize, FanModeSched, 0.75, 700, 0.94, 1, SingleSpeedDX, FanAndCoilAvailSched, 19.0, autosize, autosize, 3, Gas, FanAndCoilAvailSched, 50.0, autosize, 0.85, 0, autosize, autosize, ElectronicEnthalpy, NoLockout, , , , BlowThrough, CycleOnAny, , None, , , None, 50, ElectricSteam, , 0.000001, 2690, ZONE_J, 30, No, 0.8, 350, 0.9, 1.0;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a unitary heat pump system with standard air flow rates and cooling capacity.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 1,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.7,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3,SingleSpeedDXHeatPump,,50.0,autosize,2.75,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.7,0.65,None,,0.000001,2690,,30,No,0.7,300,0.9,1.0;"
+  },
+  {
+    "user": "Specify a Unitary heat pump with a higher heating capacity and an economizer lockout.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 2,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.75,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3.5,SingleSpeedDXHeatPump,,55.0,autosize,3.0,-10,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,21,,4,,None,0.8,0.7,None,,0.000001,2690,,30,No,0.75,350,0.9,1.0;"
+  },
+  {
+    "user": "Create a unitary heat pump system with minimal outdoor air flow and supplemental gas heating.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 3,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.65,600,0.85,1,SingleSpeedDX,,16,autosize,autosize,3,SingleSpeedDXHeatPump,,45.0,autosize,2.5,-7,6,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,18,,4,,None,0.75,0.7,None,,0.000001,2690,,25,No,0.7,300,0.85,1.0;"
+  },
+  {
+    "user": "Model a unitary heat pump with defrost strategy and high-efficiency supplemental heating.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 4,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.8,600,0.92,1,SingleSpeedDX,,12,autosize,autosize,3.2,SingleSpeedDXHeatPump,,52.0,autosize,2.9,-10,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,20,,4,,None,0.78,0.68,None,,0.000001,2690,,28,No,0.8,320,0.92,1.0;"
+  },
+  {
+    "user": "Specify a unitary heat pump with minimal defrost period and enhanced latent heat recovery.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 5,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.7,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3,SingleSpeedDXHeatPump,,50.0,autosize,2.75,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.8,0.75,None,,0.000001,2690,,30,No,0.7,300,0.9,1.0;"
+  },
+  {
+    "user": "Define a unitary heat pump system with a high supply fan efficiency and a single-speed cooling coil.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 6,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.85,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3,SingleSpeedDXHeatPump,,50.0,autosize,2.75,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.75,0.65,None,,0.000001,2690,,30,No,0.85,300,0.9,1.0;"
+  },
+  {
+    "user": "Create a unitary heat pump system with a defrost period of 0.1 and supplemental gas heating.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 7,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.7,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3,SingleSpeedDXHeatPump,,50.0,autosize,2.75,-8,5,ReverseCycle,Timed,0.1,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.7,0.6,None,,0.000001,2690,,30,No,0.7,300,0.9,1.0;"
+  },
+  {
+    "user": "Specify a unitary heat pump system with minimal cooling capacity and no supplemental heating coil.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 8,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.7,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,2.0,SingleSpeedDXHeatPump,,50.0,autosize,2.5,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.6,0.5,None,,0.000001,2690,,30,No,0.7,300,0.9,1.0;"
+  },
+  {
+    "user": "Model a unitary heat pump system with a higher defrost time fraction and enhanced sensible heat recovery effectiveness.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 9,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.75,600,0.9,1,SingleSpeedDX,,14,autosize,autosize,3,SingleSpeedDXHeatPump,,50.0,autosize,2.75,-8,5,ReverseCycle,Timed,0.15,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.85,0.75,None,,0.000001,2690,,30,No,0.75,300,0.9,1.0;"
+  },
+  {
+    "user": "Create a unitary heat pump system with a higher cooling design temperature and more efficient supply fan motor.",
+    "assistant": "HVACTemplate:System:UnitaryHeatPump:AirToAir,Heat Pump 10,FanAvailSched,SPACE1 -1,autosize,autosize,autosize,,BlowThrough,0.8,600,0.92,1,SingleSpeedDX,,16,autosize,autosize,3.2,SingleSpeedDXHeatPump,,50.0,autosize,2.8,-8,5,ReverseCycle,Timed,0.058333,Electric,,autosize,autosize,Min OA Sched,DifferentialDryBulb,NoLockout,19,,4,,None,0.8,0.7,None,,0.000001,2690,,30,No,0.8,350,0.92,1.0;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a VAV system with chilled water cooling, hot water heating, and an economizer.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 1,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with a preheat coil and fixed outdoor air control type.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 2,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,Preheat,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a VAV system with gas heating and no heat recovery.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 3,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with dehumidification control and a humidifier.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 4,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Model a VAV system with high economizer upper temperature limit and no cooling coil setpoint reset.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 5,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a VAV system with cooling and heating coils and a night cycle control.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 6,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with a high cooling coil design setpoint and a gas heating coil.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 7,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,15.0,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Model a VAV system with an economizer, no heating coil, and a high outdoor air flow rate.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 8,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,1.5,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a VAV system with gas heating and a humidifier control.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 9,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,Yes,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with no humidifier, no cooling coil reset, and a return fan.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 10,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,Yes,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with chilled water cooling, hot water heating, and no economizer.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 6,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a VAV system with gas heating, chilled water cooling, and no economizer.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 7,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Model a VAV system with preheat coil, gas heating, and no economizer.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 8,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,Preheat,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a VAV system with chilled water cooling, hot water heating, and no heat recovery.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 9,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a VAV system with no economizer, and a night cycle control feature.",
+    "assistant": "HVACTemplate:System:VAV,VAV Sys 10,FanAvailSched,autosize,autosize,0.7,600,0.9,1,ChilledWater,,12.8,HotWater,,10.0,0.8,0.0,None,,0.8,0.0,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,DrawThrough,InletVaneDampers,CycleOnAnyZoneFansOnly,,None,0.70,0.65,None,None,None,60.0,None,,0.000001,2690.0,,30.0,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a PackagedVAV system with a gas heating coil and economizer.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 1,FanAvailSched,autosize,autosize,DrawThrough,0.7,1000,0.9,1,TwoSpeedDX,, ,12.8,autosize,autosize,3,GAS,, ,10,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.65,None,None,None,,0.000001,2690,,30,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a PackagedVAV system with a cooling coil, heating coil, and minimal outdoor air flow.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 2,FanAvailSched,autosize,autosize,DrawThrough,0.75,1200,0.85,1.0,TwoSpeedDX,, ,15,autosize,autosize,3,Gas,, ,12,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,20,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.75,0.7,None,None,None,,0.000001,2500,,35,NonCoincident,No,0.75,600,0.95,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a Packaged VAV system with high efficiency cooling and heating coils and no dehumidification control.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 3,FanAvailSched,autosize,autosize,DrawThrough,0.8,1100,0.9,1,TwoSpeedDX,, ,14,autosize,autosize,4,Gas,, ,11,autosize,0.9,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,18,, ,6,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.8,0.7,None,None,None,,0.000001,2400,,40,NonCoincident,No,0.8,550,0.95,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with cooling coil reset and high latent heat recovery.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 4,FanAvailSched,autosize,autosize,DrawThrough,0.65,900,0.9,1.0,TwoSpeedDX,, ,13,autosize,autosize,3,Gas,, ,9,autosize,0.75,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,21,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.75,None,None,None,,0.000001,2300,,32,NonCoincident,No,0.65,450,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a Packaged VAV system with high outdoor air flow and no heat recovery.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 5,FanAvailSched,autosize,autosize,DrawThrough,0.75,950,0.85,1,TwoSpeedDX,, ,16,autosize,autosize,3,Gas,, ,13,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,22,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.7,None,None,None,,0.000001,2200,,30,NonCoincident,No,0.75,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a PackagedVAV system with a high-efficiency cooling coil and a low outdoor air flow.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 6,FanAvailSched,autosize,autosize,DrawThrough,0.78,1100,0.9,1,TwoSpeedDX,, ,18,autosize,autosize,3,Gas,, ,14,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,23,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.8,0.7,None,None,None,,0.000001,2400,,33,NonCoincident,No,0.78,550,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with no cooling coil and a high heating coil capacity.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 7,FanAvailSched,autosize,autosize,DrawThrough,0.7,1000,0.9,1,TwoSpeedDX,, ,20,autosize,autosize,4,Gas,, ,15,autosize,0.75,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,25,, ,6,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.65,None,None,None,,0.000001,2600,,35,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Model a Package VAV system with cooling coil setpoint reset and no humidification control.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 8,FanAvailSched,autosize,autosize,DrawThrough,0.85,1200,0.95,1,TwoSpeedDX,, ,15,autosize,autosize,3,Gas,, ,12,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,20,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.85,0.75,None,None,None,,0.000001,2500,,30,NonCoincident,No,0.85,500,0.95,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a system with no heating coil and a low outdoor air flow.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 9,FanAvailSched,autosize,autosize,DrawThrough,0.6,800,0.85,1,TwoSpeedDX,, ,12,autosize,autosize,3,Gas,, ,10,autosize,0.7,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,18,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.6,0.65,None,None,None,,0.000001,2200,,28,NonCoincident,No,0.6,400,0.85,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a Package VAV system with cooling coil, high heating coil capacity, and high outdoor air flow.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 10,FanAvailSched,autosize,autosize,DrawThrough,0.75,1300,0.9,1,TwoSpeedDX,, ,17,autosize,autosize,4,Gas,, ,14,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,24,, ,6,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.75,0.7,None,None,None,,0.000001,2700,,38,NonCoincident,No,0.75,650,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with high fan efficiency and a cooling coil without economizer.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 6,FanAvailSched,autosize,autosize,DrawThrough,0.85,1200,0.95,1,TwoSpeedDX,, ,14,autosize,autosize,3,Gas,, ,10,autosize,0.9,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,20,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.85,0.8,None,None,None,,0.000001,2500,,40,NonCoincident,No,0.85,600,0.95,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a Package VAV system with minimal outdoor air and no economizer, with a gas heating coil.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 7,FanAvailSched,autosize,autosize,DrawThrough,0.75,1100,0.9,1,TwoSpeedDX,, ,13,autosize,autosize,3,Gas,, ,9,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,19,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.75,0.7,None,None,None,,0.000001,2400,,35,NonCoincident,No,0.75,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a Packaged VAV system with low supply fan power and no economizer or heat recovery.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 8,FanAvailSched,autosize,autosize,DrawThrough,0.65,900,0.85,1,TwoSpeedDX,, ,15,autosize,autosize,3,Gas,, ,11,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,22,, ,6,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.65,None,None,None,,0.000001,2300,,30,NonCoincident,No,0.65,450,0.85,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a Package VAV system with a high sensible heat recovery effectiveness and no economizer.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 9,FanAvailSched,autosize,autosize,DrawThrough,0.8,1000,0.9,1,TwoSpeedDX,, ,16,autosize,autosize,3,Gas,, ,12,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,21,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.8,0.75,None,None,None,,0.000001,2200,,32,NonCoincident,No,0.8,550,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with a cooling coil setpoint of 18°C, no economizer, and proportional outdoor air control.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 10,FanAvailSched,autosize,autosize,DrawThrough,0.7,950,0.9,1,TwoSpeedDX,, ,18,autosize,autosize,3,Gas,, ,10,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,19,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.75,None,None,None,,0.000001,2400,,30,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with high fan efficiency and a cooling coil without economizer.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 6,FanAvailSched,autosize,autosize,DrawThrough,0.85,1200,0.95,1,TwoSpeedDX,, ,14,autosize,autosize,3,Gas,, ,10,autosize,0.9,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,20,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.85,0.8,None,None,None,,0.000001,2500,,40,NonCoincident,No,0.85,600,0.95,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a Package VAV system with minimal outdoor air and no economizer, with a gas heating coil.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 7,FanAvailSched,autosize,autosize,DrawThrough,0.75,1100,0.9,1,TwoSpeedDX,, ,13,autosize,autosize,3,Gas,, ,9,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,19,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.75,0.7,None,None,None,,0.000001,2400,,35,NonCoincident,No,0.75,500,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a Packaged VAV system with low supply fan power and no economizer or heat recovery.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 8,FanAvailSched,autosize,autosize,DrawThrough,0.65,900,0.85,1,TwoSpeedDX,, ,15,autosize,autosize,3,Gas,, ,11,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,22,, ,6,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.65,None,None,None,,0.000001,2300,,30,NonCoincident,No,0.65,450,0.85,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a Package VAV system with a high sensible heat recovery effectiveness and no economizer.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 9,FanAvailSched,autosize,autosize,DrawThrough,0.8,1000,0.9,1,TwoSpeedDX,, ,16,autosize,autosize,3,Gas,, ,12,autosize,0.85,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,21,, ,5,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.8,0.75,None,None,None,,0.000001,2200,,32,NonCoincident,No,0.8,550,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a Packaged VAV system with a cooling coil setpoint of 18°C, no economizer, and proportional outdoor air control.",
+    "assistant": "HVACTemplate:System:PackagedVAV,DXVAV Sys 10,FanAvailSched,autosize,autosize,DrawThrough,0.7,950,0.9,1,TwoSpeedDX,, ,18,autosize,autosize,3,Gas,, ,10,autosize,0.8,,autosize,autosize,ProportionalMinimum,Min OA Sched,NoEconomizer,NoLockout,19,, ,4,PLENUM -1,InletVaneDampers,CycleOnAny,,None,0.7,0.75,None,None,None,,0.000001,2400,,30,NonCoincident,No,0.7,500,0.9,1.0,InletVaneDampers;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a constant volume system with chilled water cooling and gas heating, and set the night cycle control to 'CycleOnAnyZoneFansOnly'.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 1,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 1-1,12.8,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,DifferentialDryBulb,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,60.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Specify a constant volume system with outdoor air economizer and sensible heat recovery.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 2,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 2-1,14.0,, , , ,HotWater,,FixedSetpoint,,55,, , , ,Autosize,0.85,0.0,None,, ,0.85,0.0,autosize,autosize,Min OA Sched,DifferentialDryBulb,21,5,, ,PLENUM -2,CycleOnAnyZoneFansOnly,,None,0.75,0.7,,,,65.0,,,,No,0.8,650,0.95,1.0;"
+  },
+  {
+    "user": "Create a constant volume system with a fixed heating coil setpoint of 50°C and no preheat coil, while enabling economizer with upper and lower limits of 22°C and 6°C respectively.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 3,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 3-1,16.0,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,DifferentialDryBulb,22,6,, ,PLENUM -3,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,70.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Configure a constant volume system with no dehumidification and a 30% humidifier setpoint.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 4,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 4-1,15.0,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,DifferentialDryBulb,20,5,, ,PLENUM -4,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,30.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Define a constant volume system with an economizer and a heating coil setpoint reset based on outdoor dry-bulb temperature.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 5,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 5-1,18.0,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,DifferentialDryBulb,19,4,, ,PLENUM -5,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,55.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Create a constant volume system with chilled water cooling, gas heating, and no economizer.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 6,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 6-1,14.0,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,None,19,4,, ,PLENUM -6,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,60.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Configure a constant volume system with outdoor air flow, gas heating, and no economizer.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 7,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 7-1,16.0,, , , ,HotWater,,FixedSetpoint,,55,, , , ,Autosize,0.85,0.0,None,, ,0.85,0.0,autosize,autosize,Min OA Sched,None,21,5,, ,PLENUM -7,CycleOnAnyZoneFansOnly,,None,0.75,0.7,,,,65.0,,,,No,0.8,650,0.95,1.0;"
+  },
+  {
+    "user": "Define a constant volume system with a fixed heating coil setpoint of 50°C, no economizer, and no preheat coil.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 8,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 8-1,15.5,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,None,20,5,, ,PLENUM -8,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,60.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Create a constant volume system with chilled water cooling, no economizer, and reset heating coil setpoint based on outdoor temperature.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 9,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 9-1,17.0,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,None,19,4,, ,PLENUM -9,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,,,55.0,,,,No,0.7,600,0.9,1.0;"
+  },
+  {
+    "user": "Define a constant volume system with no economizer, gas heating, and constant outdoor air flow rate.",
+    "assistant": "HVACTemplate:System:ConstantVolume,CAV Sys 10,FanAvailSched,autosize,0.7,600,0.9,1,DrawThrough,ChilledWater,,ControlZone,SPACE 10-1,18.5,, , , ,HotWater,,FixedSetpoint,,50,, , , ,Autosize,0.8,0.0,None,, ,0.8,0.0,autosize,autosize,Min OA Sched,None,20,5,, ,PLENUM -10,CycleOnAnyZoneFansOnly,,None,0.75,0.7,,,,60.0,,,,No,0.8,600,0.9,1.0;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Create a dual duct system with standard fan configurations and economizer functionality.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 1,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Configure a dual duct system with a gas preheat coil and fixed outdoor air flow.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 2,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,GasPreheat,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a dual duct system with high gas heating efficiency and outdoor air control.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 3,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a dual duct system with an economizer and dehumidification control.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 4,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Design a dual duct system with energy recovery and a dehumidification setpoint.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 5,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a dual duct system with a gas heating coil and economizer lockout.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Configure a dual duct system with a chilled water coil and gas heating coil efficiency of 0.9.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.9,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Design a dual duct system with maximum outdoor air flow and fixed minimum outdoor air control.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Specify a dual duct system with return fan and no heat recovery type.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,Yes,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a dual duct system with a night cycle control and no dehumidification.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a dual duct system with gas heating and chilled water for cooling.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Set up a dual duct system with hot and cold supply fans, and hot water heating coil.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Design a dual duct system with a chilled water cooling coil and fixed outdoor air flow rate.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a dual duct system with return fan and fixed minimum outdoor air control.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Configure a dual duct system with a gas heating coil and no heat recovery.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Define a dual duct system with gas heating and chilled water for cooling.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Set up a dual duct system with hot and cold supply fans, and hot water heating coil.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Design a dual duct system with a chilled water cooling coil and fixed outdoor air flow rate.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Create a dual duct system with return fan and fixed minimum outdoor air control.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  {
+    "user": "Configure a dual duct system with a gas heating coil and no heat recovery.",
+    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+  },
+  
+  
+  
+  
+ 
+  {
+    "user": "Specify a DOAS system with chilled water cooling and hot water heating coil.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Create a DOAS system with no heating coil and no humidifier.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Define a DOAS system with sensible and latent heat recovery.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Set up a DOAS system with dehumidification control but no humidifier.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Configure a DOAS system with a gas heating coil and no cooling coil.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Specify a DOAS system with chilled water cooling and hot water heating coil.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Create a DOAS system with no heating coil and no humidifier.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Define a DOAS system with sensible and latent heat recovery.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Set up a DOAS system with dehumidification control but no humidifier.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  {
+    "user": "Configure a DOAS system with a gas heating coil and no cooling coil.",
+    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a chilled water loop with intermittent pump control and variable flow configuration.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,Chilled Water Loop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,29.4,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Create a chilled water loop with fixed temperature reset based on outdoor dry bulb temperature.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,FixedTempResetLoop,FixedTempSched,Fixed,FixedTempScheme,CW Temp Reset Schedule,8.0,ConstantFlow,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,Fixed,13.5,17.8,8.0,27.5,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,7.0,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Model a chilled water loop with a high condenser water setpoint and sequential load distribution.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,HighCondWaterSetpointLoop,HighSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,33.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Set up a chilled water loop with single pumps and a condenser water setpoint schedule based on outdoor conditions.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,SinglePumpCondLoop,ChilledPumpSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Model a chilled water loop with dual temperature reset points based on outdoor conditions.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,DualTempResetLoop,TempResetSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Define a chilled water loop with an outdoor dry bulb temperature reset and variable flow configuration.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorTempResetLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,29.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Model a chilled water loop with a high condenser water setpoint, and sequential load distribution for both chilled and condenser water.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,HighCondSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,32.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Set up a chilled water loop with a low outdoor dry bulb reset temperature and a single pump configuration.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,LowOutdoorTempLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,25.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Create a chilled water loop with a fixed setpoint schedule and sequential load distribution.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,FixedSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,FixedTempSched,7.22,ConstantFlow,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  {
+    "user": "Model a chilled water loop with a reset setpoint based on outdoor dry bulb temperature and dual pumps for both chilled and condenser water.",
+    "answer": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorResetDualPumpLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Create a basic electric centrifugal chiller with a minimum part load ratio and condenser water-cooled.",
+    "answer": "HVACTemplate:Plant:Chiller,DistrictCooling,ElectricCentrifugalChiller,autosize,3.2,WaterCooled,1,1,0.1,1.1,0.9,0.2,2;"
+  },
+  {
+    "user": "Define a chiller with a high COP and a priority of 2.",
+    "answer": "HVACTemplate:Plant:Chiller,HighCOPChiller,ElectricCentrifugalChiller,autosize,5.0,WaterCooled,2,1,0.1,1.1,0.9,0.2,2;"
+  },
+  {
+    "user": "Specify a district cooling chiller with an optimized part load ratio and a minimum unloading ratio of 0.1.",
+    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingOptimized,ElectricCentrifugalChiller,autosize,4.5,WaterCooled,1,1,0.1,1.1,0.9,0.1,2;"
+  },
+  {
+    "user": "Model a chiller with an autosized capacity and high part load ratio limits.",
+    "answer": "HVACTemplate:Plant:Chiller,HighLoadChiller,ElectricCentrifugalChiller,autosize,3.5,WaterCooled,1,1,0.1,1.5,1.2,0.2,2;"
+  },
+  {
+    "user": "Define a chiller with a condenser type as water-cooled and a maximum part load ratio of 1.2.",
+    "answer": "HVACTemplate:Plant:Chiller,WaterCooledChiller,ElectricCentrifugalChiller,autosize,3.8,WaterCooled,1,1,0.1,1.2,0.9,0.2,2;"
+  },
+  {
+    "user": "Create a chiller for district cooling with a low minimum part load ratio and autosized capacity.",
+    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingLowLoad,ElectricCentrifugalChiller,autosize,3.0,WaterCooled,1,1,0.05,1.1,0.9,0.1,2;"
+  },
+  {
+    "user": "Specify a chiller with a high priority and an optimum part load ratio of 1.0.",
+    "answer": "HVACTemplate:Plant:Chiller,HighPriorityChiller,ElectricCentrifugalChiller,autosize,3.6,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
+  },
+  {
+    "user": "Model a chiller with low part load ratios and a minimum unloading ratio of 0.15.",
+    "answer": "HVACTemplate:Plant:Chiller,LowPartLoadChiller,ElectricCentrifugalChiller,autosize,3.4,WaterCooled,1,1,0.1,1.1,0.9,0.15,2;"
+  },
+  {
+    "user": "Define a chiller with autosized capacity and a maximum unloading ratio of 0.3.",
+    "answer": "HVACTemplate:Plant:Chiller,MaxUnloadRatioChiller,ElectricCentrifugalChiller,autosize,4.0,WaterCooled,1,1,0.1,1.1,0.9,0.3,2;"
+  },
+  {
+    "user": "Create a chiller for district cooling with a high COP and part load ratio of 1.0.",
+    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingHighCOP,ElectricCentrifugalChiller,autosize,5.5,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a chiller object reference for a primary electric chiller.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Main Chiller Connection,Chiller:Electric:EIR,Main Chiller,1;"
+  },
+  {
+    "user": "Specify a chiller object reference for a secondary chiller on a backup loop.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Backup Chiller Connection,Chiller:Electric:EIR,Backup Chiller,2;"
+  },
+  {
+    "user": "Create a chiller object reference for a high-efficiency chiller with priority 1.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,High Efficiency Chiller Connection,Chiller:Electric:EIR,High Efficiency Chiller,1;"
+  },
+  {
+    "user": "Add a chiller object reference with a low-priority for a chilled water loop.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Low Priority Chiller Connection,Chiller:Electric:EIR,Low Priority Chiller,10;"
+  },
+  {
+    "user": "Model a chiller connection for an electric chiller with a priority of 5.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Electric Chiller Connection,Chiller:Electric:EIR,Electric Chiller,5;"
+  },
+  {
+    "user": "Define a chiller object reference for a custom chiller with priority 2.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Custom Chiller Connection,Chiller:Electric:EIR,Custom Chiller,2;"
+  },
+  {
+    "user": "Set up a chiller connection for a main system chiller with priority 1.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Main System Chiller Connection,Chiller:Electric:EIR,Main System Chiller,1;"
+  },
+  {
+    "user": "Create a chiller object reference for a system cooling loop with priority 3.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,System Cooling Chiller Connection,Chiller:Electric:EIR,System Cooling Chiller,3;"
+  },
+  {
+    "user": "Configure a chiller object reference for a split system with priority 4.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Splitted System Chiller Connection,Chiller:Electric:EIR,Splitted System Chiller,4;"
+  },
+  {
+    "user": "Add a chiller object reference for a high-capacity chiller with priority 6.",
+    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,High Capacity Chiller Connection,Chiller:Electric:EIR,High Capacity Chiller,6;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a main cooling tower with autosized capacity and fan power.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Specify a cooling tower with high speed and low speed capacities autosized and a free convection capacity.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Set up a tower with autosized fan power and a priority value of 1.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Model a cooling tower with autosized capacities for high and low speed, including free convection.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Create a tower configuration with all capacities autosized and a priority of 1.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Define a tower with priority 1 and autosized capacities for both high and low speed.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Specify a single-speed cooling tower with autosized nominal capacities and a sizing factor of 1.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Set up a cooling tower with autosized values for both fan power and capacities, with a priority factor of 1.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Model a tower with autosized capacities and free convection power for a single-speed fan system.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  {
+    "user": "Create a cooling tower with sizing factors set to autosize for all parameters and priority of 1.",
+    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a cooling tower reference object connection with a two-speed tower and a priority of 1.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Connection,CoolingTower:TwoSpeed,Main Tower,1;"
+  },
+  {
+    "user": "Create a reference for a cooling tower object with high priority.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTowerRef,CoolingTower:TwoSpeed,Secondary Tower,1;"
+  },
+  {
+    "user": "Model a cooling tower reference object connection with a two-speed cooling tower and priority 2.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,2;"
+  },
+  {
+    "user": "Set up a reference to a cooling tower named 'Main Tower' with a priority of 3.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Reference,CoolingTower:TwoSpeed,Main Tower,3;"
+  },
+  {
+    "user": "Create a cooling tower reference with a two-speed system and priority of 5.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,HighPriority Tower,CoolingTower:TwoSpeed,High Tower,5;"
+  },
+  {
+    "user": "Define a cooling tower object reference for a secondary tower with priority 1.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,1;"
+  },
+  {
+    "user": "Reference a two-speed cooling tower with a medium priority level.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Medium Priority Tower,CoolingTower:TwoSpeed,Medium Tower,2;"
+  },
+  {
+    "user": "Create a cooling tower reference object connection for the primary tower with priority 10.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Primary Tower Connection,CoolingTower:TwoSpeed,Primary Tower,10;"
+  },
+  {
+    "user": "Setup a cooling tower reference with a two-speed unit and a priority of 4.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTower Connection,CoolingTower:TwoSpeed,Backup Tower,4;"
+  },
+  {
+    "user": "Configure a reference to a two-speed cooling tower with the highest priority.",
+    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Priority Tower,CoolingTower:TwoSpeed,Main Tower,1;"
+  },
+  
+  
+  
+  
+  
+  {
+    "user": "Define a hot water loop with intermittent pump control and a setpoint schedule.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop1,,Intermittent,Default,,HW Loop Temp Schedule,82,VariableFlow,179352,None,82.2,-6.7,65.6,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
+  },
+  {
+    "user": "Create a hot water loop with fixed setpoint and supply side bypass pipe.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop2,,Intermittent,Default,,FixedTempSchedule,80,VariableFlow,180000,None,80,-5.0,70.0,5,SinglePump,Yes,No,Water,10,,SequentialLoad;"
+  },
+  {
+    "user": "Specify a hot water loop with demand-side bypass and outdoor temperature reset.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop3,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179500,None,82.0,-5.0,65.0,12,SinglePump,No,Yes,Water,12,,SequentialLoad;"
+  },
+  {
+    "user": "Model a hot water loop with outdoor dry bulb temperature reset and supply-side bypass.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop4,,Intermittent,Default,,HW Temp Schedule,85,VariableFlow,180500,None,85.5,-6.0,75.0,7,SinglePump,Yes,No,Water,9,,SequentialLoad;"
+  },
+  {
+    "user": "Create a hot water loop with a temperature reset at both high and low outdoor temperatures.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop5,,Intermittent,Default,,HW Temp Schedule,82,VariableFlow,179000,None,82.2,-8.0,68.0,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
+  },
+  {
+    "user": "Define a hot water loop with variable flow and pump rated head of 180000 Pa.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop6,,Intermittent,Default,,FixedTempSchedule,78,VariableFlow,180000,None,78.0,-6.0,67.0,9,SinglePump,Yes,No,Water,10,,SequentialLoad;"
+  },
+  {
+    "user": "Model a hot water loop with outdoor reset and variable flow configuration.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop7,,Intermittent,Default,,ResetSchedule,80,VariableFlow,179800,None,80.5,-7.0,68.5,8,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
+  },
+  {
+    "user": "Create a hot water loop with supply and demand side bypass, and reset outdoor dry bulb low temperature.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop8,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179350,None,82.0,-5.5,66.0,11,SinglePump,Yes,Yes,Water,10,,SequentialLoad;"
+  },
+  {
+    "user": "Specify a hot water loop with low setpoint reset and sequential load distribution.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop9,,Intermittent,Default,,LowTempSchedule,77,VariableFlow,180200,None,77.5,-4.5,65.5,13,SinglePump,No,Yes,Water,11,,SequentialLoad;"
+  },
+  {
+    "user": "Model a hot water loop with high outdoor reset and fluid type water.",
+    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop10,,Intermittent,Default,,HW High Temp Schedule,84,VariableFlow,179750,None,84.0,-5.0,73.0,9,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a natural gas boiler with high efficiency and standard sizing factors.",
+    "answer": "HVACTemplate:Plant:Boiler,Main Boiler,HotWaterBoiler,autosize,0.9,NaturalGas,1,1,0.1,1.2,0.9,99.9;"
+  },
+  {
+    "user": "Specify a boiler with a lower efficiency and a wider part load ratio.",
+    "answer": "HVACTemplate:Plant:Boiler,Secondary Boiler,HotWaterBoiler,autosize,0.7,NaturalGas,1,1,0.2,1.5,0.8,99.9;"
+  },
+  {
+    "user": "Create a high-efficiency boiler with a low minimum part load ratio and a narrow part load range.",
+    "answer": "HVACTemplate:Plant:Boiler,Efficient Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.05,0.95,99.9;"
+  },
+  {
+    "user": "Model a gas boiler with standard specifications for a residential application.",
+    "answer": "HVACTemplate:Plant:Boiler,Residential Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.1,1.0,0.85,99.9;"
+  },
+  {
+    "user": "Define a commercial boiler with a high maximum part load ratio and optimized for efficiency.",
+    "answer": "HVACTemplate:Plant:Boiler,Commercial Boiler,HotWaterBoiler,autosize,0.92,NaturalGas,1,1,0.1,1.3,0.9,99.9;"
+  },
+  {
+    "user": "Specify a boiler with a reduced part load ratio and higher efficiency for industrial use.",
+    "answer": "HVACTemplate:Plant:Boiler,Industrial Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.2,0.95,99.9;"
+  },
+  {
+    "user": "Create a boiler with a very low minimum part load ratio and a low optimum part load ratio.",
+    "answer": "HVACTemplate:Plant:Boiler,Low Load Boiler,HotWaterBoiler,autosize,0.75,NaturalGas,1,1,0.02,1.0,0.7,99.9;"
+  },
+  {
+    "user": "Model a boiler with a high part load ratio and moderate efficiency for a large building.",
+    "answer": "HVACTemplate:Plant:Boiler,Large Building Boiler,HotWaterBoiler,autosize,0.8,NaturalGas,1,1,0.1,1.5,0.85,99.9;"
+  },
+  {
+    "user": "Define a boiler with a low efficiency and a higher part load range for flexible operation.",
+    "answer": "HVACTemplate:Plant:Boiler,Flexible Boiler,HotWaterBoiler,autosize,0.65,NaturalGas,1,1,0.15,1.8,0.75,99.9;"
+  },
+  {
+    "user": "Create a boiler optimized for minimal energy consumption with a very narrow part load ratio.",
+    "answer": "HVACTemplate:Plant:Boiler,Minimal Consumption Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.05,1.1,0.85,99.9;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a boiler reference object connection for a hot water system with priority set to 1.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,MainBoilerConnection,Boiler:HotWater,MainBoiler,1;"
+  },
+  {
+    "user": "Specify a boiler reference object connection with a different boiler name and priority 2.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,SecondaryBoilerConnection,Boiler:HotWater,SecondaryBoiler,2;"
+  },
+  {
+    "user": "Create a boiler reference object connection for a high-efficiency hot water boiler with priority 3.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,HighEfficiencyBoilerConnection,Boiler:HotWater,HighEfficiencyBoiler,3;"
+  },
+  {
+    "user": "Set up a boiler reference object connection with a low-priority hot water boiler system.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,LowPriorityBoilerConnection,Boiler:HotWater,LowPriorityBoiler,4;"
+  },
+  {
+    "user": "Define a boiler connection for the main heating system with priority 1.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,MainHeatingBoilerConnection,Boiler:HotWater,MainHeatingBoiler,1;"
+  },
+  {
+    "user": "Model a boiler connection with a specific boiler for domestic hot water and priority 2.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,DHWBoilerConnection,Boiler:HotWater,DHWBoiler,2;"
+  },
+  {
+    "user": "Set up a boiler reference connection with a dual-fuel boiler and priority 1.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,DualFuelBoilerConnection,Boiler:HotWater,DualFuelBoiler,1;"
+  },
+  {
+    "user": "Create a reference for a boiler used in a process heating system with priority 3.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,ProcessHeatingBoilerConnection,Boiler:HotWater,ProcessHeatingBoiler,3;"
+  },
+  {
+    "user": "Define a boiler object connection with a named hot water boiler and priority 1 for backup.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,BackupBoilerConnection,Boiler:HotWater,BackupBoiler,1;"
+  },
+  {
+    "user": "Specify a boiler object connection for a low-temperature hot water system with priority 2.",
+    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,LowTempBoilerConnection,Boiler:HotWater,LowTempBoiler,2;"
+  },
+  
+  
+  
+  
+  
+  {
+    "user": "Define a basic mixed water loop with intermittent pump control and default operation scheme.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,OnlyWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Specify a mixed water loop with high temperature setpoint and constant flow configuration.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,HighTempWaterLoop,,Intermittent,Default,,34,,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Model a mixed water loop with a low temperature setpoint and supply and demand bypass pipes.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,LowTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Define a mixed water loop with a specific high temperature setpoint and constant flow water pump.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,SpecificTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Model a mixed water loop with single pump and high temperature setpoint schedule.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,SinglePumpWaterLoop,,Intermittent,Default,HighTempSchedule,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Create a mixed water loop with a loop design delta temperature of 5°C.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,LowDeltaTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,5,SequentialLoad;"
+  },
+  {
+    "user": "Specify a mixed water loop with supply side and demand side bypass pipes, constant flow, and sequential load distribution.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,BypassWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Model a mixed water loop with a rated pump head of 200,000 Pa and constant flow.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,RatedHeadWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,200000,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Define a mixed water loop with high temperature and low temperature design setpoints.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,TempSetpointWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  },
+  {
+    "user": "Specify a mixed water loop with intermittent pump control and default operation scheme.",
+    "answer": "HVACTemplate:Plant:MixedWaterLoop,IntermittentWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+  }
+  
 ]
