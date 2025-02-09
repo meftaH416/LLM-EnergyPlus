@@ -5521,83 +5521,83 @@
   
   {
     "user": "Create a dual duct system with standard fan configurations and economizer functionality.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 1,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 1,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Configure a dual duct system with a gas preheat coil and fixed outdoor air flow.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 2,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,GasPreheat,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 2,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,GasPreheat,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Define a dual duct system with high gas heating efficiency and outdoor air control.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 3,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 3,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Specify a dual duct system with an economizer and dehumidification control.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 4,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 4,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Design a dual duct system with energy recovery and a dehumidification setpoint.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 5,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 5,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Create a dual duct system with a gas heating coil and economizer lockout.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Configure a dual duct system with a chilled water coil and gas heating coil efficiency of 0.9.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.9,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.9,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Design a dual duct system with maximum outdoor air flow and fixed minimum outdoor air control.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Specify a dual duct system with return fan and no heat recovery type.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,Yes,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,Yes,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Create a dual duct system with a night cycle control and no dehumidification.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,DifferentialDryBulb,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Define a dual duct system with gas heating and chilled water for cooling.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Set up a dual duct system with hot and cold supply fans, and hot water heating coil.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Design a dual duct system with a chilled water cooling coil and fixed outdoor air flow rate.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Create a dual duct system with return fan and fixed minimum outdoor air control.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Configure a dual duct system with a gas heating coil and no heat recovery.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Define a dual duct system with gas heating and chilled water for cooling.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 6,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Set up a dual duct system with hot and cold supply fans, and hot water heating coil.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 7,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Design a dual duct system with a chilled water cooling coil and fixed outdoor air flow rate.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 8,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Create a dual duct system with return fan and fixed minimum outdoor air control.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 9,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   {
     "user": "Configure a dual duct system with a gas heating coil and no heat recovery.",
-    "answer": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
+    "assistant": "HVACTemplate:System:DualDuct,DD Sys 10,FanAvailSched,Single,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,autosize,0.2,0.7,600,0.9,1,InletVaneDampers,DrawThrough,ChilledWater,,ControlZone,12.8,, , , ,HotWater,,FixedSetpoint,50,, , , , ,Autosize,0.8,0.0,None,, , , , ,autosize,autosize,FixedMinimum,Min OA Sched,None,NoLockout,19,4,, ,PLENUM -1,CycleOnAnyZoneFansOnly,,None,0.70,0.65,,None,,60.0,,None,,0.000001,2690.0,,30.0,,NonCoincident,No,0.7,600,0.9,1.0,InletVaneDampers;"
   },
   
   
@@ -5606,43 +5606,43 @@
  
   {
     "user": "Specify a DOAS system with chilled water cooling and hot water heating coil.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Create a DOAS system with no heating coil and no humidifier.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Define a DOAS system with sensible and latent heat recovery.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Set up a DOAS system with dehumidification control but no humidifier.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Configure a DOAS system with a gas heating coil and no cooling coil.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Specify a DOAS system with chilled water cooling and hot water heating coil.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Create a DOAS system with no heating coil and no humidifier.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,None, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Define a DOAS system with sensible and latent heat recovery.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Set up a DOAS system with dehumidification control but no humidifier.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,ChilledWater, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,DehumidificationControl,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   {
     "user": "Configure a DOAS system with a gas heating coil and no cooling coil.",
-    "answer": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
+    "assistant": "HVACTemplate:System:DedicatedOutdoorAir,DOAS, ,DirectIntoZone,autosize,0.7,1000,0.9,1,DrawThrough,None, ,FixedSetpoint, ,12.8,15.6,15.6,12.8,23.3,autosize,autosize,3,HotWater, ,FixedSetpoint, ,12.2,15,7.8,12.2,12.2,0.8, ,Enthalpy,0.7,0.65,Plate,None,None,None,0.00924,None, ,0.000001,2690,0.003, ,"
   },
   
   
@@ -5650,43 +5650,43 @@
   
   {
     "user": "Define a chilled water loop with intermittent pump control and variable flow configuration.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,Chilled Water Loop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,29.4,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,Chilled Water Loop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,29.4,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Create a chilled water loop with fixed temperature reset based on outdoor dry bulb temperature.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,FixedTempResetLoop,FixedTempSched,Fixed,FixedTempScheme,CW Temp Reset Schedule,8.0,ConstantFlow,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,Fixed,13.5,17.8,8.0,27.5,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,7.0,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,FixedTempResetLoop,FixedTempSched,Fixed,FixedTempScheme,CW Temp Reset Schedule,8.0,ConstantFlow,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,Fixed,13.5,17.8,8.0,27.5,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,7.0,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Model a chilled water loop with a high condenser water setpoint and sequential load distribution.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,HighCondWaterSetpointLoop,HighSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,33.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,HighCondWaterSetpointLoop,HighSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,33.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Set up a chilled water loop with single pumps and a condenser water setpoint schedule based on outdoor conditions.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,SinglePumpCondLoop,ChilledPumpSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,SinglePumpCondLoop,ChilledPumpSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Model a chilled water loop with dual temperature reset points based on outdoor conditions.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,DualTempResetLoop,TempResetSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,DualTempResetLoop,TempResetSched,Intermittent,Default,,CW Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Define a chilled water loop with an outdoor dry bulb temperature reset and variable flow configuration.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorTempResetLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,29.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorTempResetLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,29.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Model a chilled water loop with a high condenser water setpoint, and sequential load distribution for both chilled and condenser water.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,HighCondSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,32.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,HighCondSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorWetBulbTemperature,,32.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Set up a chilled water loop with a low outdoor dry bulb reset temperature and a single pump configuration.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,LowOutdoorTempLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,25.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,LowOutdoorTempLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,25.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Create a chilled water loop with a fixed setpoint schedule and sequential load distribution.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,FixedSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,FixedTempSched,7.22,ConstantFlow,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,FixedSetpointLoop,CoolingPumpAvailSched,Intermittent,Default,,FixedTempSched,7.22,ConstantFlow,179352,179352,Default,,OutdoorWetBulbTemperature,,28.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   {
     "user": "Model a chilled water loop with a reset setpoint based on outdoor dry bulb temperature and dual pumps for both chilled and condenser water.",
-    "answer": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorResetDualPumpLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:ChilledWaterLoop,OutdoorResetDualPumpLoop,CoolingPumpAvailSched,Intermittent,Default,,CW Loop Temp Schedule,7.22,VariableFlowNoSecondary,179352,179352,Default,,OutdoorDryBulbTemperature,,30.0,179352,None,12.2,15.6,6.7,26.7,SinglePump,SinglePump,SinglePump,Yes,Yes,Yes,Yes,Water,6.67,,SequentialLoad,SequentialLoad;"
   },
   
   
@@ -5694,43 +5694,43 @@
   
   {
     "user": "Create a basic electric centrifugal chiller with a minimum part load ratio and condenser water-cooled.",
-    "answer": "HVACTemplate:Plant:Chiller,DistrictCooling,ElectricCentrifugalChiller,autosize,3.2,WaterCooled,1,1,0.1,1.1,0.9,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,DistrictCooling,ElectricCentrifugalChiller,autosize,3.2,WaterCooled,1,1,0.1,1.1,0.9,0.2,2;"
   },
   {
     "user": "Define a chiller with a high COP and a priority of 2.",
-    "answer": "HVACTemplate:Plant:Chiller,HighCOPChiller,ElectricCentrifugalChiller,autosize,5.0,WaterCooled,2,1,0.1,1.1,0.9,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,HighCOPChiller,ElectricCentrifugalChiller,autosize,5.0,WaterCooled,2,1,0.1,1.1,0.9,0.2,2;"
   },
   {
     "user": "Specify a district cooling chiller with an optimized part load ratio and a minimum unloading ratio of 0.1.",
-    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingOptimized,ElectricCentrifugalChiller,autosize,4.5,WaterCooled,1,1,0.1,1.1,0.9,0.1,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,DistrictCoolingOptimized,ElectricCentrifugalChiller,autosize,4.5,WaterCooled,1,1,0.1,1.1,0.9,0.1,2;"
   },
   {
     "user": "Model a chiller with an autosized capacity and high part load ratio limits.",
-    "answer": "HVACTemplate:Plant:Chiller,HighLoadChiller,ElectricCentrifugalChiller,autosize,3.5,WaterCooled,1,1,0.1,1.5,1.2,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,HighLoadChiller,ElectricCentrifugalChiller,autosize,3.5,WaterCooled,1,1,0.1,1.5,1.2,0.2,2;"
   },
   {
     "user": "Define a chiller with a condenser type as water-cooled and a maximum part load ratio of 1.2.",
-    "answer": "HVACTemplate:Plant:Chiller,WaterCooledChiller,ElectricCentrifugalChiller,autosize,3.8,WaterCooled,1,1,0.1,1.2,0.9,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,WaterCooledChiller,ElectricCentrifugalChiller,autosize,3.8,WaterCooled,1,1,0.1,1.2,0.9,0.2,2;"
   },
   {
     "user": "Create a chiller for district cooling with a low minimum part load ratio and autosized capacity.",
-    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingLowLoad,ElectricCentrifugalChiller,autosize,3.0,WaterCooled,1,1,0.05,1.1,0.9,0.1,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,DistrictCoolingLowLoad,ElectricCentrifugalChiller,autosize,3.0,WaterCooled,1,1,0.05,1.1,0.9,0.1,2;"
   },
   {
     "user": "Specify a chiller with a high priority and an optimum part load ratio of 1.0.",
-    "answer": "HVACTemplate:Plant:Chiller,HighPriorityChiller,ElectricCentrifugalChiller,autosize,3.6,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,HighPriorityChiller,ElectricCentrifugalChiller,autosize,3.6,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
   },
   {
     "user": "Model a chiller with low part load ratios and a minimum unloading ratio of 0.15.",
-    "answer": "HVACTemplate:Plant:Chiller,LowPartLoadChiller,ElectricCentrifugalChiller,autosize,3.4,WaterCooled,1,1,0.1,1.1,0.9,0.15,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,LowPartLoadChiller,ElectricCentrifugalChiller,autosize,3.4,WaterCooled,1,1,0.1,1.1,0.9,0.15,2;"
   },
   {
     "user": "Define a chiller with autosized capacity and a maximum unloading ratio of 0.3.",
-    "answer": "HVACTemplate:Plant:Chiller,MaxUnloadRatioChiller,ElectricCentrifugalChiller,autosize,4.0,WaterCooled,1,1,0.1,1.1,0.9,0.3,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,MaxUnloadRatioChiller,ElectricCentrifugalChiller,autosize,4.0,WaterCooled,1,1,0.1,1.1,0.9,0.3,2;"
   },
   {
     "user": "Create a chiller for district cooling with a high COP and part load ratio of 1.0.",
-    "answer": "HVACTemplate:Plant:Chiller,DistrictCoolingHighCOP,ElectricCentrifugalChiller,autosize,5.5,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
+    "assistant": "HVACTemplate:Plant:Chiller,DistrictCoolingHighCOP,ElectricCentrifugalChiller,autosize,5.5,WaterCooled,1,1,0.1,1.0,0.9,0.2,2;"
   },
   
   
@@ -5738,43 +5738,43 @@
   
   {
     "user": "Define a chiller object reference for a primary electric chiller.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Main Chiller Connection,Chiller:Electric:EIR,Main Chiller,1;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Main Chiller Connection,Chiller:Electric:EIR,Main Chiller,1;"
   },
   {
     "user": "Specify a chiller object reference for a secondary chiller on a backup loop.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Backup Chiller Connection,Chiller:Electric:EIR,Backup Chiller,2;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Backup Chiller Connection,Chiller:Electric:EIR,Backup Chiller,2;"
   },
   {
     "user": "Create a chiller object reference for a high-efficiency chiller with priority 1.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,High Efficiency Chiller Connection,Chiller:Electric:EIR,High Efficiency Chiller,1;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,High Efficiency Chiller Connection,Chiller:Electric:EIR,High Efficiency Chiller,1;"
   },
   {
     "user": "Add a chiller object reference with a low-priority for a chilled water loop.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Low Priority Chiller Connection,Chiller:Electric:EIR,Low Priority Chiller,10;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Low Priority Chiller Connection,Chiller:Electric:EIR,Low Priority Chiller,10;"
   },
   {
     "user": "Model a chiller connection for an electric chiller with a priority of 5.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Electric Chiller Connection,Chiller:Electric:EIR,Electric Chiller,5;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Electric Chiller Connection,Chiller:Electric:EIR,Electric Chiller,5;"
   },
   {
     "user": "Define a chiller object reference for a custom chiller with priority 2.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Custom Chiller Connection,Chiller:Electric:EIR,Custom Chiller,2;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Custom Chiller Connection,Chiller:Electric:EIR,Custom Chiller,2;"
   },
   {
     "user": "Set up a chiller connection for a main system chiller with priority 1.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Main System Chiller Connection,Chiller:Electric:EIR,Main System Chiller,1;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Main System Chiller Connection,Chiller:Electric:EIR,Main System Chiller,1;"
   },
   {
     "user": "Create a chiller object reference for a system cooling loop with priority 3.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,System Cooling Chiller Connection,Chiller:Electric:EIR,System Cooling Chiller,3;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,System Cooling Chiller Connection,Chiller:Electric:EIR,System Cooling Chiller,3;"
   },
   {
     "user": "Configure a chiller object reference for a split system with priority 4.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,Splitted System Chiller Connection,Chiller:Electric:EIR,Splitted System Chiller,4;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,Splitted System Chiller Connection,Chiller:Electric:EIR,Splitted System Chiller,4;"
   },
   {
     "user": "Add a chiller object reference for a high-capacity chiller with priority 6.",
-    "answer": "HVACTemplate:Plant:Chiller:ObjectReference,High Capacity Chiller Connection,Chiller:Electric:EIR,High Capacity Chiller,6;"
+    "assistant": "HVACTemplate:Plant:Chiller:ObjectReference,High Capacity Chiller Connection,Chiller:Electric:EIR,High Capacity Chiller,6;"
   },
   
   
@@ -5782,43 +5782,43 @@
   
   {
     "user": "Define a main cooling tower with autosized capacity and fan power.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Specify a cooling tower with high speed and low speed capacities autosized and a free convection capacity.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Set up a tower with autosized fan power and a priority value of 1.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Model a cooling tower with autosized capacities for high and low speed, including free convection.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Create a tower configuration with all capacities autosized and a priority of 1.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Define a tower with priority 1 and autosized capacities for both high and low speed.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Specify a single-speed cooling tower with autosized nominal capacities and a sizing factor of 1.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Set up a cooling tower with autosized values for both fan power and capacities, with a priority factor of 1.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Model a tower with autosized capacities and free convection power for a single-speed fan system.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   {
     "user": "Create a cooling tower with sizing factors set to autosize for all parameters and priority of 1.",
-    "answer": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
+    "assistant": "HVACTemplate:Plant:Tower,Main Tower,SingleSpeed,autosize,autosize,autosize,autosize,autosize,1;"
   },
   
   
@@ -5826,43 +5826,43 @@
   
   {
     "user": "Define a cooling tower reference object connection with a two-speed tower and a priority of 1.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Connection,CoolingTower:TwoSpeed,Main Tower,1;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Connection,CoolingTower:TwoSpeed,Main Tower,1;"
   },
   {
     "user": "Create a reference for a cooling tower object with high priority.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTowerRef,CoolingTower:TwoSpeed,Secondary Tower,1;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTowerRef,CoolingTower:TwoSpeed,Secondary Tower,1;"
   },
   {
     "user": "Model a cooling tower reference object connection with a two-speed cooling tower and priority 2.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,2;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,2;"
   },
   {
     "user": "Set up a reference to a cooling tower named 'Main Tower' with a priority of 3.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Reference,CoolingTower:TwoSpeed,Main Tower,3;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Main Tower Reference,CoolingTower:TwoSpeed,Main Tower,3;"
   },
   {
     "user": "Create a cooling tower reference with a two-speed system and priority of 5.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,HighPriority Tower,CoolingTower:TwoSpeed,High Tower,5;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,HighPriority Tower,CoolingTower:TwoSpeed,High Tower,5;"
   },
   {
     "user": "Define a cooling tower object reference for a secondary tower with priority 1.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,1;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Secondary Tower Connection,CoolingTower:TwoSpeed,Secondary Tower,1;"
   },
   {
     "user": "Reference a two-speed cooling tower with a medium priority level.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Medium Priority Tower,CoolingTower:TwoSpeed,Medium Tower,2;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Medium Priority Tower,CoolingTower:TwoSpeed,Medium Tower,2;"
   },
   {
     "user": "Create a cooling tower reference object connection for the primary tower with priority 10.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Primary Tower Connection,CoolingTower:TwoSpeed,Primary Tower,10;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Primary Tower Connection,CoolingTower:TwoSpeed,Primary Tower,10;"
   },
   {
     "user": "Setup a cooling tower reference with a two-speed unit and a priority of 4.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTower Connection,CoolingTower:TwoSpeed,Backup Tower,4;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,CoolingTower Connection,CoolingTower:TwoSpeed,Backup Tower,4;"
   },
   {
     "user": "Configure a reference to a two-speed cooling tower with the highest priority.",
-    "answer": "HVACTemplate:Plant:Tower:ObjectReference,Priority Tower,CoolingTower:TwoSpeed,Main Tower,1;"
+    "assistant": "HVACTemplate:Plant:Tower:ObjectReference,Priority Tower,CoolingTower:TwoSpeed,Main Tower,1;"
   },
   
   
@@ -5871,43 +5871,43 @@
   
   {
     "user": "Define a hot water loop with intermittent pump control and a setpoint schedule.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop1,,Intermittent,Default,,HW Loop Temp Schedule,82,VariableFlow,179352,None,82.2,-6.7,65.6,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop1,,Intermittent,Default,,HW Loop Temp Schedule,82,VariableFlow,179352,None,82.2,-6.7,65.6,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
   },
   {
     "user": "Create a hot water loop with fixed setpoint and supply side bypass pipe.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop2,,Intermittent,Default,,FixedTempSchedule,80,VariableFlow,180000,None,80,-5.0,70.0,5,SinglePump,Yes,No,Water,10,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop2,,Intermittent,Default,,FixedTempSchedule,80,VariableFlow,180000,None,80,-5.0,70.0,5,SinglePump,Yes,No,Water,10,,SequentialLoad;"
   },
   {
     "user": "Specify a hot water loop with demand-side bypass and outdoor temperature reset.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop3,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179500,None,82.0,-5.0,65.0,12,SinglePump,No,Yes,Water,12,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop3,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179500,None,82.0,-5.0,65.0,12,SinglePump,No,Yes,Water,12,,SequentialLoad;"
   },
   {
     "user": "Model a hot water loop with outdoor dry bulb temperature reset and supply-side bypass.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop4,,Intermittent,Default,,HW Temp Schedule,85,VariableFlow,180500,None,85.5,-6.0,75.0,7,SinglePump,Yes,No,Water,9,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop4,,Intermittent,Default,,HW Temp Schedule,85,VariableFlow,180500,None,85.5,-6.0,75.0,7,SinglePump,Yes,No,Water,9,,SequentialLoad;"
   },
   {
     "user": "Create a hot water loop with a temperature reset at both high and low outdoor temperatures.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop5,,Intermittent,Default,,HW Temp Schedule,82,VariableFlow,179000,None,82.2,-8.0,68.0,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop5,,Intermittent,Default,,HW Temp Schedule,82,VariableFlow,179000,None,82.2,-8.0,68.0,10,SinglePump,Yes,Yes,Water,11,,SequentialLoad;"
   },
   {
     "user": "Define a hot water loop with variable flow and pump rated head of 180000 Pa.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop6,,Intermittent,Default,,FixedTempSchedule,78,VariableFlow,180000,None,78.0,-6.0,67.0,9,SinglePump,Yes,No,Water,10,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop6,,Intermittent,Default,,FixedTempSchedule,78,VariableFlow,180000,None,78.0,-6.0,67.0,9,SinglePump,Yes,No,Water,10,,SequentialLoad;"
   },
   {
     "user": "Model a hot water loop with outdoor reset and variable flow configuration.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop7,,Intermittent,Default,,ResetSchedule,80,VariableFlow,179800,None,80.5,-7.0,68.5,8,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop7,,Intermittent,Default,,ResetSchedule,80,VariableFlow,179800,None,80.5,-7.0,68.5,8,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
   },
   {
     "user": "Create a hot water loop with supply and demand side bypass, and reset outdoor dry bulb low temperature.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop8,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179350,None,82.0,-5.5,66.0,11,SinglePump,Yes,Yes,Water,10,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop8,,Intermittent,Default,,HW Reset Schedule,82,VariableFlow,179350,None,82.0,-5.5,66.0,11,SinglePump,Yes,Yes,Water,10,,SequentialLoad;"
   },
   {
     "user": "Specify a hot water loop with low setpoint reset and sequential load distribution.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop9,,Intermittent,Default,,LowTempSchedule,77,VariableFlow,180200,None,77.5,-4.5,65.5,13,SinglePump,No,Yes,Water,11,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop9,,Intermittent,Default,,LowTempSchedule,77,VariableFlow,180200,None,77.5,-4.5,65.5,13,SinglePump,No,Yes,Water,11,,SequentialLoad;"
   },
   {
     "user": "Model a hot water loop with high outdoor reset and fluid type water.",
-    "answer": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop10,,Intermittent,Default,,HW High Temp Schedule,84,VariableFlow,179750,None,84.0,-5.0,73.0,9,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:HotWaterLoop,HotWaterLoop10,,Intermittent,Default,,HW High Temp Schedule,84,VariableFlow,179750,None,84.0,-5.0,73.0,9,SinglePump,Yes,Yes,Water,12,,SequentialLoad;"
   },
   
   
@@ -5915,43 +5915,43 @@
   
   {
     "user": "Define a natural gas boiler with high efficiency and standard sizing factors.",
-    "answer": "HVACTemplate:Plant:Boiler,Main Boiler,HotWaterBoiler,autosize,0.9,NaturalGas,1,1,0.1,1.2,0.9,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Main Boiler,HotWaterBoiler,autosize,0.9,NaturalGas,1,1,0.1,1.2,0.9,99.9;"
   },
   {
     "user": "Specify a boiler with a lower efficiency and a wider part load ratio.",
-    "answer": "HVACTemplate:Plant:Boiler,Secondary Boiler,HotWaterBoiler,autosize,0.7,NaturalGas,1,1,0.2,1.5,0.8,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Secondary Boiler,HotWaterBoiler,autosize,0.7,NaturalGas,1,1,0.2,1.5,0.8,99.9;"
   },
   {
     "user": "Create a high-efficiency boiler with a low minimum part load ratio and a narrow part load range.",
-    "answer": "HVACTemplate:Plant:Boiler,Efficient Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.05,0.95,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Efficient Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.05,0.95,99.9;"
   },
   {
     "user": "Model a gas boiler with standard specifications for a residential application.",
-    "answer": "HVACTemplate:Plant:Boiler,Residential Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.1,1.0,0.85,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Residential Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.1,1.0,0.85,99.9;"
   },
   {
     "user": "Define a commercial boiler with a high maximum part load ratio and optimized for efficiency.",
-    "answer": "HVACTemplate:Plant:Boiler,Commercial Boiler,HotWaterBoiler,autosize,0.92,NaturalGas,1,1,0.1,1.3,0.9,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Commercial Boiler,HotWaterBoiler,autosize,0.92,NaturalGas,1,1,0.1,1.3,0.9,99.9;"
   },
   {
     "user": "Specify a boiler with a reduced part load ratio and higher efficiency for industrial use.",
-    "answer": "HVACTemplate:Plant:Boiler,Industrial Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.2,0.95,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Industrial Boiler,HotWaterBoiler,autosize,0.95,NaturalGas,1,1,0.05,1.2,0.95,99.9;"
   },
   {
     "user": "Create a boiler with a very low minimum part load ratio and a low optimum part load ratio.",
-    "answer": "HVACTemplate:Plant:Boiler,Low Load Boiler,HotWaterBoiler,autosize,0.75,NaturalGas,1,1,0.02,1.0,0.7,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Low Load Boiler,HotWaterBoiler,autosize,0.75,NaturalGas,1,1,0.02,1.0,0.7,99.9;"
   },
   {
     "user": "Model a boiler with a high part load ratio and moderate efficiency for a large building.",
-    "answer": "HVACTemplate:Plant:Boiler,Large Building Boiler,HotWaterBoiler,autosize,0.8,NaturalGas,1,1,0.1,1.5,0.85,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Large Building Boiler,HotWaterBoiler,autosize,0.8,NaturalGas,1,1,0.1,1.5,0.85,99.9;"
   },
   {
     "user": "Define a boiler with a low efficiency and a higher part load range for flexible operation.",
-    "answer": "HVACTemplate:Plant:Boiler,Flexible Boiler,HotWaterBoiler,autosize,0.65,NaturalGas,1,1,0.15,1.8,0.75,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Flexible Boiler,HotWaterBoiler,autosize,0.65,NaturalGas,1,1,0.15,1.8,0.75,99.9;"
   },
   {
     "user": "Create a boiler optimized for minimal energy consumption with a very narrow part load ratio.",
-    "answer": "HVACTemplate:Plant:Boiler,Minimal Consumption Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.05,1.1,0.85,99.9;"
+    "assistant": "HVACTemplate:Plant:Boiler,Minimal Consumption Boiler,HotWaterBoiler,autosize,0.85,NaturalGas,1,1,0.05,1.1,0.85,99.9;"
   },
   
   
@@ -5959,43 +5959,43 @@
   
   {
     "user": "Define a boiler reference object connection for a hot water system with priority set to 1.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,MainBoilerConnection,Boiler:HotWater,MainBoiler,1;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,MainBoilerConnection,Boiler:HotWater,MainBoiler,1;"
   },
   {
     "user": "Specify a boiler reference object connection with a different boiler name and priority 2.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,SecondaryBoilerConnection,Boiler:HotWater,SecondaryBoiler,2;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,SecondaryBoilerConnection,Boiler:HotWater,SecondaryBoiler,2;"
   },
   {
     "user": "Create a boiler reference object connection for a high-efficiency hot water boiler with priority 3.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,HighEfficiencyBoilerConnection,Boiler:HotWater,HighEfficiencyBoiler,3;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,HighEfficiencyBoilerConnection,Boiler:HotWater,HighEfficiencyBoiler,3;"
   },
   {
     "user": "Set up a boiler reference object connection with a low-priority hot water boiler system.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,LowPriorityBoilerConnection,Boiler:HotWater,LowPriorityBoiler,4;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,LowPriorityBoilerConnection,Boiler:HotWater,LowPriorityBoiler,4;"
   },
   {
     "user": "Define a boiler connection for the main heating system with priority 1.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,MainHeatingBoilerConnection,Boiler:HotWater,MainHeatingBoiler,1;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,MainHeatingBoilerConnection,Boiler:HotWater,MainHeatingBoiler,1;"
   },
   {
     "user": "Model a boiler connection with a specific boiler for domestic hot water and priority 2.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,DHWBoilerConnection,Boiler:HotWater,DHWBoiler,2;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,DHWBoilerConnection,Boiler:HotWater,DHWBoiler,2;"
   },
   {
     "user": "Set up a boiler reference connection with a dual-fuel boiler and priority 1.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,DualFuelBoilerConnection,Boiler:HotWater,DualFuelBoiler,1;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,DualFuelBoilerConnection,Boiler:HotWater,DualFuelBoiler,1;"
   },
   {
     "user": "Create a reference for a boiler used in a process heating system with priority 3.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,ProcessHeatingBoilerConnection,Boiler:HotWater,ProcessHeatingBoiler,3;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,ProcessHeatingBoilerConnection,Boiler:HotWater,ProcessHeatingBoiler,3;"
   },
   {
     "user": "Define a boiler object connection with a named hot water boiler and priority 1 for backup.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,BackupBoilerConnection,Boiler:HotWater,BackupBoiler,1;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,BackupBoilerConnection,Boiler:HotWater,BackupBoiler,1;"
   },
   {
     "user": "Specify a boiler object connection for a low-temperature hot water system with priority 2.",
-    "answer": "HVACTemplate:Plant:Boiler:ObjectReference,LowTempBoilerConnection,Boiler:HotWater,LowTempBoiler,2;"
+    "assistant": "HVACTemplate:Plant:Boiler:ObjectReference,LowTempBoilerConnection,Boiler:HotWater,LowTempBoiler,2;"
   },
   
   
@@ -6004,43 +6004,43 @@
   
   {
     "user": "Define a basic mixed water loop with intermittent pump control and default operation scheme.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,OnlyWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,OnlyWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Specify a mixed water loop with high temperature setpoint and constant flow configuration.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,HighTempWaterLoop,,Intermittent,Default,,34,,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,HighTempWaterLoop,,Intermittent,Default,,34,,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Model a mixed water loop with a low temperature setpoint and supply and demand bypass pipes.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,LowTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,LowTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Define a mixed water loop with a specific high temperature setpoint and constant flow water pump.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,SpecificTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,SpecificTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Model a mixed water loop with single pump and high temperature setpoint schedule.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,SinglePumpWaterLoop,,Intermittent,Default,HighTempSchedule,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,SinglePumpWaterLoop,,Intermittent,Default,HighTempSchedule,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Create a mixed water loop with a loop design delta temperature of 5°C.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,LowDeltaTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,5,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,LowDeltaTempWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,5,SequentialLoad;"
   },
   {
     "user": "Specify a mixed water loop with supply side and demand side bypass pipes, constant flow, and sequential load distribution.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,BypassWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,BypassWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Model a mixed water loop with a rated pump head of 200,000 Pa and constant flow.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,RatedHeadWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,200000,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,RatedHeadWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,200000,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Define a mixed water loop with high temperature and low temperature design setpoints.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,TempSetpointWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,TempSetpointWaterLoop,,Intermittent,Default,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   },
   {
     "user": "Specify a mixed water loop with intermittent pump control and default operation scheme.",
-    "answer": "HVACTemplate:Plant:MixedWaterLoop,IntermittentWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
+    "assistant": "HVACTemplate:Plant:MixedWaterLoop,IntermittentWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
   }
   
 ]
