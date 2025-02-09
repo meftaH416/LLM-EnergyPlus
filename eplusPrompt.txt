@@ -4187,6 +4187,356 @@
   
   
   
+  {
+    "user": "Define an exterior moveable insulation for a south-facing wall using a reflective material.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,SouthWall,ReflectiveInsulation,WinterUseSchedule;"
+  },
+  {
+    "user": "Set up an interior moveable insulation for a roof surface with a seasonal operation schedule.",
+    "assistant": "SurfaceControl:MoveableInsulation,Interior,RoofSurface,PhaseChangeMaterial,SummerWinterSchedule;"
+  },
+  {
+    "user": "Model moveable insulation for a west-facing window using a transparent insulation layer.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,WestWindow,TransparentInsulation,EveningUseSchedule;"
+  },
+  {
+    "user": "Specify an exterior moveable insulation for a basement wall with thermal insulation material.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,BasementWall,ThermalInsulation,BasementWinterSchedule;"
+  },
+  {
+    "user": "Create an interior moveable insulation for a ceiling surface using aerogel insulation.",
+    "assistant": "SurfaceControl:MoveableInsulation,Interior,CeilingSurface,AerogelInsulation,NightUseSchedule;"
+  },
+  {
+    "user": "Define a dynamic insulation system for a north-facing facade with a high-performance insulation layer.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,NorthFacade,HighPerformanceInsulation,ColdSeasonSchedule;"
+  },
+  {
+    "user": "Model moveable insulation for a skylight that activates during nighttime.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,Skylight,LowEInsulation,NighttimeSchedule;"
+  },
+  {
+    "user": "Set up an interior moveable insulation for a partition wall with phase change material.",
+    "assistant": "SurfaceControl:MoveableInsulation,Interior,PartitionWall,PCMInsulation,DailyCycleSchedule;"
+  },
+  {
+    "user": "Define moveable insulation for an atrium glass wall that reduces heat loss during winter.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,AtriumGlassWall,LowEmissivityCoating,WinterOnlySchedule;"
+  },
+  {
+    "user": "Create an exterior moveable insulation for a ground floor slab with a vapor barrier material.",
+    "assistant": "SurfaceControl:MoveableInsulation,Exterior,GroundFloorSlab,VaporBarrierInsulation,HumidityControlSchedule;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define exterior lighting for a parking lot with automatic astronomical control.",
+    "assistant": "Exterior:Lights,ParkingLotLights,ON,5000,AstronomicalClock,Parking Lot;"
+  },
+  {
+    "user": "Specify exterior lighting for building façade with a fixed schedule.",
+    "assistant": "Exterior:Lights,FacadeLights,NightSchedule,2000,ScheduleOnly,Building Facade;"
+  },
+  {
+    "user": "Model pathway lighting with a dimming control based on occupancy.",
+    "assistant": "Exterior:Lights,PathwayLights,MotionSensorSchedule,800,OccupancySensor,Pathway Lighting;"
+  },
+  {
+    "user": "Set up security lighting that operates from dusk to dawn.",
+    "assistant": "Exterior:Lights,SecurityLights,DuskToDawnSchedule,3000,AstronomicalClock,Security;"
+  },
+  {
+    "user": "Define exterior floodlights controlled by a time-based schedule.",
+    "assistant": "Exterior:Lights,FloodLights,FloodlightSchedule,4000,ScheduleOnly,Outdoor Floodlights;"
+  },
+  {
+    "user": "Specify landscape lighting with an astronomical clock control.",
+    "assistant": "Exterior:Lights,LandscapeLights,EveningOnly,1500,AstronomicalClock,Landscape;"
+  },
+  {
+    "user": "Model exterior signboard lighting that turns off at midnight.",
+    "assistant": "Exterior:Lights,SignBoardLights,SignSchedule,1200,ScheduleOnly,Signage;"
+  },
+  {
+    "user": "Set up streetlights with dimming functionality during late-night hours.",
+    "assistant": "Exterior:Lights,StreetLights,NightDimmingSchedule,6000,OccupancySensor,Street Lighting;"
+  },
+  {
+    "user": "Define canopy lighting for an entrance with automatic controls.",
+    "assistant": "Exterior:Lights,EntranceCanopyLights,EntranceSchedule,2500,AstronomicalClock,Canopy;"
+  },
+  {
+    "user": "Model rooftop beacon lights that remain on throughout the night.",
+    "assistant": "Exterior:Lights,RooftopBeaconLights,NightLong,1800,ScheduleOnly,Rooftop Lighting;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a zone infiltration rate for dorm rooms with a custom flow rate schedule.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 1,DORM ROOMS AND COMMON AREAS,Infiltration Sch,Flow/Zone,2.831685,,,,0.6060000,3.6359996E-02,0.1177165,0.0000000E+00;"
+  },
+  {
+    "user": "Set the infiltration rate for an office zone with specific air changes per hour.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 2,OFFICE AREA,Infiltration Sch,Air Changes per Hour,,,0.3,0.4,0.05,0.0000000E+00;"
+  },
+  {
+    "user": "Create an infiltration design for a zone with flow per exterior surface area.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 3,LIBRARY AREA,Infiltration Sch,Flow per Exterior Surface Area,,,0.7,0.05,0.1,0.0000000E+00;"
+  },
+  {
+    "user": "Model a zone with a high infiltration rate based on design flow rate.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 4,CLASSROOM AREA,Infiltration Sch,Flow/Zone,5.0,,,,0.5,0.02,0.12,0.0000000E+00;"
+  },
+  {
+    "user": "Set a zone infiltration rate with flow per zone floor area for a large conference hall.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 5,CONFERENCE HALL,Infiltration Sch,Flow per Zone Floor Area,,,0.6,0.1,0.09,0.0000000E+00;"
+  },
+  {
+    "user": "Define a zone with temperature term coefficient-based infiltration for a restaurant.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 6,RESTAURANT AREA,Infiltration Sch,Temperature Term Coefficient,,,0.4,0.05,0.08,3.6359996E-02;"
+  },
+  {
+    "user": "Create an infiltration zone for an auditorium with a constant term coefficient.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 7,AUDITORIUM,Infiltration Sch,Constant Term Coefficient,,,0.8,0.2,0.11,0.6060000;"
+  },
+  {
+    "user": "Model a zone with velocity term coefficient infiltration for a gymnasium.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 8,GYMNASIUM,Infiltration Sch,Velocity Term Coefficient,,,0.9,0.1,0.13,0.1177165;"
+  },
+  {
+    "user": "Define a zone with a very low infiltration rate for a laboratory.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 9,LABORATORY AREA,Infiltration Sch,Flow/Zone,1.0,,,,0.4,0.05,0.1,0.0000000E+00;"
+  },
+  {
+    "user": "Set an infiltration rate for a hospital zone with specific air changes per hour.",
+    "assistant": "ZoneInfiltration:DesignFlowRate,Infiltration 10,HOSPITAL AREA,Infiltration Sch,Air Changes per Hour,,,0.25,0.3,0.07,0.0000000E+00;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Model a standard air leakage rate for the living zone with moderate wind effects.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,LIVING ZONE Infil 1,LIVING ZONE,INF-SCHED,500.0,0.000145,0.000174;"
+  },
+  {
+    "user": "Define a high leakage area for a large zone with wind and stack effects.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,LARGE ZONE Infil 1,LARGE ZONE,WINDSCHED,1000.0,0.0002,0.00025;"
+  },
+  {
+    "user": "Specify a low air leakage for the bedroom zone with minimal wind influence.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,BEDROOM ZONE Infil 1,BEDROOM ZONE,INF-SCHED,200.0,0.0001,0.00012;"
+  },
+  {
+    "user": "Set up a high infiltration rate for the kitchen zone with strong wind conditions.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,KITCHEN ZONE Infil 1,KITCHEN ZONE,WINDSCHED,600.0,0.00015,0.0003;"
+  },
+  {
+    "user": "Create an infiltration model for the office zone with moderate stack and wind coefficients.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,OFFICE ZONE Infil 1,OFFICE ZONE,INF-SCHED,450.0,0.00012,0.00018;"
+  },
+  {
+    "user": "Model a small zone with a very low infiltration rate and no wind effects.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,SMALL ZONE Infil 1,SMALL ZONE,INF-SCHED,100.0,0.00005,0.00008;"
+  },
+  {
+    "user": "Set up a high infiltration scenario for a large industrial zone with high stack effect.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,INDUSTRIAL ZONE Infil 1,INDUSTRIAL ZONE,INF-SCHED,1500.0,0.00025,0.0003;"
+  },
+  {
+    "user": "Define a low leakage rate for the conference room with minimal air flow.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,CONFERENCE ROOM Infil 1,CONFERENCE ROOM,INF-SCHED,250.0,0.0001,0.00013;"
+  },
+  {
+    "user": "Create an infiltration scenario for a basement zone with moderate wind effects.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,BASEMENT ZONE Infil 1,BASEMENT ZONE,WINDSCHED,400.0,0.00014,0.00017;"
+  },
+  {
+    "user": "Specify a very high air leakage for an unconditioned attic zone.",
+    "assistant": "ZoneInfiltration:EffectiveLeakageArea,ATTIC ZONE Infil 1,ATTIC ZONE,INF-SCHED,1000.0,0.0003,0.0004;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a zone infiltration for a living room with moderate pressure exponent and wind coefficient.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,LIVING ZONE Infil 1,LIVING ZONE,INF-SCHED,0.05,0.089,0.67,0.156,0.64;"
+  },
+  {
+    "user": "Model a zone infiltration with high stack coefficient and low wind coefficient.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,OFFICE ZONE Infil,OFFICE ZONE,OFFICE-SCHED,0.04,0.1,0.8,0.12,0.3;"
+  },
+  {
+    "user": "Create an infiltration model for a conference room with a low pressure exponent.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,CONFERENCE ZONE Infil,CONFERENCE ZONE,CONF-SCHED,0.06,0.08,0.5,0.14,0.5;"
+  },
+  {
+    "user": "Specify a zone infiltration for a kitchen with high shelter factor and moderate flow coefficient.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,KITCHEN ZONE Infil,KITCHEN ZONE,KITCHEN-SCHED,0.07,0.1,0.65,0.2,0.75;"
+  },
+  {
+    "user": "Define an infiltration system for a library with a high flow coefficient and low wind coefficient.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,LIBRARY ZONE Infil,LIBRARY ZONE,LIBRARY-SCHED,0.1,0.12,0.6,0.1,0.4;"
+  },
+  {
+    "user": "Create an infiltration model for a bedroom with moderate stack and shelter coefficients.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,BEDROOM ZONE Infil,BEDROOM ZONE,BEDROOM-SCHED,0.04,0.09,0.7,0.15,0.6;"
+  },
+  {
+    "user": "Model an infiltration system for a bathroom with a low shelter factor.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,BATHROOM ZONE Infil,BATHROOM ZONE,BATHROOM-SCHED,0.03,0.08,0.65,0.12,0.3;"
+  },
+  {
+    "user": "Specify a zone infiltration for a garage with high pressure exponent and low flow coefficient.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,GARAGE ZONE Infil,GARAGE ZONE,GARAGE-SCHED,0.02,0.07,1.2,0.1,0.35;"
+  },
+  {
+    "user": "Create an infiltration model for a gymnasium with a high wind coefficient and low shelter factor.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,GYM ZONE Infil,GYM ZONE,GYM-SCHED,0.08,0.11,0.75,0.18,0.4;"
+  },
+  {
+    "user": "Define a zone infiltration system for a workshop with moderate stack and shelter coefficients.",
+    "assistant": "ZoneInfiltration:FlowCoefficient,WORKSHOP ZONE Infil,WORKSHOP ZONE,WORKSHOP-SCHED,0.06,0.1,0.7,0.2,0.5;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Specify a zone ventilation system with a constant airflow rate and fan efficiency of 0.9.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 1,ZONE 2,Simple Vent,Flow/Zone,6.131944,,,,INTAKE,400.0,0.9,0.6060000,2.0199999E-02,5.9800001E-04,0.0000000E+00,18.0,,,,1.0;"
+  },
+  {
+    "user": "Define a ventilation system with fan pressure rise of 350 Pa and a temperature term coefficient of 0.01.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 2,ZONE 3,Simple Vent,Flow/Zone,8.0,,,,INTAKE,350.0,0.85,0.5000000,1.0000000E-02,4.0000000E-04,0.0000000E+00,20.0,,,,1.5;"
+  },
+  {
+    "user": "Create a ventilation system for Zone 4 with airflow rate per person and maximum indoor temperature of 25°C.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 3,ZONE 4,Simple Vent,Flow/Person,,,,INTAKE,500.0,0.88,0.7000000,3.0000000E-02,1.5000000E-03,0.0000000E+00,22.0,,,,25.0;"
+  },
+  {
+    "user": "Specify a zone ventilation with a temperature term coefficient of 0.015 and velocity term coefficient of 0.0001.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 4,ZONE 5,Simple Vent,Flow/Zone,7.5,,,,INTAKE,450.0,0.9,0.8000000,1.5000000E-02,1.0000000E-04,0.0000000E+00,19.0,,,,2.0;"
+  },
+  {
+    "user": "Model a ventilation system for Zone 6 with 0.7 m³/s per area and fan total efficiency of 0.75.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 5,ZONE 6,Simple Vent,Flow/Area,,,,INTAKE,550.0,0.75,0.6500000,4.0000000E-02,2.5000000E-03,0.0000000E+00,21.0,,,,1.2;"
+  },
+  {
+    "user": "Create a ventilation system with 400 Pa fan pressure rise, optimized for air changes per hour.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 6,ZONE 7,Simple Vent,AirChanges/Hour,,,,INTAKE,400.0,0.85,0.7500000,3.0000000E-02,1.0000000E-03,0.0000000E+00,18.0,,,,1.5;"
+  },
+  {
+    "user": "Define a ventilation system for Zone 8 with a high air change rate and low fan efficiency.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 7,ZONE 8,Simple Vent,AirChanges/Hour,,,,INTAKE,450.0,0.7,0.5000000,2.0000000E-02,6.0000000E-04,0.0000000E+00,16.0,,,,1.0;"
+  },
+  {
+    "user": "Create a zone ventilation system with a fan pressure rise of 600 Pa and velocity squared term coefficient of 0.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 8,ZONE 9,Simple Vent,Flow/Zone,9.0,,,,INTAKE,600.0,0.8,0.7500000,2.0000000E-02,1.2000000E-03,0.0000000E+00,19.0,,,,1.8;"
+  },
+  {
+    "user": "Model a ventilation system with no maximum indoor temperature and airflow based on zone area.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 9,ZONE 10,Simple Vent,Flow/Area,,,,INTAKE,350.0,0.9,0.8500000,2.0000000E-02,4.5000000E-04,0.0000000E+00,17.0,,,,;"
+  },
+  {
+    "user": "Define a ventilation system with minimal temperature change and constant flow rate per person.",
+    "answer": "ZoneVentilation:DesignFlowRate,Ventilation 10,ZONE 11,Simple Vent,Flow/Person,,,,INTAKE,400.0,0.8,0.6000000,3.0000000E-02,2.0000000E-03,0.0000000E+00,20.0,,,,0.5;"
+  },
+  
+  
+  
+  {
+    "user": "Define a wind and stack ventilation system for Zone 1 with an opening area of 1.0 m².",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 1 Ventl 1,ZONE 1,1.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Create a ventilation system for Zone 2 with a smaller opening area and different discharge coefficient.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 2 Ventl 1,ZONE 2,0.3,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Define a ventilation system for Zone 3 with no schedule for temperature limits.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,ZONE 3 Ventl 1,ZONE 3,0.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Specify ventilation for Zone 4 with a larger opening area and higher delta temperature.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 4 Ventl 1,ZONE 4,1.5,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.5;"
+  },
+  {
+    "user": "Create a wind and stack ventilation system for Zone 5 with no minimum indoor temperature.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 5 Ventl 1,ZONE 5,0.4,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Define a ventilation system with a custom schedule for indoor temperature in Zone 6.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 6 Ventl 1,ZONE 6,0.6,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,CustomScheduleName,,CustomScheduleName,,1.0;"
+  },
+  {
+    "user": "Set up a ventilation system for Zone 7 with minimum and maximum indoor temperatures defined.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 7 Ventl 1,ZONE 7,0.7,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,MinTempScheduleName,MaxTempScheduleName,,1.0;"
+  },
+  {
+    "user": "Define a ZoneVentilation for Zone 8 with a small opening area and auto-calculated discharge coefficient.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 8 Ventl 1,ZONE 8,0.25,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Set a ventilation system for Zone 9 with an opening area of 2.0 m² and no temperature limits.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 9 Ventl 1,ZONE 9,2.0,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  {
+    "user": "Define a wind and stack ventilation system for Zone 10 with an opening area of 0.8 m² and auto-calculated discharge coefficient.",
+    "answer": "ZoneVentilation:WindandStackOpenArea,Zone 10 Ventl 1,ZONE 10,0.8,Constant,AutoCalculate,0.0,1.0,AutoCalculate,18.0,,,,1.0;"
+  },
+  
+  
+  
+  
+  {
+    "user": "Define a kitchen exhaust fan mixing zone with a design flow rate.",
+    "answer": "ZoneMixing,Kitchen_ZN_1_FLR_1 Exhaust Fanmixing_0,Kitchen_ZN_1_FLR_1,Hours_of_operation,Flow/Zone,1.4540,,,CAFETERIA_ZN_1_FLR_1,0.0;"
+  },
+  {
+    "user": "Set up a zone mixing with air changes per hour for the cafeteria exhaust system.",
+    "answer": "ZoneMixing,Cafeteria_ExhaustMixing_1,Cafeteria_ZN_1_FLR_1,Hours_of_operation,Air Changes per Hour,1.0,,,Kitchen_ZN_1_FLR_1,0.5;"
+  },
+  {
+    "user": "Create a zone mixing for a hallway with no exhaust.",
+    "answer": "ZoneMixing,Hallway_Mixing_0,Hallway_ZN_1_FLR_1,Always_on,Flow/Zone,2.0,,,Conference_Room_ZN_1_FLR_1,0.0;"
+  },
+  {
+    "user": "Specify a kitchen exhaust fan with a custom schedule and flow rate per person.",
+    "answer": "ZoneMixing,Kitchen_ExhaustFan_1,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,,1.2,,0.5,CAFETERIA_ZN_1_FLR_1,1.0;"
+  },
+  {
+    "user": "Set zone mixing for a meeting room with high ventilation needs.",
+    "answer": "ZoneMixing,MeetingRoom_Mixing_1,MeetingRoom_ZN_1_FLR_1,HighVent_Schedule,Flow/Zone,3.0,,,Lobby_ZN_1_FLR_1,1.5;"
+  },
+  {
+    "user": "Create zone mixing for a conference room with specific delta temperature.",
+    "answer": "ZoneMixing,ConferenceRoom_Mixing_0,ConferenceRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,2.0,,,BreakRoom_ZN_1_FLR_1,2.0;"
+  },
+  {
+    "user": "Define zone mixing for an office area with no delta temperature adjustment.",
+    "answer": "ZoneMixing,Office_Mixing_1,Office_ZN_1_FLR_1,Office_Schedule,Flow/Zone,1.5,,,Storage_ZN_1_FLR_1,0.0;"
+  },
+  {
+    "user": "Model a ventilation system for a restroom with no air changes per hour.",
+    "answer": "ZoneMixing,Restroom_Ventilation_0,Restroom_ZN_1_FLR_1,Always_on,Flow/Zone,0.8,,,Hallway_ZN_1_FLR_1,0.0;"
+  },
+  {
+    "user": "Create a mixing system for a kitchen zone with exhaust fan control.",
+    "answer": "ZoneMixing,Kitchen_ExhaustFan_2,Kitchen_ZN_1_FLR_1,Exhaust_Schedule,Flow/Zone,1.0,,,DiningRoom_ZN_1_FLR_1,0.0;"
+  },
+  {
+    "user": "Set up zone mixing with a custom flow rate per area for the break room.",
+    "answer": "ZoneMixing,BreakRoom_Mixing_1,BreakRoom_ZN_1_FLR_1,Occupancy_Schedule,Flow/Zone,,1.0,,0.6,Lounge_ZN_1_FLR_1,0.5;"
+  },
+  
+  
+  
   
 
 ]
