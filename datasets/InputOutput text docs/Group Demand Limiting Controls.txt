@@ -1,0 +1,284 @@
+Group Demand Limiting Controls
+Demand limiting, or demand management, is a strategy for reducing a building's demand for utilities, e.g., electricity. Utility companies typically charge a monthly fee for “demand charges” that is based on the peak demand during a certain time period. Often the peak demand charge is set by one exceptional day that is much higher than the peak demand for an average day during the month. Therefore, to save utility costs, it is in the interest of building owners to find ways to manage the demand on peak days. While demand management is generally concerned with the demand for electricity, the future will likely see demand management of other utilities, such as natural gas or water.
+Demand limiting controls shut off or reduce the power to non-essential loads in order to reduce the overall building demand. Some typical controls:
+shut off or dim electric lights, equipment, or HVAC systemsreset the thermostatic set points on HVAC systemsreduce the load of a set of similar components by rotating one or more components “off” for a short time intervalturn on generators to meet some or all of the building's demand.
+shut off or dim electric lights, equipment, or HVAC systems
+reset the thermostatic set points on HVAC systems
+reduce the load of a set of similar components by rotating one or more components “off” for a short time interval
+turn on generators to meet some or all of the building's demand.
+The demand limiting controls implemented in EnergyPlus are intended to allow some of the more common demand limiting strategies. Currently, onlyExterior:Lights,Lights,ElectricEquipment,ZoneControl:Thermostat,andController:OutdoorAirobjects can be demand limited. Additional components will be demand limited in future releases.
+DemandManagerAssignmentList
+TheDemandManagerAssignmentListobject is a high level control that makes demand limiting decisions based on a list of possible demand limiting strategies. Each demand limiting strategy is described in a separate DemandManager object. (This is structured like the relationship between theAvailabilityManagerAssignmentListand the AvailabilityManager objects.)
+EachDemandManagerAssignmentListmonitors and demand limits one meter. Only electricity meters are currently allowed. In many cases, the meter will beElectricity:Facility. A schedule and safety factor are used to set the demand limit above which the DemandManagers become activated. The billing month schedule and demand window are also taken into account when calculating the demand limit.
+DemandManagers in the list are activated based on theDemand Manager Priority. If theSequentialoption is used, each manager in the list is activated in sequence from first to last until demand is reduced below the limit or until all managers are activated. If theAlloption is used, all managers are activated simultaneously to achieve the maximum demand reduction.
+A DemandManager is skipped if it cannot reduce the demand. Possible reasons that a manager cannot reduce demand include:
+not enough load to limitnot available because of itsAvailability Schedulealready activated; load limited during a previous timestep.
+not enough load to limit
+not available because of itsAvailability Schedule
+already activated; load limited during a previous timestep.
+Inputs
+Field: Name
+The name of theDemandManagerAssignmentListobject.
+Field: Meter Name
+This field references the meter that is to be monitored and demand limited. Only electricity meters are currently allowed.
+Field: Demand Limit Schedule Name
+The reference to the schedule object specifying the target demand limits [schedule values should be in Watts].
+Field: Demand Limit Safety Fraction
+This field is a multiplier that is applied to the target demand limit (above). When the metered demand exceeds (target demand limit * safety fraction), the DemandManagers begin to limit the demand. This helps to ensure that the target limit is not exceeded.
+Field: Billing Period Schedule Name
+The reference to the schedule object that defines the monthly billing periods. The peak demand during the peak period of the billing period typically determines the demand charge. This should reference the same schedule that is used in theMonth Schedule Namefield of theUtilityCost:Tariffobject. If left blank, it defaults to the regular divisions between months.
+Field: Peak Period Schedule Name
+The reference to the schedule object that defines the peak/off-peak time-of-use periods. The peak demand during the peak period of the billing period typically determines the demand charge. This should reference the same schedule that is used in theTime of Use Period Schedule Namefield of theUtilityCost:Tariffobject. A value of 1 indicates the peak period; any other value is off-peak. If left blank, it defaults to always on the peak period. TheDemandManagerAssignmentListonly attempts to demand limit during peak periods.
+Field: Demand Window Length
+This field is similar to the field of the same name in theUtilityCost:Tariffobject. However, the user may not want to limit using the same demand window as the utility company. This field allows the user to input the number of minutes over which to calculate the current demand. The minutes are rounded to match the nearest multiple of time steps.
+Field: Demand Manager Priority
+This field indicates what logic should be used to activate the individual DemandManagers in the list.Sequentialtreats the list of DemandManagers as a sequential priority list, i.e., the first DemandManager in the list is activated first, then the second, etc., until the demand falls below the limit.Allactivates all demand managers to achieve the maximum demand reduction.
+Field: Demand Manager <#> Type
+The key word defining the type of DemandManager.
+Field: Demand Manager <#> Name
+The name of a DemandManager object defined elsewhere in the input file.
+DemandManagers are listed by pairs of data items:Demand Manager TypeandDemand Manager Name. This object is extensible, so additional pairs of these last two fields can be added to the end of this object.
+An example IDF showing how this object is used is provided below:
+DemandManagerAssignmentList,
+  Demand Manager,                   !- Name
+  Electricity:Facility,       !- Meter Name
+  Limit Schedule,                   !- Demand Limit Schedule Name
+  1.0,                                         !- Demand Limit Safety Fraction
+  ,                                               !- Billing Period Schedule Name
+  ,                                               !- Peak Period Schedule Name
+  15,                                           !- Demand Window Length {minutes}
+  Sequential,                           !- Demand Manager Priority
+  DemandManager:ExteriorLights,   !- DemandManager 1 Object Type
+  Ext Lights Manager,           !- DemandManager 1 Name
+  DemandManager:ElectricEquipment,   !- DemandManager 2 Object Type
+  Eq Mgr Stage 1,                   !- DemandManager 2 Name
+  DemandManager:ElectricEquipment,   !- DemandManager 3 Object Type
+  Eq Mgr Stage 2,                   !- DemandManager 3 Name
+  DemandManager:ElectricEquipment,   !- DemandManager 4 Object Type
+  Eq Mgr Stage 3,                   !- DemandManager 4 Name
+  DemandManager:Lights,       !- DemandManager 5 Object Type
+  Lights Manager,                   !- DemandManager 5 Name
+  DemandManager:Thermostats,   !- DemandManager 6 Object Type
+  Thermostats Manager;         !- DemandManager 6 Name
+Outputs
+The following output variables are reported for theDemandManagerAssignmentListobject:
+Zone,Average,Demand Manager Meter Demand Power [W]Zone,Average,Demand Manager Average Demand Power [W]Zone,Average,Demand Manager Peak Demand Power [W]Zone,Average,Demand Manager Scheduled Limit Power [W]Zone,Average,Demand Manager Demand Limit Power [W]Zone,Average,Demand Manager Avoided Demand [W]Zone,Average,Demand Manager Over Limit Power [W]Zone,Sum,Demand Manager Over Limit Time [hr]Zone,Sum,Demand Manager Exterior Energy Iteration Count []Zone,Sum,Demand Manager Heat Balance Iteration Count []Zone,Sum,Demand Manager HVAC Iteration Count []
+Zone,Average,Demand Manager Meter Demand Power [W]
+Zone,Average,Demand Manager Average Demand Power [W]
+Zone,Average,Demand Manager Peak Demand Power [W]
+Zone,Average,Demand Manager Scheduled Limit Power [W]
+Zone,Average,Demand Manager Demand Limit Power [W]
+Zone,Average,Demand Manager Avoided Demand [W]
+Zone,Average,Demand Manager Over Limit Power [W]
+Zone,Sum,Demand Manager Over Limit Time [hr]
+Zone,Sum,Demand Manager Exterior Energy Iteration Count []
+Zone,Sum,Demand Manager Heat Balance Iteration Count []
+Zone,Sum,Demand Manager HVAC Iteration Count []
+Demand Manager Meter Demand Power [W]
+The current demand for the designated meter.
+Demand Manager Average Demand Power [W]
+The current demand for the designated meter averaged over theDemandWindowLength.
+Demand Manager Peak Demand Power [W]
+The peak demand in the billing month so far.
+Demand Manager Scheduled Limit Power [W]
+The scheduled target demand limit from theDemand Limit Schedule.
+Demand Manager Demand Limit Power [W]
+The actual demand limit after multiplication by theDemand Limit Safety Fraction.
+Demand Manager Avoided Demand [W]
+The demand that was avoided by the active DemandManagers.
+Demand Manager Over Limit Power [W]
+The difference between the demand limit and the average demand.
+Demand Manager Over Limit Time [hr]
+The number of hours that the demand limit was exceeded.
+Demand Manager Exterior Energy Iteration Count []
+The number times that the exterior energy use was resimulated for demand limiting.
+Demand Manager Heat Balance Iteration Count []
+The number times that the zone heat balance was resimulated for demand limiting.
+Demand Manager HVAC Iteration Count []
+The number times that the HVAC system was resimulated for demand limiting.
+DemandManager:ExteriorLights
+TheDemandManager:ExteriorLightsobject is used for demand limitingExterior:Lightsobjects.
+Inputs
+Field: Name
+The name of theDemandManager:ExteriorLightsobject.
+Field: Availability Schedule Name
+The reference to the schedule object specifying the availability of this DemandManager. A schedule value of 0 indicates that the unit is off for that time period. A schedule value greater than 0 indicates that the unit can operate during the time period. If this field is blank, the schedule has values of 1 for all time periods.
+Field: Limit Control
+This field specifies the type of limiting control. TheFixedoption reduces the power to the controlled loads by a fixed amount determined by theMaximum Limit Fractionfield. TheOffoption disables the DemandManager in the simulation.
+Field: Minimum Limit Duration
+The minimum amount of time [minutes] that the DemandManager will continue to demand limit after being activated. This prevents loads from turning on and off every time step.
+Field: Maximum Limit Fraction
+This field specifies a fraction of theDesign Levelpower for the load that determines the lowest allowable power level. WithLimit Controlset toFixed, the power is reduced toMaximum Limit Fraction * Design Levelwhenever the manager is activated. For example, if theMaximum Limit Fractionis 0.8, then a 100 W design level load is reduced to 80 W when limiting. AMaximum Limit Fractionof zero means that the load can be shut off entirely.
+Field: Limit Step Change
+NOT YET IMPLEMENTED.
+Field: Selection Control
+This field specifies which loads are selected to be limited. TheAlloption simultaneously limits all of the loads listed in this DemandManager. TheRotateManyoption limits all loads except for one which rotates sequentially through the loads listed. TheRotateOnelimits only one load which rotates sequentially through the loads listed. The time interval between rotations is set by theRotation Durationfield.
+Field: Rotation Duration
+If theRotateOneorRotateManyoption is used forSelection Control, this field sets the time interval [minutes] between rotations.
+Field: Exterior Lights <#> Name
+The names ofExterior:Lightsobjects defined elsewhere in the input file. These are the loads to be limited by this DemandManager. This field is extensible, so additional fields of this type can be added to the end of this object.
+An example IDF showing how this object is used is provided below:
+DemandManager:ExteriorLights,
+  Ext Lights Manager,           !- Name
+  ,                                               !- Availability Schedule Name
+  Fixed,                                     !- Limit Control
+  60,                                           !- Minimum Limit Duration {minutes}
+  0.0,                                         !- Maximum Limit Fraction
+  ,                                               !- Limit Step Change
+  All,                                         !- Selection Control
+  ,                                               !- Rotation Duration {minutes}
+  Exterior Lights;                 !- Exterior Lights 1 Name
+Outputs
+There are no output variables reported for theDemandManager:ExteriorLightsobject.
+DemandManager:Lights
+TheDemandManager:Lightsobject is used for demand limitingLightsobjects.
+Inputs
+Field: Name
+The name of theDemandManager:Lightsobject.
+Field: Availability Schedule Name
+The reference to the schedule object specifying the availability of this DemandManager. A schedule value of 0 indicates that the unit is off for that time period. A schedule value greater than 0 indicates that the unit can operate during the time period. If this field is blank, the schedule has values of 1 for all time periods.
+Field: Limit Control
+This field specifies the type of limiting control. TheFixedoption reduces the power to the controlled loads by a fixed amount determined by theMaximum Limit Fractionfield. TheOffoption disables the DemandManager in the simulation.
+Field: Minimum Limit Duration
+The minimum amount of time [minutes] that the DemandManager will continue to demand limit after being activated. This prevents loads from turning on and off every time step.
+Field: Maximum Limit Fraction
+This field specifies a fraction of theDesign Levelpower for the load that determines the lowest allowable power level. WithLimit Controlset toFixed, the power is reduced toMaximum Limit Fraction * Design Levelwhenever the manager is activated. For example, if theMaximum Limit Fractionis 0.8, then a 100 W design level load is reduced to 80 W when limiting. AMaximum Limit Fractionof zero means that the load can be shut off entirely.
+Field: Limit Step Change
+NOT YET IMPLEMENTED.
+Field: Selection Control
+This field specifies which loads are selected to be limited. TheAlloption simultaneously limits all of the loads listed in this DemandManager. TheRotateManyoption limits all loads except for one which rotates sequentially through the loads listed. TheRotateOnelimits only one load which rotates sequentially through the loads listed. The time interval between rotations is set by theRotation Durationfield.
+Field: Rotation Duration
+If theRotateOneorRotateManyoption is used forSelection Control, this field sets the time interval [minutes] between rotations.
+Field: Lights <#> Name
+The names ofLightsobjects defined elsewhere in the input file. These are the loads to be limited by this DemandManager. This field is extensible, so additional fields of this type can be added to the end of this object.
+If a global lights statement is used (Ref:Lights),then only that name need be entered and the demand limiting will be applied to all the zones for that lighting. If only one of a set of zones from a global lights statement is desired, then the name to be entered is:<ZoneName> <Name ofLightsGlobal Object>.
+An example IDF showing how this object is used is provided below:
+DemandManager:Lights,
+  Lights Manager,                   !- Name
+  ,                                               !- Availability Schedule Name
+  Fixed,                                     !- Limit Control
+  60,                                           !- Minimum Limit Duration {minutes}
+  0.5,                                         !- Maximum Limit Fraction
+  ,                                               !- Limit Step Change
+  All,                                         !- Selection Control
+  ,                                               !- Rotation Duration {minutes}
+  Space1-1 Lights 1,             !- Lights 1 Name
+  Space2-1 Lights 1,             !- Lights 2 Name
+  Space3-1 Lights 1,             !- Lights 3 Name
+  Space4-1 Lights 1,             !- Lights 4 Name
+  Space5-1 Lights 1;             !- Lights 5 Name
+Outputs
+There are no output variables reported for theDemandManager:Lightsobject.
+DemandManager:ElectricEquipment
+TheDemandManager:ElectricEquipmentobject is used for demand limitingElectricEquipmentobjects.
+Inputs
+Field: Name
+The name of theDemandManager:ElectricEquipmentobject.
+Field: Availability Schedule Name
+The reference to the schedule object specifying the availability of this DemandManager. A schedule value of 0 indicates that the unit is off for that time period. A schedule value greater than 0 indicates that the unit can operate during the time period. If this field is blank, the schedule has values of 1 for all time periods.
+Field: Limit Control
+This field specifies the type of limiting control. TheFixedoption reduces the power to the controlled loads by a fixed amount determined by theMaximum Limit Fractionfield. TheOffoption disables the DemandManager in the simulation.
+Field: Minimum Limit Duration
+The minimum amount of time [minutes] that the DemandManager will continue to demand limit after being activated. This prevents loads from turning on and off every time step.
+Field: Maximum Limit Fraction
+This field specifies a fraction of theDesign Levelpower for the load that determines the lowest allowable power level. WithLimit Controlset toFixed, the power is reduced toMaximum Limit Fraction * Design Levelwhenever the manager is activated. For example, if theMaximum Limit Fractionis 0.8, then a 100 W design level load is reduced to 80 W when limiting. AMaximum Limit Fractionof zero means that the load can be shut off entirely.
+Field: Limit Step Change
+NOT YET IMPLEMENTED.
+Field: Selection Control
+This field specifies which loads are selected to be limited. TheAlloption simultaneously limits all of the loads listed in this DemandManager. TheRotateManyoption limits all loads except for one which rotates sequentially through the loads listed. TheRotateOnelimits only one load which rotates sequentially through the loads listed. The time interval between rotations is set by theRotation Durationfield.
+Field: Rotation Duration
+If theRotateOneorRotateManyoption is used forSelection Control, this field sets the time interval [minutes] between rotations.
+Field: Electric Equipment <#> Name
+The names ofElectricEquipmentobjects defined elsewhere in the input file. These are the loads to be limited by this DemandManager. This field is extensible, so additional fields of this type can be added to the end of this object.
+If a global Electric Equipment statement is used (Ref:ElectricEquipment),then only that name need be entered and the demand limiting will be applied to all the zones for that equipment. If only one of a set of zones from a global electric equipment statement is desired, then the name to be entered is:<ZoneName> <Name ofElectricEquipmentGlobal Object>.
+An example IDF showing how this object is used is provided below:
+DemandManager:ElectricEquipment,
+  Eq Mgr Stage 3,                   !- Name
+  ,                                               !- Availability Schedule Name
+  Fixed,                                     !- Limit Control
+  60,                                           !- Minimum Limit Duration {minutes}
+  0.0,                                         !- Maximum Limit Fraction
+  ,                                               !- Limit Step Change
+  All,                                         !- Selection Control
+  ,                                               !- Rotation Duration {minutes}
+  Space5-1 ElecEq 1;             !- Electric Equipment 1 Name
+Outputs
+There are no output variables reported for theDemandManager:ElectricEquipmentobject.
+DemandManager:Thermostats
+TheDemandManager:Thermostatsobject is used for demand limitingZoneControl:Thermostatobjects.
+Inputs
+Field: Name
+The name of theDemandManager:Thermostatsobject.
+Field: Availability Schedule Name
+The reference to the schedule object specifying the availability of the DemandManager. A schedule value of 0 indicates that the unit is off for that time period. A schedule value greater than 0 indicates that the unit can operate during the time period. If this field is blank, the schedule has values of 1 for all time periods.
+Field: Reset Control
+This field specifies the type of limiting control. TheFixedoption resets the thermostats to a fixed temperature determined by theMaximum Heating Setpoint ResetandMaximum Cooling Setpoint Resetfields. TheOffoption disables the DemandManager in the simulation.
+Field: Minimum Reset Duration
+The minimum amount of time [minutes] that the DemandManager will continue to demand limit after being activated. This prevents thermostats from resetting on and off every time step.
+Field: Maximum Heating Setpoint Reset
+This field specifies the thermostat heating setpoint temperature [C] that represents the largest allowable temperature reset or setback. WithReset Controlset toFixed, the setpoint temperature is reset to theMaximum Heating Setpoint Resetwhenever the manager is activated. For example, if the heating setpoint is normally 22 C and theMaximum Heating Setpoint Resetis 20 C, then the setpoint is reset to 20 C when limiting.
+Field: Maximum Cooling Setpoint Reset
+This field specifies the thermostat cooling setpoint temperature [C] that represents the largest allowable temperature reset or setback. WithReset Controlset toFixed, the setpoint temperature is reset to theMaximum Cooling Setpoint Resetwhenever the manager is activated. For example, if the cooling setpoint is normally 22 C and theMaximum Cooling Setpoint Resetis 24 C, then the setpoint is reset to 24 C when limiting.
+Field: Reset Step Change
+NOT YET IMPLEMENTED.
+Field: Selection Control
+This field specifies which loads are selected to be limited. TheAlloption simultaneously limits all of the loads listed in this DemandManager. TheRotateManyoption limits all loads except for one which rotates sequentially through the loads listed. TheRotateOnelimits only one load which rotates sequentially through the loads listed. The time interval between rotations is set by theRotation Durationfield.
+Field: Rotation Duration
+If theRotateOneorRotateManyoption is used forSelection Control, this field sets the time interval [minutes] between rotations.
+Field: Thermostat <#> Name
+The names ofZoneControl:Thermostatobjects defined elsewhere in the input file. These are the loads to be limited by this DemandManager. This field is extensible, so additional fields of this type can be added to the end of this object.
+If a global thermostat statement is used (Ref:ZoneControl:Thermostat),then only that name need be entered and the demand limiting will be applied to all the zones for that thermostatic control. If only one of a set of zones from a global thermostat statement is desired, then the name to be entered is:<ZoneName> <Name of Thermostat Global Object>.
+An example IDF showing how this object is used is provided below:
+DemandManager:Thermostats,
+  Thermostats Manager,         !- Name
+  ,                                               !- Availability Schedule Name
+  Fixed,                                     !- Reset Control
+  60,                                           !- Minimum Reset Duration {minutes}
+  19,                                           !- Maximum Heating Setpoint Reset {C}
+  26,                                           !- Maximum Cooling Setpoint Reset {C}
+  ,                                               !- Reset Step Change
+  All,                                         !- Selection Control
+  ,                                               !- Rotation Duration {minutes}
+  SPACE1-1 Control,               !- Thermostat 1 Name
+  SPACE2-1 Control,               !- Thermostat 2 Name
+  SPACE3-1 Control,               !- Thermostat 3 Name
+  SPACE4-1 Control,               !- Thermostat 4 Name
+  SPACE5-1 Control;               !- Thermostat 5 Name
+Outputs
+There are no output variables reported for theDemandManager:Thermostatsobject.
+DemandManager:Ventilation
+TheDemandManager:Ventilationobject is used for limiting the ventilation rate calculated from theController:OutdoorAirobject.
+Field: Name
+The name of theDemandManager:Ventilationobject.
+Field: Availability Schedule Name
+The reference to the schedule object specifying the availability of this demand manager. A schedule value of zero indicates that this demand response (DR) is not applicable for that time period. A schedule greater than zero indicates that the demand response applies during the time period. If this field is blank, the schedule has values of one for all time period.
+Field: Limit Control
+This field specifies the type of limiting control. There are three options. TheFixedRateoption reduces the ventilation to a specified air flow rate. TheReductionRatiospecifies the multiplier of the ventilation rate. TheOffoption disables the demand manager in the simulation.
+Field: Minimum Limit Duration
+The minimum amount of time [minutes] that the demand manager will continue to demand limit after being activated. This prevent loads from turning on and off every time step.
+Field: Fixed Rate
+This field specifies the amount of fixed ventilation rate when the demand manager is active andFixedRatelimit control is applied. The unit is m3/s.
+Field: Reduction Ratio
+This field specifies the multiplier of the ventilation rate when the demand manager is active andReductionRatiolimit control is applied.
+Field: Limit Step Change
+NOT YET IMPLEMENTED.
+Field: Selection Control
+This field specifies which loads (ventilation rates) are selected to be limited. TheAlloption simultaneously limits all of the loads listed in the demand manager. TheRotateManyoption limits all loads except for one which rotates sequentially through the loads listed. TheRotateOnelimits only one load which rotates sequentially through the loads listed. The time interval between rotations is set by theRotation Durationfield.
+Field: Rotation Duration
+If theRotateOneofRotateManyoption is used forSelection Control, this field sets the time interval [minues] between rotations.
+Field: Controller Outdoor Air <#> Name
+The names ofController:OutdoorAirobjects defined elsewhere in the input file. These are the ventilation rates to be limited by this demand manager. Then objects are accommodated in the list by default. This field is extensible, so additional fields of this type can be added to the end of this object.
+An example IDF showing how this object is used is provided below:
+DemandManager:Ventilation,
+  Ventilation Manager,         !- Name
+  ,                            !- Availability Schedule Name
+  ReductionRatio,              !- Reset Control
+  60,                          !- Minimum Limit Duration {minutes}
+  ,                            !- Fixed Rate {m3/s}
+  0.5,                         !- Reduction Ratio
+  ,                            !- Limit Step Change
+  All,                         !- Selection Control
+  ,                            !- Rotation Duration {minutes}
+  OA Controller 1;             !- Controller:OutdoorAir Name
+DemandManager:Ventilation Outputs
+There are no output variables reported for theDemandManager:Ventilationobject.
