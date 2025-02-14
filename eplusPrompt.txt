@@ -6041,6 +6041,10 @@
   {
     "user": "Specify a mixed water loop with intermittent pump control and default operation scheme.",
     "assistant": "HVACTemplate:Plant:MixedWaterLoop,IntermittentWaterLoop,,Intermittent,Default,,,,34,20,ConstantFlow,179352,SinglePump,Yes,Yes,Water,6,SequentialLoad;"
-  }
+  },
+  
+  
+  
+  
   
 ]
