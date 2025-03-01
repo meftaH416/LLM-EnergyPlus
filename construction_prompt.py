@@ -1,4 +1,4 @@
-import json
+import json, re
 
 # Construction Data
 idf_text_construction = """
@@ -124,7 +124,7 @@ construction_datasets = []
 for block in construction_blocks:
     lines = block.split("\n")
     name = lines[0].split(",")[0].strip()  # Extract construction name
-    layers = [line.split(",")[0].strip() for line in lines[1:] if line.strip()]  # Extract layers
+    layers = [re.split(",|;", line.strip())[0] for line in lines[1:] if line.strip()]
     layers_with_comments = [line.strip() for line in lines[1:] if line.strip()]  # Layers with comments
 
     # Create the user prompt without the comments (Layer X)
