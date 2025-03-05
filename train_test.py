@@ -10,9 +10,9 @@ with open("MainPrompt.json", "r") as f:
 random.shuffle(data)
 
 # Define split ratios
-train_ratio = 0.8
-val_ratio = 0.1
-test_ratio = 0.1
+train_ratio = 0.9
+val_ratio = 0.05
+test_ratio = 0.05
 
 # Compute split sizes
 total_size = len(data)
@@ -35,7 +35,7 @@ with open("val.json", "w") as f:
 with open("test.json", "w") as f:
     json.dump(test_data, f, indent=2)
 
-print(f"✅ Dataset split into Train: {train_size}, Val: {val_size}, Test: {test_size}")
+print(f"Dataset split into Train: {train_size}, Val: {val_size}, Test: {test_size}")
 
 # Convert to Hugging Face Dataset format
 dataset = DatasetDict({
@@ -46,4 +46,4 @@ dataset = DatasetDict({
 
 # Save as Hugging Face Dataset (optional)
 dataset.save_to_disk("MainPrompt")
-print("✅ Hugging Face dataset saved as 'MainPrompt'")
+print("Hugging Face dataset saved as 'MainPrompt'")
