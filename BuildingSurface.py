@@ -51,7 +51,7 @@ for idf_file in os.listdir(idf_folder_path):
             json_pair = {
                 "user_query": (
                     f"Create an EnergyPlus IDF object for a building surface with dimensions: "
-                    f"L={description['L']}m, W={description['W']}m, H={description['H']}m, "
+                    f"Floor area of {FA}, L={description['L']}m, W={description['W']}m, H={description['H']}m, "
                     f"aspect ratio={description['AR']}, window-to-wall ratio={description['WWR']}. "
                     f"Ensure correct surface properties."
                 ),
