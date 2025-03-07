@@ -12,10 +12,10 @@ def generate_prompt(L, W, H, AR, WWR):
     """Generates diverse prompts for IDF creation."""
     prompt_templates = [
         f"Create an EnergyPlus IDF file for a rectangular building with L={L}, W={W}, height={H}, AR={AR}, WWR={WWR}, for a small office using ideal air HVAC.",
-        f"Generate an IDF file for a small office with dimensions: L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}. Use an ideal air HVAC system.",
+        f"Generate an IDF file for a rectangular small office with dimensions: L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}. Use an ideal air HVAC system.",
         f"I need an IDF file for a small office: rectangular shape, dimensions L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}, and an ideal air HVAC system.",
-        f"Can you create an EnergyPlus IDF file for a small office with L={L}, W={W}, height={H}, aspect ratio {AR}, and WWR={WWR}?",
-        f"Small office, rectangular (L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}), ideal air HVAC – create an IDF file."
+        f"Can you create an EnergyPlus IDF file for a regular size small office with length={L} by width={W} by height={H}, aspect ratio {AR}, and WWR={WWR}?",
+        f"Small office, rectangular (length of {L}, width of {W} by height {H}, AR={AR} and WWR={WWR}), ideal air HVAC – create an IDF file."
     ]
     return random.choice(prompt_templates)
 
