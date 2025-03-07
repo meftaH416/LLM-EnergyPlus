@@ -11,11 +11,11 @@ def extract_idf_content(idf_path):
 def generate_prompt(L, W, H, AR, WWR):
     """Generates diverse prompts for IDF creation."""
     prompt_templates = [
-        f"Create an EnergyPlus IDF file for a rectangular building with L={L}, W={W}, height={H}, AR={AR}, WWR={WWR}, for a small office using ideal air HVAC.",
-        f"Generate an IDF file for a rectangular small office with dimensions: L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}. Use an ideal air HVAC system.",
-        f"I need an IDF file for a small office: rectangular shape, dimensions L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}, and an ideal air HVAC system.",
-        f"Can you create an EnergyPlus IDF file for a regular size small office with length={L} by width={W} by height={H}, aspect ratio {AR}, and WWR={WWR}?",
-        f"Small office, rectangular (length of {L}, width of {W} by height {H}, AR={AR} and WWR={WWR}), ideal air HVAC – create an IDF file."
+        f"Create an EnergyPlus IDF file for a rectangular building of floor are {FA} with L={L}, W={W}, height={H}, AR={AR}, WWR={WWR}, for a small office using ideal air HVAC.",
+        f"Generate an IDF file for a rectangular small office of floor are {FA} with dimensions: L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}. Use an ideal air HVAC system.",
+        f"I need an IDF file for a small office of floor are {FA}: rectangular shape, dimensions L={L}, W={W}, H={H}, AR={AR}, WWR={WWR}, and an ideal air HVAC system.",
+        f"Can you create an EnergyPlus IDF file for a regular size small office of floor are {FA} with length={L} by width={W} by height={H}, aspect ratio {AR}, and WWR={WWR}?",
+        f"Small office of floor {FA}, rectangular (length of {L}, width of {W} by height {H}, AR={AR} and WWR={WWR}), ideal air HVAC – create an IDF file."
     ]
     return random.choice(prompt_templates)
 
