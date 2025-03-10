@@ -35,6 +35,9 @@ def create_idf_json(idf_folder, csv_file, output_json):
         # Generate a random prompt
         user_prompt = generate_prompt(FA, L, W, H, AR, WWR)
 
+        # Remove extra spaces from the user prompt
+        user_prompt = ' '.join(user_prompt.split())
+
         # Find the corresponding IDF file
         idf_filename = f"{ID}.idf"
         idf_path = os.path.join(idf_folder, idf_filename)
@@ -42,18 +45,20 @@ def create_idf_json(idf_folder, csv_file, output_json):
         # Extract content if file exists
         answer = extract_idf_content(idf_path) if idf_filename in idf_files else "No matching IDF found."
 
+        # Remove extra spaces from the answer
+        answer = ' '.join(answer.split())
+
         data_pairs.append({"user": user_prompt, "answer": answer})
 
-    # Save as JSON
+    # Save as JSON with a compact indentation (2 spaces)
     with open(output_json, "w") as f:
-        json.dump(data_pairs, f, indent=4)
+        json.dump(data_pairs, f, indent=2)
 
 # Example usage
-idf_folder = r"\Desktop\LLM Eplus\idf_rectangle"
-csv_file = r"\Desktop\LLM Eplus\idf_rectangle\data.csv"
+idf_folder = r"C:\Users\Jayedi Aman\OneDrive - University of Missouri\Desktop\LLM Eplus\idf_rectangle"
+csv_file = r"C:\Users\Jayedi Aman\OneDrive - University of Missouri\Desktop\LLM Eplus\idf_rectangle\data.csv"
 output_json = "idf_rectangle_dataset.json"
 
 create_idf_json(idf_folder, csv_file, output_json)
 
 # print("Available IDF Files:", os.listdir(idf_folder))
-
