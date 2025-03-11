@@ -8,10 +8,10 @@ def extract_objects(idf_file_path):
     with open(idf_file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    # Split content into objects
+    # Split content into individual objects
     objects = content.split(';')
     
-    # Extract required objects
+    # Extract relevant objects
     building_surfaces = [obj.strip() + ';' for obj in objects if 'BuildingSurface:Detailed' in obj]
     fenestration_surfaces = [obj.strip() + ';' for obj in objects if 'FenestrationSurface:Detailed' in obj]
 
@@ -36,15 +36,12 @@ json_pairs = []
 
 # Process each IDF file
 for idf_file in os.listdir(idf_folder_path):
-    if idf_file.endswith('.idf'):
+    if idf_file.endswith('.idf') and idf_file.startswith("in"):
         idf_file_path = os.path.join(idf_folder_path, idf_file)
 
-        # Extract building surfaces
-        building_surfaces, fenestration_surfaces = extract_objects(idf_file_path)
-
-        # Get building description
+        # Extract numeric building ID (e.g., "in1.idf" → 1)
         try:
-            building_id = int(idf_file.split('.')[0])  # Assuming filename is ID (e.g., 1.idf)
+            building_id = int(idf_file.replace("in", "").replace(".idf", ""))
             description = building_data.get(building_id)
 
             if not description:
@@ -54,34 +51,35 @@ for idf_file in os.listdir(idf_folder_path):
             FA = description.get("FA", "unknown")  # Handle missing values
 
         except ValueError:
-            print(f"Skipping {idf_file} - Invalid filename format (expected integer ID)")
+            print(f"Skipping {idf_file} - Invalid filename format (expected 'in<ID>.idf')")
             continue  # Skip invalid filenames
+
+        # Extract building and fenestration surfaces
+        building_surfaces, fenestration_surfaces = extract_objects(idf_file_path)
 
         # Generate JSON pairs
         for surface in building_surfaces:
             json_pairs.append({
-                "user_query": (
+                "user": (
                     f"Create an EnergyPlus IDF object for a building surface with floor area {FA} m², "
-                    f"dimensions L={description['L']}m, W={description['W']}m, H={description['H']}m, "
-                    f"aspect ratio={description['AR']}, and window-to-wall ratio={description['WWR']}. "
-                    f"Ensure correct surface properties."
+                    f"L={description['L']}m, W={description['W']}m, H={description['H']}m, "
+                    f"aspect ratio={description['AR']}, and WWR={description['WWR']}."
                 ),
-                "answer": surface
+                "assistant": surface
             })
 
         for surface in fenestration_surfaces:
             json_pairs.append({
-                "user_query": (
+                "user": (
                     f"Create an EnergyPlus IDF object for a fenestration surface with dimensions "
                     f"L={description['L']}m, W={description['W']}m, H={description['H']}m, "
-                    f"aspect ratio={description['AR']}, and window-to-wall ratio={description['WWR']}. "
-                    f"Ensure correct placement on the building surface."
+                    f"aspect ratio={description['AR']}, and WWR={description['WWR']}."
                 ),
-                "answer": surface
+                "assistant": surface
             })
 
 # Save dataset to JSON
 with open(output_json_path, 'w', encoding='utf-8') as json_file:
-    json.dump(json_pairs, json_file, indent=2)
+    json.dump(json_pairs, json_file, indent=None, separators=(',', ':'))
 
 print(f"Fine-tuning dataset saved to {output_json_path}")
