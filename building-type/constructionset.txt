@@ -1,0 +1,12 @@
+# Commercial or nonresidential building
+## Small Office
+# Wall Construction: Wood-frame walls (2X4 16 in o.c.) with layers consisting of 1 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Attic roof with wood joist, consisting of roof insulation and 5/8 in. gypsum board.
+
+Medium Office
+Wall Construction: Steel-frame walls (2X4 16 in o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+Large Office
+Wall Construction: Mass walls using pre-cast concrete panels with layers consisting of 8 in. heavy-weight concrete, wall insulation, and 0.5 in. gypsum board.
+Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
