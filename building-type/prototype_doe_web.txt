@@ -4,97 +4,18 @@ The U.S. Department of Energy (DOE) supports the development of commercial and r
 The Pacific Northwest National Laboratory (PNNL) simulates energy savings associated with changes in energy codes and standards. This analysis is used by the U.S. Department of Energy's Building Energy Codes Program to evaluate published versions of the code, as well as in developing proposed code changes.
 
 Commercial prototype building models
-
 Residential prototype building models
-
 Manufactured Housing prototype building models
-
 
 Commercial
 The suite of commercial prototype buildings covers 75% of the commercial building floor area in the United States for new construction, including both commercial buildings and mid- to high-rise residential buildings, and across all U.S. climate zones. As ASHRAE Standard 90.1 and IECC evolve, PNNL makes modifications to the commercial prototype building models, with extensive input from ASHRAE 90.1 Standing Standards Project Committee members and other building industry experts.
 
 The prototype models include 16 commercial building types in 19 climate locations (16 in the U.S. and 3 international locations) for recent editions of ASHRAE Standard 90.1 and IECC and versions following the methodology of Standard 90.1 Performance Rating Method (Appendix G). The current combination results in an overall set of 5,168 total building models (in EnergyPlus™ Version 22.1.0).
 
-The zipped files in Tables 1, 2, and 3 contain downloadable prototype models in compressed, zip, format for the respective edition of ASHRAE Standard 90.1, ASHRAE 90.1 Appendix G, and IECC, respectively.  Each zipped file includes EnergyPlus model input files (.idf) and corresponding output files (.htm) across all climate locations, as well as a scorecard spreadsheet (Microsoft® Excel®, .xlsx, format). The scorecard summarizes the building descriptions, thermal zone internal loads, schedules, and other key modeling input information for all 16 prototype buildings.  The scorecard spreadsheet can be downloaded from this link . Table 3 contains the associated EnergyPlus TMY3 weather files for the 19 climate locations which can be downloaded from this zipped file.
-
-DOWNLOADS
-Files may be downloaded either as complete packages, containing all building types, or by individual building type, either by specific Standard 90.1 or IECC editions or as complete sets from the tables below.
-
-Table 1: ANSI/ASHRAE/IES Standard 90.1 Prototype Building Models
-Table 2: ANSI/ASHRAE/IES Standard 90.1-Performance Rating Method (Appendix G) Prototype Building Models
-Table 3: IECC Prototype Building Models
-Table 4: TMY3 Weather Files
-ANSI/ASHRAE/IES Standard 90.1
-Table 1. ANSI/ASHRAE/IES Standard 90.1 Prototype Building Models
-Building Type	Complete Set	90.1-2013	90.1-2016	90.1-2019	90.1-2022
-Small Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Medium Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Stand-alone Retail	ZIP	ZIP	ZIP	ZIP	ZIP
-Strip Mall	ZIP	ZIP	ZIP	ZIP	ZIP
-Primary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Secondary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Outpatient Healthcare	ZIP	ZIP	ZIP	ZIP	ZIP
-Hospital	ZIP	ZIP	ZIP	ZIP	ZIP
-Small Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Warehouse (non-refrigerated)	ZIP	ZIP	ZIP	ZIP	ZIP
-Quick Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Full Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Mid-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-High-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-All Building Types	ZIP	ZIP	ZIP	ZIP	ZIP
-Return to top
-
 ANSI/ASHRAE/IES Standard 90.1-Appendix G Prototype Building Models
 These prototypes are used to calculate Building Performance Factors (BPFs) for use with the Performance Rating Method of ASHRAE Standard 90.1-2016 though 2022. These prototypes are used to implement the new approach to calculating BPFs that follow the Appendix G baseline rules and include adjustments to the prototype models made after a specific code has been published. Those BPFs are therefore different than those published in ASHRAE Standard 90.1 2016-2022. This new approach is discussed in more detail in the PNNL Technical Support Document titled, "Commercial Building Prototypes Based on ANSI/ASHRAE/IES Standard 90.1-2019 Appendix G PRM".
 
-Table 2. ANSI/ASHRAE/IES Standard 90.1-Appendix G Prototype Building Models
-Building Type	Complete Set	ASHRAE 90.1-2016 Proposed	ASHRAE 90.1-2019 Proposed	ASHRAE 90.1-2022 Proposed	ASHRAE 90.1-2022 Baseline
-Small Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Medium Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Stand-alone Retail	ZIP	ZIP	ZIP	ZIP	ZIP
-Strip mall	ZIP	ZIP	ZIP	ZIP	ZIP
-Primary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Secondary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Outpatient Healthcare	ZIP	ZIP	ZIP	ZIP	ZIP
-Hospital	ZIP	ZIP	ZIP	ZIP	ZIP
-Small Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Warehouse (non-refrigerated)	ZIP	ZIP	ZIP	ZIP	ZIP
-Quick Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Full Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Mid-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-High-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-All Building Types	ZIP	ZIP	ZIP	ZIP	ZIP
-Return to top
-
-IECC
-Table 3. IECC Prototype Building Models
-Building Type	Complete Set	2012 IECC	2015 IECC	2018 IECC	2021 IECC
-Small Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Medium Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Office	ZIP	ZIP	ZIP	ZIP	ZIP
-Stand-alone Retail	ZIP	ZIP	ZIP	ZIP	ZIP
-Strip Mall	ZIP	ZIP	ZIP	ZIP	ZIP
-Primary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Secondary School	ZIP	ZIP	ZIP	ZIP	ZIP
-Outpatient Healthcare	ZIP	ZIP	ZIP	ZIP	ZIP
-Hospital	ZIP	ZIP	ZIP	ZIP	ZIP
-Small Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Large Hotel	ZIP	ZIP	ZIP	ZIP	ZIP
-Warehouse (non-refrigerated)	ZIP	ZIP	ZIP	ZIP	ZIP
-Quick Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Full Service Restaurant	ZIP	ZIP	ZIP	ZIP	ZIP
-Mid-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-High-rise Apartment	ZIP	ZIP	ZIP	ZIP	ZIP
-All Building Types	ZIP	ZIP	ZIP	ZIP	ZIP
-Return to top
-
 TMY3 Weather Files
-Table 4. TMY3 Weather Files
-To download individual *.epw files, please right-click on the file name and choose Save Link As…
 Thermal Zone	Thermal Climate Zone Name	Weather Location	Weather Data	Representative City
 0A	Extremely Hot Humid	Ho Chi Minh City/Tan Son Nhat International Airport, Vietnam	See note*	Ho Chi Minh City, Vietnam
 0B	Extremely Hot Dry	Dubai International Airport, United Arab Emirates	See note*	Dubai, United Arab Emirates
@@ -115,25 +36,20 @@ Thermal Zone	Thermal Climate Zone Name	Weather Location	Weather Data	Representat
 6B	Cold Dry	Great Falls International Airport, Montana	EPW	Great Falls, MT
 7	Very Cold	International Falls International Airport, Minnesota	EPW	International Falls, MN
 8	Subarctic/Arctic	Fairbanks International Airport, Alaska	EPW	Fairbanks, AK
-All Thermal Zones	 	 	ZIP	 
 *Note: the following international weather data files are available through ASHRAE Weather Data Center
-
 VNM_Ho.Chi.Minh.City-Tan.Son.Nhat.Intl.AP.489000_IWEC2.epw
 ARE_Dubai.Intl.AP.411940_IWEC2.epw
 IND_Delhi_New.Delhi-Safdarjung.AP.421820_IWEC2.epw
-Return to top
+
 
 Residential
 For residential buildings, PNNL uses two base prototypes to simulate the following building types:
-
 Single-family detached house
 Multi-family low-rise apartment building
+
 These prototypes are then modified to accommodate four different heating system types and four foundation types typically found in new residential construction. The result is an expanded set of 32 models, which is then simulated across 18 climate locations for each edition of the International Energy Conservation Code (IECC). This combination results in a set of 4,144 residential energy models (in EnergyPlus™ Version 23.1).
 
-The energy models for the 2018, 2021, and 2024 editions of the IECC are explicitly listed in Table 5, the energy models for the 2006 through 2015 editions of the IECC are embedded implicitly within the complete set shown in the Complete Set column in Table 5. Each compressed (.zip) file includes EnergyPlus model input files (.idf) and corresponding output files (.htm) for each of the eight climate zones (1-8) and three moisture regimes (A=Moist, B=Dry, C=Marine) defined in the IECC.
-
 Each file is assigned a unique name using the following naming convention:
-
 XX = Prototype, either Multi-family (MF) or Single-family (SF)
 CZ = Climate zone designator (e.g., CZ2B for climate zone 2, moisture regime B; CZ1AT for climate zone 1, moisture regime A, Tropical, CZ3AWH for climate zone 3, moisture regime A, Warm-Humid)
 HeatingSystemType = One of four heating system types: Electric Resistance, Gas Furnace, Oil Furnace or Heat Pump
@@ -141,39 +57,11 @@ FoundationType = One of four Foundation types: slab, crawlspace, heated basement
 IECC = International Energy Conservation Code
 Year= Year of published Code
 
-Downloads
-The energy models for the 2018, 2021, and 2024 versions of the IECC are listed in last three columns of Table 5 and can be downloaded either by specific IECC edition or by climate zone. The Complete Set column contains zipped files for prototypes covering all IECC editions from 2006 IECC to 2024. The idf files may be opened and modified in EnergyPlus.
-
 The Single-Family prototypes are now complete EnergyPlus files that utilize the airflow network for duct leakage modeling. Previously, Single-Family prototype models posted on the Energy Codes website did not include duct leakage specifications. Calculating loads for duct leakage required multiple EnergyPlus simulations (with and without duct leakage) and post processing the results for both Single -Family and Multifamily buildings. As a result, there may be large differences in energy consumption when comparing the latest Single-Family prototypes results to older prototype results downloaded from this website.
 
 The Multifamily prototype models currently do not include duct system.  Efforts are underway to update the Multifamily prototype models to incorporate the airflow network with duct leakage loops.
 
-Table 5. Residential Prototype Building Models by Climate Zone
-Zone/Regime	Complete Set (2006-2024)	2018 IECC	2021 IECC	2024 IECC
-1A	ZIP	ZIP	ZIP	ZIP
-2A	ZIP	ZIP	ZIP	ZIP
-2B	ZIP	ZIP	ZIP	ZIP
-3A	ZIP	ZIP	ZIP	ZIP
-3B	ZIP	ZIP	ZIP	ZIP
-3C	ZIP	ZIP	ZIP	ZIP
-4A	ZIP	ZIP	ZIP	ZIP
-4B	ZIP	ZIP	ZIP	ZIP
-4C	ZIP	ZIP	ZIP	ZIP
-5A	ZIP	ZIP	ZIP	ZIP
-5B	ZIP	ZIP	ZIP	ZIP
-5C	ZIP	ZIP	ZIP	ZIP
-6A	ZIP	ZIP	ZIP	ZIP
-6B	ZIP	ZIP	ZIP	ZIP
-7	ZIP	ZIP	ZIP	ZIP
-8	ZIP	ZIP	ZIP	ZIP
-All	ZIP	ZIP	ZIP	ZIP
-Return to top
-
-TMY3 Weather Files
-The associated EnergyPlus TMY3 weather files for the 18 climate locations are available for download in Table 6.
-
-Table 6. TMY3 Weather Files for Residential Building Models
-To download individual *.epw files, please right-click on the file name and choose Save Link As…
+TMY3 Weather Files for Residential Building Models
 Climate Zone and Representative City	Weather Data
 1A Honolulu, HI (tropical)	USA_HI_Honolulu.Intl_.AP_.911820_TMY3.epw
 1A Miami, FL	USA_FL_Miami.Intl_.AP_.722020_TMY3.epw
@@ -193,67 +81,27 @@ Climate Zone and Representative City	Weather Data
 6B Great Falls, MT	USA_MT_Great.Falls_.Intl_.AP_.727750_TMY3.epw
 7 International Falls, MN	USA_MN_International.Falls_.Intl_.AP_.727470_TMY3.epw
 8 Fairbanks, AK	USA_AK_Fairbanks.Intl_.AP_.702610_TMY3.epw
-All Climate Zones	IECC_epw.zip
-Return to top
-
 
 Manufactured Housing
 For manufactured housing, PNNL uses two base prototypes to simulate the following manufactured housing configurations:
-
 Single-section house
 Multi-section house
+
 The two building configurations are modified to accommodate four different heating system types typically found in new manufactured housing construction. The result is an expanded set of 8 models, which is then simulated across 19 climate locations for the HUD baseline code as well as the two tiers included in the DOE final rule pertaining to energy conservation standards for manufactured housing. This combination results in a set of 152 manufactured housing energy models (in EnergyPlus™ Version 8.0).
 
-The energy models for the HUD, tier 1, and tier 2 of the final rule are listed in Table 6. Each compressed (.zip) file includes EnergyPlus model input files (.idf) and corresponding output files (.htm) for each of the nineteen climate locations list in Table 7 (as specified in Table 7.1 of the Manufactured Housing Technical Support Document).
-
 Each file is assigned a unique name using the following naming convention:
-
 XX_Climate City_CZ_Code Edition_HeatingSystemType
-
 Where,
-
 XX = Configuration, either Single-Section (SC) or Multi-Section (MS)
 Climate City = The name of the representative 19 climate city as listed in Table 7.1 of the TSD (e.g., SanFrancisco for San Francisco, CA)
 CZ = Climate zone designator (e.g., CZ3C for climate zone 3, moisture regime C)
 Code Edition = The name of the energy code: HUD for the HUD baseline code, and FinalRule for the final rule which includes both tier 1 and tier 2 of the final rule.
 HeatingSystemType = One of four heating system types: electricfurnace for Electric Resistance, gasfurnace for Gas Furnace, oilfurnace for Oil Furnace or heatpump for Heat Pump
-
 For example, MS_Baltimore_4A_HUD_heatpump.idf is the model idf file for multi-section HUD baseline code with heat pump heating system type at climate zone 4A represented by the weather file at Baltimore. Similarly, SS_Atlanta_3A_tier1_gasfurnace.idf is the model idf file for single-section tier 1 of the final rule with gas furnace system type at climate zone 3A represented by the weather file at Atlanta.
-
-Downloads
-The energy models for the HUD and the final rule are listed in Table 6 and can be downloaded either by specific code edition (i.e., HUD or Final Rule) or as complete sets by either each of the climate zone (all rows beside the last row of Table 6) or all the climate zones (last row of Table 6). The idf files may be opened and modified in EnergyPlus.
 
 The energy models posted do not contain separate models for assessing the impact of the duct leakage specifications. Calculating loads for duct leakage required multiple EnergyPlus simulations with and without duct leakage and post processing the results for the single-section and double-section buildings.
 
-Table 7. Manufactured Housing Models by Climate Zones and Representative Cities
-HUD Climate Zone	IECC Climate Zone (City)	Complete Set	HUD Baseline	Final Rule
-1	1A Miami, FL	ZIP	ZIP	ZIP
-1	2A Houston, TX	ZIP	ZIP	ZIP
-2	2B Phoenix, AZ	ZIP	ZIP	ZIP
-1	3A Atlanta, GA	ZIP	ZIP	ZIP
-1	3A Charleston, SC	ZIP	ZIP	ZIP
-1	3A Jackson, MS	ZIP	ZIP	ZIP
-1	3A Birmingham, AL	ZIP	ZIP	ZIP
-2	3A Memphis, TN	ZIP	ZIP	ZIP
-2	3B ElPaso, TX	ZIP	ZIP	ZIP
-2	3C SanFrancisco, CA	ZIP	ZIP	ZIP
-3	4A Baltimore, MD	ZIP	ZIP	ZIP
-2	4B Albuquerque, NM	ZIP	ZIP	ZIP
-3	4C Salem, OR	ZIP	ZIP	ZIP
-3	5A Chicago, IL	ZIP	ZIP	ZIP
-3	5B Boise, ID	ZIP	ZIP	ZIP
-3	6A Burlington, VT	ZIP	ZIP	ZIP
-3	6B Helena, MT	ZIP	ZIP	ZIP
-3	7 Duluth, MN	ZIP	ZIP	ZIP
-3	8 Fairbanks, AK	ZIP	ZIP	ZIP
-ZIP	All	ZIP	ZIP	ZIP
-Return to top
-
-TMY3 Weather Files
-The associated EnergyPlus TMY3 weather files for the 19 climate locations are available for download in Table 8.
-
-Table 8. TMY3 Weather Files for Manufactured Housing Models
-To download individual *.epw files, please right-click on the file name and choose Save Link As…
+TMY3 Weather Files for Manufactured Housing Models
 Climate Zone and Representative City	Weather Data
 1A Miami, FL	USA_FL_Miami.Intl.AP.722020_TMY3.epw
 2A Houston, TX	USA_TX_Houston-Bush.Intercontinental.AP_.722430_TMY3.epw
