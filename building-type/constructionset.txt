@@ -1,12 +1,66 @@
 # Commercial or nonresidential building
+
 ## Small Office
 # Wall Construction: Wood-frame walls (2X4 16 in o.c.) with layers consisting of 1 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
 # Roof Construction: Attic roof with wood joist, consisting of roof insulation and 5/8 in. gypsum board.
 
-Medium Office
-Wall Construction: Steel-frame walls (2X4 16 in o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
-Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+## Medium Office
+# Wall Construction: Steel-frame walls (2X4 16 in o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
 
-Large Office
-Wall Construction: Mass walls using pre-cast concrete panels with layers consisting of 8 in. heavy-weight concrete, wall insulation, and 0.5 in. gypsum board.
-Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+## Large Office
+# Wall Construction: Mass walls using pre-cast concrete panels with layers consisting of 8 in. heavy-weight concrete, wall insulation, and 0.5 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Stand-alone Retail
+# Wall Construction: Concrete block wall with layers consisting of 8 in. CMU, wall insulation, and 0.5 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Strip Mall
+# Wall Construction: Steel-framed walls with layers consisting of 1 in. stucco, 0.625 in. gypsum board, wall insulation, and another 0.625 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Primary School
+# Wall Construction: Steel-framed walls (2X4, 16 in. o.c.) with layers consisting of 0.75 in. stucco, 0.625 in. gypsum board, cavity insulation, and another 0.625 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Secondary School
+# Wall Construction: Steel-framed walls (2X4 16 in. o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Outpatient Healthcare
+# Wall Construction: Steel-frame walls (2X4 16 in. o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Hospital
+# Wall Construction: Mass walls made of concrete blocks with layers consisting of 8 in. heavy-weight concrete, wall insulation, and 0.5 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Small Hotel
+# Wall Construction: Steel-frame walls (2X4 16 in. o.c.) with layers consisting of 1 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## Large Hotel
+# Wall Construction: Mass walls using 8 in. CMU with layers consisting of wall insulation and 0.5 in. gypsum board.
+# Roof Construction: Insulation entirely above deck, consisting of a single-ply roof membrane, steel deck, and rigid insulation.
+
+## Warehouse (non-refrigerated)
+# Wall Construction: Metal building walls with layers consisting of a metal surface, wall insulation, and gypsum board.
+# Roof Construction: Metal building roof with layers consisting of a metal surface and roof insulation.
+
+## Quick Service Restaurant
+# Wall Construction: Wood-framed walls with layers consisting of 1 in. stucco, 0.625 in. gypsum board, wall insulation, and another 0.625 in. gypsum board.
+# Roof Construction: Unconditioned attic roof modeled with asphalt shingles and 0.625 in. gypsum board, without insulation. The ceiling between the attic and conditioned zones consists of a wood-joist attic roof with layers of insulation and 0.625 in. gypsum board.
+
+## Full Service Restaurant
+# Wall Construction: Steel-framed walls with layers consisting of 1 in. stucco, 0.625 in. gypsum board, wall insulation, and another 0.625 in. gypsum board.
+# Roof Construction: Unconditioned attic roof modeled with asphalt shingles and 0.625 in. gypsum board, without insulation. The ceiling between the attic and conditioned zones consists of a wood-joist attic roof with layers of insulation and 0.625 in. gypsum board.
+
+## Mid-rise Apartment
+# Wall Construction: Steel-frame walls (2X4 16 in. o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
+## High-rise Apartment
+# Wall Construction: Steel-frame walls (2X4 16 in. o.c.) with layers consisting of 0.4 in. stucco, 5/8 in. gypsum board, wall insulation, and another 5/8 in. gypsum board.
+# Roof Construction: Built-up roof with roof membrane, roof insulation, and metal decking.
+
