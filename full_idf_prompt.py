@@ -55,8 +55,8 @@ def create_idf_json(idf_folder, csv_file, output_json):
         json.dump(data_pairs, f, indent=2)
 
 # Example usage
-idf_folder = r"C:\Users\Jayedi Aman\OneDrive - University of Missouri\Desktop\LLM Eplus\idf_rectangle"
-csv_file = r"C:\Users\Jayedi Aman\OneDrive - University of Missouri\Desktop\LLM Eplus\idf_rectangle\data.csv"
+idf_folder = r"C:\Users\\Desktop\LLM Eplus\idf_rectangle"
+csv_file = r"C:\Users\\Desktop\LLM Eplus\idf_rectangle\data.csv"
 output_json = "idf_rectangle_dataset.json"
 
 create_idf_json(idf_folder, csv_file, output_json)
