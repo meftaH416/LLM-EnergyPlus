@@ -2509,45 +2509,39 @@
     "assistant": "Zone,\nSTORAGE ROOM, !- Name\n2.7000000E+02, !- Direction of Relative North {deg}\n20.0000000E+00, !- X Origin {m}\n15.0000000E+00, !- Y Origin {m}\n0.0000000E+00, !- Z Origin {m}\n1, !- Type\n1, !- Multiplier\nautocalculate, !- Ceiling Height {m}\nautocalculate; !- Volume {m3}"
   },
   
-  
+
+
   {
-    "user": "Create a zone list of 3 zones for the building.",
-    "assistant": "ZoneList ,\nTop Floor List, !- Name\nTop West Zone, !- Zone 1 Name\nTop Center Zone, !- Zone 2 Name\nTop East Zone; !- Zone 3 Name"
+    "user": "Create an idf zone list named 'North Wing Zones' containing three zones for the office building's northern section.",
+    "assistant": "ZoneList, North Wing Zones, !- Name; North Zone A, !- Zone 1 Name; North Zone B, !- Zone 2 Name; North Zone C; !- Zone 3 Name"
   },
   {
-    "user": "Define a zone list of 3 zones for the office building?",
-    "assistant": "ZoneList ,\nGround Floor List, !- Name\nGround West Zone, !- Zone 1 Name\nGround Center Zone, !- Zone 2 Name\nGround East Zone; !- Zone 3 Name"
+    "user": "Define a zone list object called 'Retail Areas' with three zones for the shopping mall's ground floor.",
+    "assistant": "ZoneList, Retail Areas, !- Name; Retail Zone 1, !- Zone 1 Name; Retail Zone 2, !- Zone 2 Name; Retail Zone 3; !- Zone 3 Name"
   },
   {
-    "user": "How to create a zone list of 3 zones  for the new building?",
-    "assistant": "ZoneList ,\nBasement Floor List, !- Name\nBasement West Zone, !- Zone 1 Name\nBasement Center Zone, !- Zone 2 Name\nBasement East Zone; !- Zone 3 Name"
+    "user": "Generate a zone list object named 'Patient Rooms' with three zones for the hospital's east wing.",
+    "assistant": "ZoneList, Patient Rooms, !- Name; Room Block A, !- Zone 1 Name; Room Block B, !- Zone 2 Name; Room Block C; !- Zone 3 Name"
   },
   {
-    "user": "Create a zone list for the shopping mall?",
-    "assistant": "ZoneList ,\nFirst Floor List, !- Name\nFirst West Zone, !- Zone 1 Name\nFirst Center Zone, !- Zone 2 Name\nFirst East Zone; !- Zone 3 Name"
+    "user": "Create an idf zone list called 'Conference Halls' containing three zones for the convention center's upper level.",
+    "assistant": "ZoneList, Conference Halls, !- Name; Hall Alpha, !- Zone 1 Name; Hall Beta, !- Zone 2 Name; Hall Gamma; !- Zone 3 Name"
   },
   {
-    "user": "Set up a zone list for the hotel?",
-    "assistant": "ZoneList ,\nSecond Floor List, !- Name\nSecond West Zone, !- Zone 1 Name\nSecond Center Zone, !- Zone 2 Name\nSecond East Zone; !- Zone 3 Name"
+    "user": "Define an idf zone list named 'Luxury Suites' with three zones for the hotel's penthouse floor.",
+    "assistant": "ZoneList, Luxury Suites, !- Name; Suite Horizon, !- Zone 1 Name; Suite Vista, !- Zone 2 Name; Suite Panorama; !- Zone 3 Name"
   },
+
   {
-    "user": "Define a zone list for the conference center?",
-    "assistant": "ZoneList ,\nThird Floor List, !- Name\nThird West Zone, !- Zone 1 Name\nThird Center Zone, !- Zone 2 Name\nThird East Zone; !- Zone 3 Name"
-  },
-  {
-    "user": "How do I create a zone list for the hospital?",
-    "assistant": "ZoneList ,\nFourth Floor List, !- Name\nFourth West Zone, !- Zone 1 Name\nFourth Center Zone, !- Zone 2 Name\nFourth East Zone; !- Zone 3 Name"
-  },
-  {
-    "user": "Create a zone list for the parking garage?",
+    "user": "Create a zone list for the parking garage.",
     "assistant": "ZoneList ,\nGround Parking List, !- Name\nGround West Parking, !- Zone 1 Name\nGround Center Parking, !- Zone 2 Name\nGround East Parking; !- Zone 3 Name"
   },
   {
-    "user": "Set up a zone list for the residential building?",
+    "user": "Set up a zone list for the residential building.",
     "assistant": "ZoneList ,\nFifth Floor List, !- Name\nFifth West Zone, !- Zone 1 Name\nFifth Center Zone, !- Zone 2 Name\nFifth East Zone; !- Zone 3 Name"
   },
   {
-    "user": "Define a zone list for the school?",
+    "user": "Define a zone list for the school.",
     "assistant": "ZoneList ,\nSixth Floor List, !- Name\nSixth West Zone, !- Zone 1 Name\nSixth Center Zone, !- Zone 2 Name\nSixth East Zone; !- Zone 3 Name"
   },
   {
@@ -2555,407 +2549,480 @@
     "assistant": "ZoneList ,\nLab Floor List, !- Name\nLab West Zone, !- Zone 1 Name\nLab Center Zone, !- Zone 2 Name\nLab East Zone; !- Zone 3 Name"
   },
   {
-    "user": "Create a zone list of 3 zones for the gymnasium?",
+    "user": "Create a zone list of 3 zones for the gymnasium.",
     "assistant": "ZoneList ,\nGym Floor List, !- Name\nGym West Zone, !- Zone 1 Name\nGym Center Zone, !- Zone 2 Name\nGym East Zone; !- Zone 3 Name"
   },
   {
-    "user": "Define a zone list of 3 zones for the museum?",
+    "user": "Define a zone list of 3 zones for the museum.",
     "assistant": "ZoneList ,\nMuseum Floor List, !- Name\nMuseum West Zone, !- Zone 1 Name\nMuseum Center Zone, !- Zone 2 Name\nMuseum East Zone; !- Zone 3 Name"
   },
   {
-    "user": "How do I create a zone list for the library?",
-    "assistant": "ZoneList ,\nLibrary Floor List, !- Name\nLibrary West Zone, !- Zone 1 Name\nLibrary Center Zone, !- Zone 2 Name\nLibrary East Zone; !- Zone 3 Name"
-  },
-  {
-    "user": "Create a zone list for the exhibition hall?",
+    "user": "Create a zone list for the exhibition hall.",
     "assistant": "ZoneList ,\nExhibition Floor List, !- Name\nExhibition West Zone, !- Zone 1 Name\nExhibition Center Zone, !- Zone 2 Name\nExhibition East Zone; !- Zone 3 Name"
   },
   {
-    "user": "Define a zone list for the factory?",
+    "user": "Define a zone list for the factory.",
     "assistant": "ZoneList ,\nFactory Floor List, !- Name\nFactory West Zone, !- Zone 1 Name\nFactory Center Zone, !- Zone 2 Name\nFactory East Zone; !- Zone 3 Name"
   },
   {
-    "user": "Set up a zone list for the research facility?",
+    "user": "Set up a zone list for the research facility.",
     "assistant": "ZoneList ,\nResearch Floor List, !- Name\nResearch West Zone, !- Zone 1 Name\nResearch Center Zone, !- Zone 2 Name\nResearch East Zone; !- Zone 3 Name"
+  },
+  {
+    "user": "Create a zone list named 'Laboratory Zones' containing three specialized zones for the research facility's clean room area.",
+    "assistant": "ZoneList, Laboratory Zones, !- Name; Clean Room A, !- Zone 1 Name; Equipment Room, !- Zone 2 Name; Preparation Area; !- Zone 3 Name"
+  },
+  {
+    "user": "Define a zone list called 'Data Center Areas' with three critical zones for the server farm's cooling system.",
+    "assistant": "ZoneList, Data Center Areas, !- Name; Server Hall 1, !- Zone 1 Name; Network Hub, !- Zone 2 Name; Cooling Plant; !- Zone 3 Name"
+  },
+  {
+    "user": "Generate a zone list named 'Classroom Blocks' with three educational zones for the university building's west wing.",
+    "assistant": "ZoneList, Classroom Blocks, !- Name; Lecture Hall 101, !- Zone 1 Name; Computer Lab, !- Zone 2 Name; Group Study Room; !- Zone 3 Name"
+  },
+  {
+    "user": "Create a zone list called 'Manufacturing Cells' containing three production zones for the factory floor layout.",
+    "assistant": "ZoneList, Manufacturing Cells, !- Name; Assembly Line 1, !- Zone 1 Name; Quality Control, !- Zone 2 Name; Packaging Station; !- Zone 3 Name"
+  },
+  {
+    "user": "Define a zone list named 'Residential Units' with three apartment zones for the high-rise building's 15th floor.",
+    "assistant": "ZoneList, Residential Units, !- Name; Unit 1501, !- Zone 1 Name; Unit 1502, !- Zone 2 Name; Unit 1503; !- Zone 3 Name"
+  },
+  {
+    "user": "Generate a zone list called 'Hospital Departments' with three medical zones for the healthcare facility's emergency wing.",
+    "assistant": "ZoneList, Hospital Departments, !- Name; Triage Area, !- Zone 1 Name; Treatment Rooms, !- Zone 2 Name; Recovery Ward; !- Zone 3 Name"
+  },
+  {
+    "user": "Create a zone list named 'Retail Stores' containing three commercial zones for the shopping center's premium section.",
+    "assistant": "ZoneList, Retail Stores, !- Name; Luxury Boutique, !- Zone 1 Name; Jewelry Store, !- Zone 2 Name; Electronics Shop; !- Zone 3 Name"
+  },
+  {
+    "user": "Define a zone list called 'Hotel Amenities' with three service zones for the resort's guest experience areas.",
+    "assistant": "ZoneList, Hotel Amenities, !- Name; Spa Center, !- Zone 1 Name; Fitness Room, !- Zone 2 Name; Business Lounge; !- Zone 3 Name"
+  },
+  {
+    "user": "Generate a zone list named 'Airport Terminals' with three passenger zones for the transportation hub's international section.",
+    "assistant": "ZoneList, Airport Terminals, !- Name; Departure Hall, !- Zone 1 Name; Customs Area, !- Zone 2 Name; Duty Free Zone; !- Zone 3 Name"
+  },
+  {
+    "user": "Create a zone list called 'Museum Galleries' containing three exhibition zones for the cultural institution's new wing.",
+    "assistant": "ZoneList, Museum Galleries, !- Name; Modern Art Hall, !- Zone 1 Name; Historical Exhibit, !- Zone 2 Name; Interactive Gallery; !- Zone 3 Name"
   },
   
   
   
   
   {
-    "user": "Define a zone group for the building?",
+    "user": "Define a zone group object for the building.",
     "assistant": "ZONE GROUP ,\nTop Floor , !- Zone Group Name\nTop Floor List, !- Zone List Name\n10; !- Zone List Multiplier"
   },
   {
-    "user": "Create a zone group for the office building?",
+    "user": "Create a zone group for the office building.",
     "assistant": "ZONE GROUP ,\nGround Floor , !- Zone Group Name\nGround Floor List, !- Zone List Name\n5; !- Zone List Multiplier"
   },
   {
-    "user": "How do I set up a zone group for the basement?",
+    "user": "How do I set up a zone group object for the basement?",
     "assistant": "ZONE GROUP ,\nBasement Floor , !- Zone Group Name\nBasement Floor List, !- Zone List Name\n3; !- Zone List Multiplier"
   },
   {
-    "user": "Define a zone group for the shopping mall?",
+    "user": "Define a zone group object for the shopping mall.",
     "assistant": "ZONE GROUP ,\nFirst Floor , !- Zone Group Name\nFirst Floor List, !- Zone List Name\n6; !- Zone List Multiplier"
   },
   {
-    "user": "Set up a zone group for the hotel?",
+    "user": "Set up an idf zone group for the hotel.",
     "assistant": "ZONE GROUP ,\nSecond Floor , !- Zone Group Name\nSecond Floor List, !- Zone List Name\n8; !- Zone List Multiplier"
   },
   {
-    "user": "Create a zone group for the conference center?",
+    "user": "Create an idf zone group for the conference center.",
     "assistant": "ZONE GROUP ,\nConference Floor , !- Zone Group Name\nConference Floor List, !- Zone List Name\n4; !- Zone List Multiplier"
   },
   {
-    "user": "How to define a zone group for the hospital?",
+    "user": "How to define a zone group object for the hospital?",
     "assistant": "ZONE GROUP ,\nHospital Floor , !- Zone Group Name\nHospital Floor List, !- Zone List Name\n9; !- Zone List Multiplier"
   },
   {
-    "user": "Create a zone group for the parking garage?",
+    "user": "Create a zone group for the parking garage.",
     "assistant": "ZONE GROUP ,\nGround Parking , !- Zone Group Name\nGround Parking List, !- Zone List Name\n7; !- Zone List Multiplier"
   },
   {
-    "user": "Set up a zone group for the residential building?",
+    "user": "Set up a zone group object for the residential building.",
     "assistant": "ZONE GROUP ,\nFifth Floor , !- Zone Group Name\nFifth Floor List, !- Zone List Name\n10; !- Zone List Multiplier"
   },
   {
-    "user": "Define a zone group for the school?",
+    "user": "Define an energyplus zone group for the school.",
     "assistant": "ZONE GROUP ,\nSixth Floor , !- Zone Group Name\nSixth Floor List, !- Zone List Name\n6; !- Zone List Multiplier"
   },
   {
-    "user": "How do I create a zone group for the laboratory?",
+    "user": "How do I create an idf zone group for the laboratory?",
     "assistant": "ZONE GROUP ,\nLab Floor , !- Zone Group Name\nLab Floor List, !- Zone List Name\n3; !- Zone List Multiplier"
   },
   {
-    "user": "Define a zone group for the gymnasium?",
+    "user": "Define a zone group for the gymnasium.",
     "assistant": "ZONE GROUP ,\nGym Floor , !- Zone Group Name\nGym Floor List, !- Zone List Name\n2; !- Zone List Multiplier"
   },
   
   
-  
+
   {
-    "user": "Create overhang shading for a window?",
-    "assistant": "Shading:Overhang:Projection ,\nZn001:Wall001:Win001:Shade001 ,\n0.7 ,\n90 ,\n0.2 ,\n0.2 ,\n0.6 ;"
+    "user": "Create a south-facing window overhang shading with 1.0m projection, 0.3m left extension, and 0.3m right extension for optimal summer shading.",
+    "assistant": "Shading:Overhang:Projection, SouthWindow_Overhang1, 1.0, 180, 0.3, 0.3, 0.5;"
   },
   {
-    "user": "Add shading over a door?",
-    "assistant": "Shading:Overhang ,\nZn001:Wall001:Door001:Shade001 ,\n0.6 ,\n90 ,\n0 ,\n0 ,\n3 ;"
+    "user": "Define a west-facing fin shading system with 0.4m projection for a curtain wall system in a hot climate.",
+    "assistant": "Shading:Fin:Projection, WestCurtainWall_Fin1, Zn001:Wall003:Win005, 0.4, 0.4, 0.4, 270, 0.4, 0.4, 0.4, 0.4, 270, 0.4;"
   },
   {
-    "user": "Define shading fin for a window?",
-    "assistant": "Shading:Fin:Projection ,\nZn001:Wall001:Shade003 ,\nZn001:Wall001:Win001 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.6 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.6 ;"
+    "user": "Add a decorative overhang shading above the main entrance door with 0.8m projection and full width coverage.",
+    "assistant": "Shading:Overhang, MainEntrance_Shade1, 0.8, 0, 0, 0, 3.2;"
   },
   {
-    "user": "Set shading for a window with an overhang?",
-    "assistant": "Shading:Overhang:Projection ,\nZn001:Wall001:Win002:Shade002 ,\n0.8 ,\n90 ,\n0.3 ,\n0.3 ,\n0.5 ;"
+    "user": "Create an adjustable louver shading system for a north-facing window with 0.6m projection and 45° tilt angle.",
+    "assistant": "Shading:Louver, NorthWindow_Louver1, Zn002:Wall001:Win003, 0.6, 0.6, 0.6, 0, 45, 0.6, 0.6, 0.6, 0, 45;"
   },
   {
-    "user": "Define overhang shading object for a door?",
-    "assistant": "Shading:Overhang ,\nZn001:Wall002:Door002:Shade002 ,\n0.5 ,\n90 ,\n0 ,\n0 ,\n2 ;"
+    "user": "Define a deep overhang shading (1.2m) for a west-facing classroom window to prevent glare during afternoon hours.",
+    "assistant": "Shading:Overhang:Projection, Classroom_WestShade1, 1.2, 270, 0.4, 0.4, 0.8;"
   },
   {
-    "user": "Create overhang shading object for a large window?",
-    "assistant": "Shading:Overhang:Projection ,\nZn001:Wall002:Win001:Shade001 ,\n1.0 ,\n90 ,\n0.4 ,\n0.4 ,\n0.7 ;"
+    "user": "Add a retractable awning shading system above the patio doors with 1.5m projection for seasonal adjustment.",
+    "assistant": "Shading:Overhang, PatioDoor_Awning1, 1.5, 180, 0, 0, 2.4;"
   },
   {
-    "user": "Define shading fin object for a tall window",
-    "assistant": "Shading:Fin:Projection ,\nZn002:Wall003:Shade001 ,\nZn002:Wall003:Win002 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.5 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.5 ;"
+    "user": "Create vertical fin shading for an east-facing office window with 0.3m projection spaced 0.5m apart.",
+    "assistant": "Shading:Fin:Projection, OfficeEast_Fin1, Zn003:Wall002:Win004, 0.3, 0.3, 0.3, 90, 0.5, 0.3, 0.3, 0.3, 90, 0.5;"
   },
   {
-    "user": "Add shading object over a medium-sized door",
-    "assistant": "Shading:Overhang ,\nZn003:Wall004:Door001:Shade001 ,\n0.5 ,\n90 ,\n0 ,\n0 ,\n2.5 ;"
+    "user": "Define a brise soleil shading system for the south facade with 0.9m horizontal projections at 2m intervals.",
+    "assistant": "Shading:Overhang:Projection, SouthFacade_Brise1, 0.9, 180, 0, 0, 2.0;"
+  },
+  {
+    "user": "Add a decorative pergola shading structure above ground floor windows with 1.0m projection and 0.2m side extensions.",
+    "assistant": "Shading:Overhang:Projection, Pergola_Shade1, 1.0, 180, 0.2, 0.2, 3.0;"
+  },
+  {
+    "user": "Create a combination overhang and vertical fin shading system for a southwest-facing corner window.",
+    "assistant": "Shading:Overhang:Projection, CornerWindow_Overhang1, 0.7, 225, 0.3, 0.3, 0.6; Shading:Fin:Projection, CornerWindow_Fin1, Zn004:Wall003:Win006, 0.4, 0.4, 0.4, 225, 0.5, 0.4, 0.4, 0.4, 225, 0.5;"
+  },
+  {
+    "user": "Create a south-facing window overhang with 1.5m projection, 0.6m side extensions, and 0.9m height above window for optimal summer shading in a hot climate.",
+    "assistant": "Shading:Overhang:Projection, SouthWindow_Overhang1, 1.5, 180, 0.6, 0.6, 0.9;"
+  },
+  {
+    "user": "Define a vertical fin shading system with 0.4m depth, 0.5m spacing, and 45° tilt angle for west-facing curtain wall windows.",
+    "assistant": "Shading:Fin:Projection, WestFacade_Fin1, Zn001:Wall001:Win001, 0.4, 0.4, 0.4, 270, 0.5, 0.4, 0.4, 0.4, 45, 0.5;"
+  },
+  {
+    "user": "Add a decorative 1.2m deep overhang above main entrance doors with full 4m width coverage and 0.3m height clearance.",
+    "assistant": "Shading:Overhang, MainEntry_Shade1, 1.2, 0, 0, 0, 4.0;"
+  },
+  {
+    "user": "Create an adjustable louver system with 0.8m projection and 30° tilt angle for north-facing office windows.",
+    "assistant": "Shading:Louver, OfficeNorth_Louver1, Zn002:Wall002:Win002, 0.8, 0.8, 0.8, 0, 30, 0.8, 0.8, 0.8, 0, 30;"
+  },
+  {
+    "user": "Define a 2.0m deep brise soleil shading system for southwest-facing classroom windows with 0.7m side extensions.",
+    "assistant": "Shading:Overhang:Projection, Classroom_SWShade1, 2.0, 225, 0.7, 0.7, 1.2;"
+  },
+  {
+    "user": "Add a retractable awning with 1.8m projection above patio doors for seasonal solar control.",
+    "assistant": "Shading:Overhang, Patio_Awning1, 1.8, 180, 0, 0, 3.0;"
+  },
+  {
+    "user": "Create vertical fins with 0.5m projection and 0.6m spacing for east-facing hospital windows.",
+    "assistant": "Shading:Fin:Projection, HospitalEast_Fin1, Zn003:Wall003:Win003, 0.5, 0.5, 0.5, 90, 0.6, 0.5, 0.5, 0.5, 90, 0.6;"
+  },
+  {
+    "user": "Define a combination overhang (1.2m) and vertical fins (0.4m) for northwest-facing corner windows.",
+    "assistant": "Shading:Overhang:Projection, CornerNW_Overhang1, 1.2, 315, 0.5, 0.5, 1.0; Shading:Fin:Projection, CornerNW_Fin1, Zn004:Wall004:Win004, 0.4, 0.4, 0.4, 315, 0.6, 0.4, 0.4, 0.4, 315, 0.6;"
+  },
+  {
+    "user": "Add a 1.5m deep pergola shading structure above ground floor retail windows with 0.4m side extensions.",
+    "assistant": "Shading:Overhang:Projection, RetailPergola1, 1.5, 180, 0.4, 0.4, 2.5;"
+  },
+  {
+    "user": "Create a dynamic shading system with 1.0m movable overhang for south-facing museum gallery windows.",
+    "assistant": "Shading:Overhang:Projection, MuseumSouth_Shade1, 1.0, 180, 0.3, 0.3, 0.8;"
   },
   {
     "user": "Set shading object for a wide window with an overhang",
-    "assistant": "Shading:Overhang:Projection ,\nZn004:Wall005:Win002:Shade002 ,\n1.2 ,\n90 ,\n0.5 ,\n0.5 ,\n0.8 ;"
+    "assistant": "Shading:Overhang:Projection ,Zn004:Wall005:Win002:Shade002 ,1.2 ,90 ,0.5 ,0.5 ,0.8 ;"
   },
   {
     "user": "Create shading object fin for a narrow window",
-    "assistant": "Shading:Fin:Projection ,\nZn005:Wall006:Shade002 ,\nZn005:Wall006:Win003 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.3 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.3 ;"
+    "assistant": "Shading:Fin:Projection ,Zn005:Wall006:Shade002 ,Zn005:Wall006:Win003 ,0.1 ,0.1 ,0.1 ,90 ,0.3 ,0.1 ,0.1 ,0.1 ,90 ,0.3 ;"
   },
   {
     "user": "Add shading object over a door with a larger extension.",
-    "assistant": "Shading:Overhang ,\nZn006:Wall007:Door002:Shade002 ,\n0.7 ,\n90 ,\n0.3 ,\n0.3 ,\n4 ;"
+    "assistant": "Shading:Overhang ,Zn006:Wall007:Door002:Shade002 ,0.7 ,90 ,0.3 ,0.3 ,4 ;"
   },
   {
     "user": "Create overhang shading object for a small window",
-    "assistant": "Shading:Overhang:Projection ,\nZn007:Wall008:Win004:Shade003 ,\n0.6 ,\n90 ,\n0.2 ,\n0.2 ,\n0.5 ;"
+    "assistant": "Shading:Overhang:Projection ,Zn007:Wall008:Win004:Shade003 ,0.6 ,90 ,0.2 ,0.2 ,0.5 ;"
   },
   {
     "user": "Set up shading object for a window with large depth overhang.",
-    "assistant": "Shading:Overhang:Projection ,\nZn008:Wall009:Win005:Shade004 ,\n1.0 ,\n90 ,\n0.5 ,\n0.5 ,\n1.0 ;"
+    "assistant": "Shading:Overhang:Projection ,Zn008:Wall009:Win005:Shade004 ,1.0 ,90 ,0.5 ,0.5 ,1.0 ;"
   },
   {
     "user": "Add shading fin object for a door.",
-    "assistant": "Shading:Fin:Projection ,\nZn009:Wall010:Shade003 ,\nZn009:Wall010:Door003 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.6 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.6 ;"
+    "assistant": "Shading:Fin:Projection ,Zn009:Wall010:Shade003 ,Zn009:Wall010:Door003 ,0.2 ,0.2 ,0.2 ,90 ,0.6 ,0.2 ,0.2 ,0.2 ,90 ,0.6 ;"
   },
-  {
-    "user": "Create idf object for shading of a wide door with an overhang",
-    "assistant": "Shading:Overhang ,\nZn010:Wall011:Door004:Shade004 ,\n0.8 ,\n90 ,\n0.4 ,\n0.4 ,\n2 ;"
-  },
-  {
-    "user": "Add idf object for shading of a high window with a deep overhang",
-    "assistant": "Shading:Overhang:Projection ,\nZn011:Wall012:Win006:Shade005 ,\n1.5 ,\n90 ,\n0.6 ,\n0.6 ,\n1.2 ;"
-  },
-  {
-    "user": "Create idf object for shading of fin for a small window",
-    "assistant": "Shading:Fin:Projection ,\nZn012:Wall013:Shade004 ,\nZn012:Wall013:Win007 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.4 ,\n0.1 ,\n0.1 ,\n0.1 ,\n90 ,\n0.4 ;"
-  },
-  {
-    "user": "Define idf object for shading of a wide window with a tilt.",
-    "assistant": "Shading:Overhang:Projection ,\nZn013:Wall014:Win008:Shade006 ,\n1.0 ,\n80 ,\n0.4 ,\n0.4 ,\n0.9 ;"
-  },
-  {
-    "user": "Add idf object for shading over a narrow door.",
-    "assistant": "Shading:Overhang ,\nZn014:Wall015:Door005:Shade005 ,\n0.5 ,\n90 ,\n0 ,\n0 ,\n2.0 ;"
-  },
-  {
-    "user": "Create idf object for shading of fin for a door with large tilt.",
-    "assistant": "Shading:Fin:Projection ,\nZn015:Wall016:Shade005 ,\nZn015:Wall016:Door006 ,\n0.2 ,\n0.2 ,\n0.2 ,\n70 ,\n0.5 ,\n0.2 ,\n0.2 ,\n0.2 ,\n70 ,\n0.5 ;"
-  },
-  {
-    "user": "Set idf object for shading of a window with extra large depth.",
-    "assistant": "Shading:Overhang:Projection ,\nZn016:Wall017:Win009:Shade007 ,\n2.0 ,\n90 ,\n0.7 ,\n0.7 ,\n1.5 ;"
-  },
-  {
-    "user": "Create idf object for shading of a tall door with a fin.",
-    "assistant": "Shading:Fin:Projection ,\nZn017:Wall018:Shade006 ,\nZn017:Wall018:Door007 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.5 ,\n0.2 ,\n0.2 ,\n0.2 ,\n90 ,\n0.5 ;"
-  },
-  {
-    "user": "Define idf object for shading for a large window with right and left extension.",
-    "assistant": "Shading:Overhang:Projection ,\nZn018:Wall019:Win010:Shade008 ,\n1.3 ,\n90 ,\n0.5 ,\n0.5 ,\n1.0 ;"
-  },
-  {
-    "user": "Add idf object for shading of a high door with a deep projection.",
-    "assistant": "Shading:Overhang ,\nZn019:Wall020:Door008:Shade007 ,\n1.0 ,\n90 ,\n0 ,\n0 ,\n3.5 ;"
-  },
-  
+ 
   
   
   
   {
-    "user": "Add shading for a window with a rectangular overhang?",
-    "assistant": "Shading:Zone:Detailed ,\nZn001:Wall001:Shade001 ,\nZn001:Wall001 ,\nShadingTransmittance:0001 ,\n4 ,\n1.524000 , -0.3050000 , 2.865000 ,\n1.524000 , 0.0000000E+00 , 2.865000 ,\n4.572000 , 0.0000000E+00 , 2.865000 ,\n4.572000 , -0.3050000 , 2.865000 ;"
+    "user": "Create a south-facing rectangular overhang shading with 1.5m projection, 0.3m side extensions, and 2.8m height above window for optimal summer shading in a hot climate zone.",
+    "assistant": "Shading:Zone:Detailed, SouthWindow_Overhang1, Zn001:Wall001, ShadingTransmittance:0001, 4, 1.500, -0.300, 2.800, 1.500, 0.000, 2.800, 4.500, 0.000, 2.800, 4.500, -0.300, 2.800;"
   },
   {
-    "user": "Create shading with a left fin for a zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn003:Wall001:Shade001 ,\nZn003:Wall001 ,\nShadingTransmittance:0001 ,\n4 ,\n57.97000 , 8.450000 , 10.00000 ,\n57.97000 , 8.450000 , 0.0000000E+00 ,\n57.97000 , 6.450000 , 0.0000000E+00 ,\n57.97000 , 6.450000 , 10.00000 ;"
+    "user": "Define a vertical left fin shading system with 0.5m depth, 0.4m offset from window, and 3.0m height for west-facing office windows.",
+    "assistant": "Shading:Zone:Detailed, OfficeWest_Fin1, Zn002:Wall002, ShadingTransmittance:0002, 4, 45.000, 8.400, 10.000, 45.000, 8.400, 0.000, 45.000, 7.900, 0.000, 45.000, 7.900, 10.000;"
   },
   {
-    "user": "Add shading with a right fin for a different zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn003:Wall001:Shade002 ,\nZn003:Wall001 ,\nShadingTransmittance:0003 ,\n4 ,\n77.97000 , 6.450000 , 10.00000 ,\n77.97000 , 6.450000 , 0.0000000E+00 ,\n77.97000 , 8.450000 , 0.0000000E+00 ,\n77.97000 , 8.450000 , 10.00000 ;"
+    "user": "Add a decorative 1.2m deep rectangular overhang above main entrance with full 5m width coverage and 0.4m height clearance.",
+    "assistant": "Shading:Zone:Detailed, MainEntry_Shade1, Zn003:Wall003, ShadingTransmittance:0003, 4, 2.000, -0.400, 3.200, 2.000, 0.000, 3.200, 7.000, 0.000, 3.200, 7.000, -0.400, 3.200;"
   },
   {
-    "user": "Set up shading with an overhang for a window in another zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn004:Wall002:Shade003 ,\nZn004:Wall002 ,\nShadingTransmittance:0002 ,\n4 ,\n2.000000 , -0.500000 , 3.000000 ,\n2.000000 , 0.0000000E+00 , 3.000000 ,\n4.500000 , 0.0000000E+00 , 3.000000 ,\n4.500000 , -0.500000 , 3.000000 ;"
+    "user": "Create a right fin shading with 0.6m projection and 0.5m offset for north-facing classroom windows.",
+    "assistant": "Shading:Zone:Detailed, ClassroomNorth_Fin1, Zn004:Wall004, ShadingTransmittance:0004, 4, 60.000, 5.500, 9.000, 60.000, 5.500, 0.000, 60.000, 6.100, 0.000, 60.000, 6.100, 9.000;"
   },
   {
-    "user": "Add shading with a vertical fin to a different zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn005:Wall003:Shade004 ,\nZn005:Wall003 ,\nShadingTransmittance:0004 ,\n4 ,\n50.000000 , 10.000000 , 12.000000 ,\n50.000000 , 10.000000 , 0.0000000E+00 ,\n50.000000 , 8.000000 , 0.0000000E+00 ,\n50.000000 , 8.000000 , 12.000000 ;"
+    "user": "Define a 1.8m deep rectangular overhang shading for southwest-facing hospital windows with 0.5m side extensions.",
+    "assistant": "Shading:Zone:Detailed, HospitalSW_Overhang1, Zn005:Wall005, ShadingTransmittance:0005, 4, 2.500, -0.500, 3.500, 2.500, 0.000, 3.500, 6.500, 0.000, 3.500, 6.500, -0.500, 3.500;"
   },
   {
-    "user": "Create shading with a rectangular overhang and shading transmittance for a new zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn006:Wall004:Shade001 ,\nZn006:Wall004 ,\nShadingTransmittance:0002 ,\n4 ,\n1.200000 , -0.400000 , 3.000000 ,\n1.200000 , 0.0000000E+00 , 3.000000 ,\n3.500000 , 0.0000000E+00 , 3.000000 ,\n3.500000 , -0.400000 , 3.000000 ;"
+    "user": "Add a left fin shading with 0.7m projection and 0.6m offset for east-facing retail store windows.",
+    "assistant": "Shading:Zone:Detailed, RetailEast_Fin1, Zn006:Wall006, ShadingTransmittance:0006, 4, 35.000, 4.600, 8.500, 35.000, 4.600, 0.000, 35.000, 3.900, 0.000, 35.000, 3.900, 8.500;"
   },
   {
-    "user": "Add shading with a left fin to a window in another zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn007:Wall005:Shade002 ,\nZn007:Wall005 ,\nShadingTransmittance:0003 ,\n4 ,\n40.000000 , 5.000000 , 8.000000 ,\n40.000000 , 5.000000 , 0.0000000E+00 ,\n40.000000 , 3.500000 , 0.0000000E+00 ,\n40.000000 , 3.500000 , 8.000000 ;"
+    "user": "Create a combination rectangular overhang (1.2m) and right fin (0.6m) for northwest-facing corner windows.",
+    "assistant": "Shading:Zone:Detailed, CornerNW_Overhang1, Zn007:Wall007, ShadingTransmittance:0007, 4, 1.800, -0.400, 3.200, 1.800, 0.000, 3.200, 5.200, 0.000, 3.200, 5.200, -0.400, 3.200; Shading:Zone:Detailed, CornerNW_Fin1, Zn007:Wall007, ShadingTransmittance:0008, 4, 55.000, 6.100, 9.500, 55.000, 6.100, 0.000, 55.000, 6.700, 0.000, 55.000, 6.700, 9.500;"
   },
   {
-    "user": "Define shading with a right fin for a different zone?",
-    "assistant": "Shading:Zone:Detailed ,\nZn008:Wall006:Shade003 ,\nZn008:Wall006 ,\nShadingTransmittance:0004 ,\n4 ,\n60.000000 , 7.000000 , 9.000000 ,\n60.000000 , 7.000000 , 0.0000000E+00 ,\n60.000000 , 5.500000 , 0.0000000E+00 ,\n60.000000 , 5.500000 , 9.000000 ;"
+    "user": "Define a 1.5m deep pergola shading structure above ground floor cafe windows with 0.4m side extensions.",
+    "assistant": "Shading:Zone:Detailed, CafePergola1, Zn008:Wall008, ShadingTransmittance:0009, 4, 2.000, -0.400, 3.000, 2.000, 0.000, 3.000, 8.000, 0.000, 3.000, 8.000, -0.400, 3.000;"
   },
   {
-    "user": "Set shading with a rectangular overhang for a zone with different dimensions?",
-    "assistant": "Shading:Zone:Detailed ,\nZn009:Wall007:Shade004 ,\nZn009:Wall007 ,\nShadingTransmittance:0005 ,\n4 ,\n2.000000 , -0.200000 , 3.500000 ,\n2.000000 , 0.0000000E+00 , 3.500000 ,\n4.000000 , 0.0000000E+00 , 3.500000 ,\n4.000000 , -0.200000 , 3.500000 ;"
+    "user": "Add a dynamic shading system with 1.0m movable rectangular overhang for south-facing museum gallery windows.",
+    "assistant": "Shading:Zone:Detailed, MuseumSouth_Shade1, Zn009:Wall009, ShadingTransmittance:0010, 4, 1.500, -0.300, 3.500, 1.500, 0.000, 3.500, 6.500, 0.000, 3.500, 6.500, -0.300, 3.500;"
   },
   {
-    "user": "Add shading for a zone with a large left fin?",
-    "assistant": "Shading:Zone:Detailed ,\nZn010:Wall008:Shade005 ,\nZn010:Wall008 ,\nShadingTransmittance:0006 ,\n4 ,\n80.000000 , 10.000000 , 12.000000 ,\n80.000000 , 10.000000 , 0.0000000E+00 ,\n80.000000 , 8.500000 , 0.0000000E+00 ,\n80.000000 , 8.500000 , 12.000000 ;"
+    "user": "Create a large left fin shading with 0.8m projection and 0.7m offset for west-facing hotel windows.",
+    "assistant": "Shading:Zone:Detailed, HotelWest_Fin1, Zn010:Wall010, ShadingTransmittance:0011, 4, 70.000, 9.700, 12.000, 70.000, 9.700, 0.000, 70.000, 8.900, 0.000, 70.000, 8.900, 12.000;"
   },
+  {
+    "user": "Create a deep rectangular overhang shading (1.8m projection) with 0.6m side extensions for south-facing residential windows in a Mediterranean climate, positioned 0.5m above the window.",
+    "assistant": "Shading:Zone:Detailed, ResidenceSouth_Overhang1, Zn011:Wall011, ShadingTransmittance:0012, 4, 1.800, -0.600, 3.500, 1.800, 0.000, 3.500, 5.400, 0.000, 3.500, 5.400, -0.600, 3.500;"
+  },
+  {
+    "user": "Define a pair of vertical fins (0.45m depth) spaced 0.7m apart for east-facing classroom windows to prevent morning glare while maintaining visibility.",
+    "assistant": "Shading:Zone:Detailed, ClassroomEast_Fin1, Zn012:Wall012, ShadingTransmittance:0013, 4, 42.000, 5.700, 9.200, 42.000, 5.700, 0.000, 42.000, 5.250, 0.000, 42.000, 5.250, 9.200; Shading:Zone:Detailed, ClassroomEast_Fin2, Zn012:Wall012, ShadingTransmittance:0013, 4, 42.000, 4.550, 9.200, 42.000, 4.550, 0.000, 42.000, 4.100, 0.000, 42.000, 4.100, 9.200;"
+  },
+  {
+    "user": "Add a curved overhang shading (2.1m projection) with 0.8m side extensions for southwest-facing museum atrium windows, approximated with 6 surface points for smooth curvature.",
+    "assistant": "Shading:Zone:Detailed, MuseumSW_Curved1, Zn013:Wall013, ShadingTransmittance:0014, 6, 2.100, -0.800, 4.200, 1.800, -0.600, 4.300, 1.200, -0.400, 4.350, 0.600, -0.200, 4.300, 0.300, 0.000, 4.200, 0.000, 0.000, 4.200;"
+  },
+  {
+    "user": "Create a louvered shading system (0.6m depth) with 30° tilt angle and 0.5m spacing for north-facing office windows to allow winter sun while blocking summer sun.",
+    "assistant": "Shading:Zone:Detailed, OfficeNorth_Louver1, Zn014:Wall014, ShadingTransmittance:0015, 4, 3.000, -0.600, 3.800, 3.000, 0.000, 3.800, 3.600, 0.000, 3.520, 3.600, -0.600, 3.520;"
+  },
+  {
+    "user": "Define a retractable awning shading system (1.5m projection) with 0.4m side extensions for west-facing restaurant patio doors that can be deployed seasonally.",
+    "assistant": "Shading:Zone:Detailed, RestaurantWest_Awning1, Zn015:Wall015, ShadingTransmittance:0016, 4, 1.500, -0.400, 3.600, 1.500, 0.000, 3.600, 4.500, 0.000, 3.600, 4.500, -0.400, 3.600;"
+  },
+
   
-  
-  
-  
   {
-    "user": "Create shading for a glazed facade with different reflective properties?",
-    "assistant": "Shading:Site:Detailed ,\nGlazed Facade A ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n0,-20,25 , !- Vertex 1 X,Y,Z coordinates\n0,-20,0 , !- Vertex 2 X,Y,Z coordinates\n0,5,0 , !- Vertex 3 X,Y,Z coordinates\n0,5,25 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nGlazed Facade A ,\n0.4 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.4 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -2 ; !- Name of Glazing Construction"
+    "user": "Create a high-performance glazed facade shading system with 0.5 solar reflectance, 0.4 visible reflectance, and 70% glazing fraction using low-e glass construction for a south-facing office building.",
+    "assistant": "Shading:Site:Detailed, OfficeSouth_Facade1, , 4, 0,-25,30, 0,-25,0, 0,5,0, 0,5,30; ShadingProperty:Reflectance, OfficeSouth_Facade1, 0.5, 0.4, 0.7, LowE_Glass_Construction1;"
   },
   {
-    "user": "Add shading for a reflective surface with a different vertex configuration?",
-    "assistant": "Shading:Site:Detailed ,\nReflective Surface B ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-10,-30,35 , !- Vertex 1 X,Y,Z coordinates\n-10,-30,0 , !- Vertex 2 X,Y,Z coordinates\n-10,5,0 , !- Vertex 3 X,Y,Z coordinates\n-10,5,35 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nReflective Surface B ,\n0.5 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -3 ; !- Name of Glazing Construction"
+    "user": "Define a curved reflective shading surface with 0.6 solar reflectance and 80% glazing fraction for a west-facing museum atrium, using 6 vertex points to approximate the curvature.",
+    "assistant": "Shading:Site:Detailed, MuseumWest_Curved1, , 6, -10,-30,35, -8,-28,30, -5,-25,28, -2,-22,30, 0,-20,35, 0,-20,0; ShadingProperty:Reflectance, MuseumWest_Curved1, 0.6, 0.5, 0.8, Museum_Glass_Construction1;"
   },
   {
-    "user": "Set up shading for a large glazed surface with reflectance properties?",
-    "assistant": "Shading:Site:Detailed ,\nLarge Glazed Facade ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n0,-50,40 , !- Vertex 1 X,Y,Z coordinates\n0,-50,0 , !- Vertex 2 X,Y,Z coordinates\n0,-10,0 , !- Vertex 3 X,Y,Z coordinates\n0,-10,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nLarge Glazed Facade ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -4 ; !- Name of Glazing Construction"
+    "user": "Add an angled shading element with 0.4 solar reflectance and 60% glazing fraction for a southeast-facing hospital entrance, positioned at 45 degrees to reduce morning glare.",
+    "assistant": "Shading:Site:Detailed, HospitalSE_Angled1, , 4, 5,-20,25, 0,-25,0, 5,-15,0, 10,-10,25; ShadingProperty:Reflectance, HospitalSE_Angled1, 0.4, 0.3, 0.6, Safety_Glass_Construction1;"
   },
   {
-    "user": "Define shading for a window with glazing and reflective properties?",
-    "assistant": "Shading:Site:Detailed ,\nWindow Glazing 1 ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n10,-40,20 , !- Vertex 1 X,Y,Z coordinates\n10,-40,0 , !- Vertex 2 X,Y,Z coordinates\n10,-15,0 , !- Vertex 3 X,Y,Z coordinates\n10,-15,20 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nWindow Glazing 1 ,\n0.2 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.2 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -5 ; !- Name of Glazing Construction"
+    "user": "Create a dynamic shading system with adjustable reflectance properties (0.3-0.7 solar reflectance) and 50% glazing fraction for a north-facing university library, including a transmittance schedule.",
+    "assistant": "Shading:Site:Detailed, LibraryNorth_Dynamic1, ShadingSchedule1, 4, 0,-40,40, 0,-40,0, 0,-10,0, 0,-10,40; ShadingProperty:Reflectance, LibraryNorth_Dynamic1, 0.5, 0.4, 0.5, Smart_Glass_Construction1;"
   },
   {
-    "user": "Create shading for a reflective wall surface?",
-    "assistant": "Shading:Site:Detailed ,\nReflective Wall C ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-20,-10,25 , !- Vertex 1 X,Y,Z coordinates\n-20,-10,0 , !- Vertex 2 X,Y,Z coordinates\n-20,10,0 , !- Vertex 3 X,Y,Z coordinates\n-20,10,25 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nReflective Wall C ,\n0.3 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.3 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -6 ; !- Name of Glazing Construction"
+    "user": "Define a perforated metal shading screen with 0.7 solar reflectance and 30% glazing fraction for an east-facing hotel facade, combining solid and transparent elements.",
+    "assistant": "Shading:Site:Detailed, HotelEast_Perforated1, , 4, -15,-30,50, -15,-30,0, -15,5,0, -15,5,50; ShadingProperty:Reflectance, HotelEast_Perforated1, 0.7, 0.6, 0.3, Perforated_Metal_Glass_Combo1;"
   },
-  {
-    "user": "Add shading for a building facade with glazing and reflectance?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Glazing 2 ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n15,-35,30 , !- Vertex 1 X,Y,Z coordinates\n15,-35,0 , !- Vertex 2 X,Y,Z coordinates\n15,5,0 , !- Vertex 3 X,Y,Z coordinates\n15,5,30 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Glazing 2 ,\n0.5 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.9 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -7 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Define shading with different reflective properties for a site?",
-    "assistant": "Shading:Site:Detailed ,\nGlazed Surface D ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n5,-25,35 , !- Vertex 1 X,Y,Z coordinates\n5,-25,0 , !- Vertex 2 X,Y,Z coordinates\n5,10,0 , !- Vertex 3 X,Y,Z coordinates\n5,10,35 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nGlazed Surface D ,\n0.3 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.3 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -8 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Set shading for a glazed facade with a different shadowing schedule?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Glazing E ,\nShadingTransmittance:0002 , !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-10,-50,45 , !- Vertex 1 X,Y,Z coordinates\n-10,-50,0 , !- Vertex 2 X,Y,Z coordinates\n-10,-15,0 , !- Vertex 3 X,Y,Z coordinates\n-10,-15,45 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Glazing E ,\n0.4 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.4 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.85 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -9 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Define shading for a site with an angled surface?",
-    "assistant": "Shading:Site:Detailed ,\nAngled Glazed Facade ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n0,-30,20 , !- Vertex 1 X,Y,Z coordinates\n0,-30,0 , !- Vertex 2 X,Y,Z coordinates\n5,-20,0 , !- Vertex 3 X,Y,Z coordinates\n5,-20,20 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nAngled Glazed Facade ,\n0.3 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.3 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -10 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Add shading with different glazing properties for a reflective facade?",
-    "assistant": "Shading:Site:Detailed ,\nReflective Facade F ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-15,-40,50 , !- Vertex 1 X,Y,Z coordinates\n-15,-40,0 , !- Vertex 2 X,Y,Z coordinates\n-15,10,0 , !- Vertex 3 X,Y,Z coordinates\n-15,10,50 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nReflective Facade F ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.75 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -11 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Create shading with vertex adjustments for a facade?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Glazing G ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-5,-35,40 , !- Vertex 1 X,Y,Z coordinates\n-5,-35,0 , !- Vertex 2 X,Y,Z coordinates\n-5,5,0 , !- Vertex 3 X,Y,Z coordinates\n-5,5,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Glazing G ,\n0.7 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -12 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Define shading with a reflective facade and glazing properties?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Glazing H ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n20,-50,45 , !- Vertex 1 X,Y,Z coordinates\n20,-50,0 , !- Vertex 2 X,Y,Z coordinates\n20,-10,0 , !- Vertex 3 X,Y,Z coordinates\n20,-10,45 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Glazing H ,\n0.8 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.85 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -13 ; !- Name of Glazing Construction"
-  },
-  {
-    "user": "Add shading for a reflective site surface with a different vertex configuration?",
-    "assistant": "Shading:Site:Detailed ,\nSite Reflective Surface I ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-25,-15,30 , !- Vertex 1 X,Y,Z coordinates\n-25,-15,0 , !- Vertex 2 X,Y,Z coordinates\n-25,10,0 , !- Vertex 3 X,Y,Z coordinates\n-25,10,30 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nSite Reflective Surface I ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.9 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -14 ; !- Name of Glazing Construction"
-  },
-  
+    {
+      "user": "Design a double-skin facade shading system with 0.45 solar reflectance, 0.35 visible reflectance, and 65% glazing fraction for an energy-efficient high-rise building.",
+      "assistant": "Shading:Site:Detailed, HighRise_DoubleSkin1, , 4, 0,-50,150, 0,-50,0, 0,0,0, 0,0,150; ShadingProperty:Reflectance, HighRise_DoubleSkin1, 0.45, 0.35, 0.65, DoubleSkin_Glass_Construction1;"
+    },
+    {
+      "user": "Create a brise-soleil shading system with 0.55 solar reflectance and 40% glazing fraction for a desert climate office building with horizontal louvers.",
+      "assistant": "Shading:Site:Detailed, DesertOffice_BriseSoleil1, , 6, -5,-40,30, -5,-40,25, 5,-30,25, 5,-30,30, -5,-20,30, -5,-20,25; ShadingProperty:Reflectance, DesertOffice_BriseSoleil1, 0.55, 0.45, 0.4, HeatReflective_Glass_Construction1;"
+    },
+    {
+      "user": "Define a photovoltaic-integrated shading structure with 0.65 solar reflectance and 20% glazing fraction for a sustainable campus building.",
+      "assistant": "Shading:Site:Detailed, Campus_PVShading1, , 4, 10,-60,40, 10,-60,0, 10,-20,0, 10,-20,40; ShadingProperty:Reflectance, Campus_PVShading1, 0.65, 0.5, 0.2, PV_Integrated_Glass_Construction1;"
+    },
+    {
+      "user": "Add a retractable shading system with variable reflectance (0.4-0.6) and 50% glazing fraction for a multi-purpose convention center atrium.",
+      "assistant": "Shading:Site:Detailed, ConventionCenter_Retractable1, RetractableSchedule1, 4, -20,-40,60, -20,-40,0, -20,0,0, -20,0,60; ShadingProperty:Reflectance, ConventionCenter_Retractable1, 0.5, 0.4, 0.5, Dynamic_Glass_Construction1;"
+    },
+    {
+      "user": "Create a ceramic frit glass shading system with 0.5 solar reflectance, 0.4 visible reflectance, and 70% glazing fraction for a museum gallery space.",
+      "assistant": "Shading:Site:Detailed, Museum_Fritted1, , 4, 15,-30,35, 15,-30,0, 15,5,0, 15,5,35; ShadingProperty:Reflectance, Museum_Fritted1, 0.5, 0.4, 0.7, CeramicFrit_Glass_Construction1;"
+    },
+    {
+      "user": "Design a vertical louver shading system with 0.6 solar reflectance and 30% glazing fraction for a coastal office building with glare control.",
+      "assistant": "Shading:Site:Detailed, CoastalOffice_VerticalLouvers1, , 6, -25,-35,40, -20,-35,40, -20,-35,0, -25,-35,0, -25,5,0, -25,5,40; ShadingProperty:Reflectance, CoastalOffice_VerticalLouvers1, 0.6, 0.5, 0.3, Louver_Glass_Combo_Construction1;"
+    },
+    {
+      "user": "Define a ETFE foil cushion shading system with 0.4 solar reflectance and 90% glazing fraction for a lightweight airport terminal roof.",
+      "assistant": "Shading:Site:Detailed, Airport_ETFE_Roof1, , 4, -40,-100,50, -40,-100,30, 40,-100,30, 40,-100,50; ShadingProperty:Reflectance, Airport_ETFE_Roof1, 0.4, 0.3, 0.9, ETFE_Cushion_Construction1;"
+    },
+    {
+      "user": "Create a micro-perforated metal shading screen with 0.7 solar reflectance and 25% glazing fraction for a music hall facade with acoustic properties.",
+      "assistant": "Shading:Site:Detailed, MusicHall_MicroPerforated1, , 4, 30,-50,45, 30,-50,0, 30,-10,0, 30,-10,45; ShadingProperty:Reflectance, MusicHall_MicroPerforated1, 0.7, 0.6, 0.25, Acoustic_Metal_Glass_Construction1;"
+    },
+    {
+      "user": "Design a kinetic shading facade with adjustable 0.3-0.6 solar reflectance and 40% glazing fraction for a high-tech research facility.",
+      "assistant": "Shading:Site:Detailed, ResearchFacility_Kinetic1, KineticSchedule1, 4, -30,-60,60, -30,-60,0, -30,0,0, -30,0,60; ShadingProperty:Reflectance, ResearchFacility_Kinetic1, 0.45, 0.35, 0.4, Kinetic_Glass_Construction1;"
+    },
+    {
+      "user": "Create a bamboo-inspired shading structure with 0.5 solar reflectance and 50% glazing fraction for a tropical climate resort building.",
+      "assistant": "Shading:Site:Detailed, Resort_BambooStyle1, , 6, 40,-40,30, 42,-38,30, 42,-38,0, 40,-40,0, 40,10,0, 40,10,30; ShadingProperty:Reflectance, Resort_BambooStyle1, 0.5, 0.4, 0.5, BambooPattern_Glass_Construction1;"
+    },
   
 
 
   {
-    "user": "Create shading for a glazed surface with diffuse reflectance?",
-    "assistant": "Shading:Site:Detailed ,\nGlazed Surface J ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-5,-30,40 , !- Vertex 1 X,Y,Z coordinates\n-5,-30,0 , !- Vertex 2 X,Y,Z coordinates\n-5,5,0 , !- Vertex 3 X,Y,Z coordinates\n-5,5,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nGlazed Surface J ,\n0.4 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.4 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -15 ; !- Name of Glazing Construction"
+    "user": "Create shading for a glazed surface with diffuse reflectance.",
+    "assistant": "Shading:Site:Detailed, Glazed Surface J, , 4, -5,-30,40, -5,-30,0, -5,5,0, -5,5,40; ShadingProperty:Reflectance, Glazed Surface J, 0.4, 0.4, 0.7, GlassCon-15;"
   },
   {
     "user": "Set up shading for a reflective surface without specular reflection?",
-    "assistant": "Shading:Site:Detailed ,\nReflective Surface K ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-10,-40,45 , !- Vertex 1 X,Y,Z coordinates\n-10,-40,0 , !- Vertex 2 X,Y,Z coordinates\n-10,10,0 , !- Vertex 3 X,Y,Z coordinates\n-10,10,45 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nReflective Surface K ,\n0.5 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -16 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Reflective Surface K, , 4, -10,-40,45, -10,-40,0, -10,10,0, -10,10,45; ShadingProperty:Reflectance, Reflective Surface K, 0.5, 0.5, 0.8, GlassCon-16;"
   },
   {
     "user": "Define shading for a glazed wall surface with different diffuse reflectance properties?",
-    "assistant": "Shading:Site:Detailed ,\nGlazed Wall L ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-15,-25,50 , !- Vertex 1 X,Y,Z coordinates\n-15,-25,0 , !- Vertex 2 X,Y,Z coordinates\n-15,15,0 , !- Vertex 3 X,Y,Z coordinates\n-15,15,50 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nGlazed Wall L ,\n0.3 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.3 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.9 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -17 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Glazed Wall L, , 4, -15,-25,50, -15,-25,0, -15,15,0, -15,15,50; ShadingProperty:Reflectance, Glazed Wall L, 0.3, 0.3, 0.9, GlassCon-17;"
   },
   {
     "user": "Create shading for a site surface with diffuse reflectance properties?",
-    "assistant": "Shading:Site:Detailed ,\nSite Glazing M ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n5,-40,30 , !- Vertex 1 X,Y,Z coordinates\n5,-40,0 , !- Vertex 2 X,Y,Z coordinates\n5,10,0 , !- Vertex 3 X,Y,Z coordinates\n5,10,30 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nSite Glazing M ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -18 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Site Glazing M, , 4, 5,-40,30, 5,-40,0, 5,10,0, 5,10,30; ShadingProperty:Reflectance, Site Glazing M, 0.6, 0.6, 0.8, GlassCon-18;"
   },
   {
     "user": "Add shading for a large reflective surface with diffuse properties?",
-    "assistant": "Shading:Site:Detailed ,\nLarge Reflective Surface N ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-20,-15,40 , !- Vertex 1 X,Y,Z coordinates\n-20,-15,0 , !- Vertex 2 X,Y,Z coordinates\n-20,10,0 , !- Vertex 3 X,Y,Z coordinates\n-20,10,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nLarge Reflective Surface N ,\n0.4 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.4 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -19 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Large Reflective Surface N, , 4, -20,-15,40, -20,-15,0, -20,10,0, -20,10,40; ShadingProperty:Reflectance, Large Reflective Surface N, 0.4, 0.4, 0.7, GlassCon-19;"
   },
   {
     "user": "Define shading for a facade with a single reflective component?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Reflective O ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n10,-30,35 , !- Vertex 1 X,Y,Z coordinates\n10,-30,0 , !- Vertex 2 X,Y,Z coordinates\n10,5,0 , !- Vertex 3 X,Y,Z coordinates\n10,5,35 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Reflective O ,\n0.5 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -20 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Facade Reflective O, , 4, 10,-30,35, 10,-30,0, 10,5,0, 10,5,35; ShadingProperty:Reflectance, Facade Reflective O, 0.5, 0.5, 0.6, GlassCon-20;"
   },
   {
     "user": "Create shading for a surface with no glazing but diffuse reflectance?",
-    "assistant": "Shading:Site:Detailed ,\nNon-Glazed Surface P ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-5,-20,25 , !- Vertex 1 X,Y,Z coordinates\n-5,-20,0 , !- Vertex 2 X,Y,Z coordinates\n-5,15,0 , !- Vertex 3 X,Y,Z coordinates\n-5,15,25 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nNon-Glazed Surface P ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.0 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -21 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Non-Glazed Surface P, , 4, -5,-20,25, -5,-20,0, -5,15,0, -5,15,25; ShadingProperty:Reflectance, Non-Glazed Surface P, 0.6, 0.6, 0.0, GlassCon-21;"
   },
   {
     "user": "Define shading for a site with angled reflective surface?",
-    "assistant": "Shading:Site:Detailed ,\nAngled Surface Q ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-15,-25,30 , !- Vertex 1 X,Y,Z coordinates\n-15,-25,0 , !- Vertex 2 X,Y,Z coordinates\n-10,5,0 , !- Vertex 3 X,Y,Z coordinates\n-10,5,30 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nAngled Surface Q ,\n0.7 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -22 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Angled Surface Q, , 4, -15,-25,30, -15,-25,0, -10,5,0, -10,5,30; ShadingProperty:Reflectance, Angled Surface Q, 0.7, 0.7, 0.6, GlassCon-22;"
   },
   {
     "user": "Set shading for a facade with reflective surface and different coordinates?",
-    "assistant": "Shading:Site:Detailed ,\nFacade Reflective R ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-25,-30,40 , !- Vertex 1 X,Y,Z coordinates\n-25,-30,0 , !- Vertex 2 X,Y,Z coordinates\n-25,5,0 , !- Vertex 3 X,Y,Z coordinates\n-25,5,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nFacade Reflective R ,\n0.6 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.6 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -23 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Facade Reflective R, , 4, -25,-30,40, -25,-30,0, -25,5,0, -25,5,40; ShadingProperty:Reflectance, Facade Reflective R, 0.6, 0.6, 0.7, GlassCon-23;"
   },
   {
     "user": "Define shading with a different diffuse reflectance for a site surface?",
-    "assistant": "Shading:Site:Detailed ,\nSite Glazing S ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n0,-10,35 , !- Vertex 1 X,Y,Z coordinates\n0,-10,0 , !- Vertex 2 X,Y,Z coordinates\n5,-5,0 , !- Vertex 3 X,Y,Z coordinates\n5,-5,35 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nSite Glazing S ,\n0.2 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.2 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.9 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -24 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Site Glazing S, , 4, 0,-10,35, 0,-10,0, 5,-5,0, 5,-5,35; ShadingProperty:Reflectance, Site Glazing S, 0.2, 0.2, 0.9, GlassCon-24;"
   },
   {
     "user": "Create shading for a reflective surface with different vertex positions?",
-    "assistant": "Shading:Site:Detailed ,\nReflective Surface T ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n-30,-20,50 , !- Vertex 1 X,Y,Z coordinates\n-30,-20,0 , !- Vertex 2 X,Y,Z coordinates\n-30,10,0 , !- Vertex 3 X,Y,Z coordinates\n-30,10,50 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nReflective Surface T ,\n0.5 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.5 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.8 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -25 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Reflective Surface T, , 4, -30,-20,50, -30,-20,0, -30,10,0, -30,10,50; ShadingProperty:Reflectance, Reflective Surface T, 0.5, 0.5, 0.8, GlassCon-25;"
   },
   {
     "user": "Define shading for a large reflective surface with different vertex coordinates?",
-    "assistant": "Shading:Site:Detailed ,\nLarge Surface U ,\n, !- Shadowing Transmittance Schedule\n4 , !- Number of Surface Vertex Groups\n10,-30,40 , !- Vertex 1 X,Y,Z coordinates\n10,-30,0 , !- Vertex 2 X,Y,Z coordinates\n10,10,0 , !- Vertex 3 X,Y,Z coordinates\n10,10,40 ; !- Vertex 4 X,Y,Z coordinates\nShadingProperty:Reflectance ,\nLarge Surface U ,\n0.3 , !- Diffuse Solar Reflectance of Unglazed Part of Shading Surface\n0.3 , !- Diffuse Visible Reflectance of Unglazed Part of Shading Surface\n0.7 , !- Fraction of Shading Surface That Is Glazed\nGlassCon -26 ; !- Name of Glazing Construction"
+    "assistant": "Shading:Site:Detailed, Large Surface U, , 4, 10,-30,40, 10,-30,0, 10,10,0, 10,10,40; ShadingProperty:Reflectance, Large Surface U, 0.3, 0.3, 0.7, GlassCon-26;"
   },
   
   
   
   
   {
-    "user": "Define a floor surface for the North Zone 1st Floor",
-    "assistant": "Floor:Detailed ,\nFloor_NorthZone_1stFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nNorthZone_1stFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Define a floor object for the North Zone 1st Floor",
+    "assistant": "Floor:Detailed, Floor_NorthZone_1stFloor, FLOOR-SLAB-ASSEMBLY, NorthZone_1stFloor, Ground, , NoSun, NoWind, 0.0, 4, 0,11,0, 25,11,0, 25,5.5,0, 0,5.5,0;"
   },
   {
-    "user": "Create a ceiling for South Zone 1st Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_SouthZone_1stFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nSouthZone_1stFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_SouthZone_2ndFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create a ceiling object for South Zone 1st Floor",
+    "assistant": "RoofCeiling:Detailed, Ceiling_SouthZone_1stFloor, CEILING-FLOOR-ASSEMBLY, SouthZone_1stFloor, Surface, Floor_SouthZone_2ndFloor, NoSun, NoWind, 0.0, 4, 0,0,3.4, 25,0,3.4, 25,5.5,3.4, 0,5.5,3.4;"
   },
   {
-    "user": "Define an interior wall surface for South Zone 1st Floor",
-    "assistant": "Wall:Detailed ,\nInteriorWall_SouthZone_1stFloor , !- Name\nINTERIOR -WALL-ASSEMBLY , !- Construction Name\nSouthZone_1stFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nInteriorWall_NorthZone_1stFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0, !- View Factor to Ground\n4, !- Number of Vertices\n25, 5.5, 3.7, !- X,Y,Z 1 {m}\n25, 5.5, 0, !- X,Y,Z 2 {m}\n0, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 3.7; !- X,Y,Z 4 {m}"
+    "user": "Define an interior wall object for South Zone 1st Floor",
+    "assistant": "Wall:Detailed, InteriorWall_SouthZone_1stFloor, INTERIOR-WALL-ASSEMBLY, SouthZone_1stFloor, Surface, InteriorWall_NorthZone_1stFloor, NoSun, NoWind, 0, 4, 25,5.5,3.7, 25,5.5,0, 0,5.5,0, 0,5.5,3.7;"
   },
   {
-    "user": "Set up a floor for the South Zone 2nd Floor",
-    "assistant": "Floor:Detailed ,\nFloor_SouthZone_2ndFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nSouthZone_2ndFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 5.5, 0, !- X,Y,Z 1 {m}\n25, 5.5, 0, !- X,Y,Z 2 {m}\n25, 0, 0, !- X,Y,Z 3 {m}\n0, 0, 0; !- X,Y,Z 4 {m}"
+    "user": "Set up a floor object for the South Zone 2nd Floor",
+    "assistant": "Floor:Detailed, Floor_SouthZone_2ndFloor, FLOOR-SLAB-ASSEMBLY, SouthZone_2ndFloor, Ground, , NoSun, NoWind, 0.0, 4, 0,5.5,0, 25,5.5,0, 25,0,0, 0,0,0;"
   },
   {
-    "user": "Create a roof ceiling for North Zone 2nd Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_NorthZone_2ndFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nNorthZone_2ndFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_NorthZone_3rdFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create an idf roof ceiling for North Zone 2nd Floor",
+    "assistant": "RoofCeiling:Detailed, Ceiling_NorthZone_2ndFloor, CEILING-FLOOR-ASSEMBLY, NorthZone_2ndFloor, Surface, Floor_NorthZone_3rdFloor, NoSun, NoWind, 0.0, 4, 0,0,3.4, 25,0,3.4, 25,5.5,3.4, 0,5.5,3.4;"
   },
   {
-    "user": "Define a floor surface for South Zone 2nd Floor",
-    "assistant": "Floor:Detailed ,\nFloor_SouthZone_2ndFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nSouthZone_2ndFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Define a floor object for South Zone 2nd Floor",
+    "assistant": "Floor:Detailed, Floor_SouthZone_2ndFloor, FLOOR-SLAB-ASSEMBLY, SouthZone_2ndFloor, Ground, , NoSun, NoWind, 0.0, 4, 0,11,0, 25,11,0, 25,5.5,0, 0,5.5,0;"
   },
   {
-    "user": "Create a ceiling for South Zone 2nd Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_SouthZone_2ndFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nSouthZone_2ndFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_SouthZone_3rdFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create an idf ceiling object for South Zone 2nd Floor",
+    "assistant": "RoofCeiling:Detailed, Ceiling_SouthZone_2ndFloor, CEILING-FLOOR-ASSEMBLY, SouthZone_2ndFloor, Surface, Floor_SouthZone_3rdFloor, NoSun, NoWind, 0.0, 4, 0,0,3.4, 25,0,3.4, 25,5.5,3.4, 0,5.5,3.4;"
   },
   {
-    "user": "Define a wall for North Zone 1st Floor",
-    "assistant": "Wall:Detailed ,\nWall_NorthZone_1stFloor , !- Name\nEXTERIOR-WALL-ASSEMBLY , !- Construction Name\nNorthZone_1stFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nInteriorWall_NorthZone_2ndFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0, !- View Factor to Ground\n4, !- Number of Vertices\n25, 0, 3.7, !- X,Y,Z 1 {m}\n25, 0, 0, !- X,Y,Z 2 {m}\n0, 0, 0, !- X,Y,Z 3 {m}\n0, 0, 3.7; !- X,Y,Z 4 {m}"
+    "user": "Define an idf wall object for North Zone 1st Floor",
+    "assistant": "Wall:Detailed, Wall_NorthZone_1stFloor, EXTERIOR-WALL-ASSEMBLY, NorthZone_1stFloor, Surface, InteriorWall_NorthZone_2ndFloor, NoSun, NoWind, 0, 4, 25,0,3.7, 25,0,0, 0,0,0, 0,0,3.7;"
   },
   {
-    "user": "Create a floor for North Zone 3rd Floor",
-    "assistant": "Floor:Detailed ,\nFloor_NorthZone_3rdFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nNorthZone_3rdFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Create a floor object for North Zone 3rd Floor",
+    "assistant": "Floor:Detailed, Floor_NorthZone_3rdFloor, FLOOR-SLAB-ASSEMBLY, NorthZone_3rdFloor, Ground, , NoSun, NoWind, 0.0, 4, 0,11,0, 25,11,0, 25,5.5,0, 0,5.5,0;"
   },
   {
-    "user": "Define a ceiling for North Zone 3rd Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_NorthZone_3rdFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nNorthZone_3rdFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_NorthZone_4thFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create an exterior wall object for West Zone with brick construction",
+    "assistant": "Wall:Detailed, WestWall_Exterior1, BRICK-WALL-ASSEMBLY, WestZone_1stFloor, Outdoors, , SunExposed, WindExposed, 0.5, 4, 0,0,3, 0,0,0, 10,0,0, 10,0,3;"
   },
   {
-    "user": "Define an interior wall for North Zone 2nd Floor",
-    "assistant": "Wall:Detailed ,\nWall_NorthZone_2ndFloor , !- Name\nINTERIOR-WALL-ASSEMBLY , !- Construction Name\nNorthZone_2ndFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nInteriorWall_NorthZone_3rdFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0, !- View Factor to Ground\n4, !- Number of Vertices\n25, 5.5, 3.7, !- X,Y,Z 1 {m}\n25, 5.5, 0, !- X,Y,Z 2 {m}\n0, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 3.7; !- X,Y,Z 4 {m}"
+    "user": "Define an idf concrete floor slab for basement level",
+    "assistant": "Floor:Detailed, Basement_FloorSlab1, CONCRETE-SLAB-ASSEMBLY, BasementZone, Ground, , NoSun, NoWind, 0.0, 4, 0,0,0, 20,0,0, 20,15,0, 0,15,0;"
   },
   {
-    "user": "Create a floor for South Zone 3rd Floor",
-    "assistant": "Floor:Detailed ,\nFloor_SouthZone_3rdFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nSouthZone_3rdFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Set up a glass curtain wall object for atrium space",
+    "assistant": "Wall:Detailed, Atrium_CurtainWall1, GLASS-CURTAIN-WALL, AtriumZone, Outdoors, , SunExposed, WindExposed, 0.3, 4, 15,0,10, 15,0,0, 25,0,0, 25,0,10;"
   },
   {
-    "user": "Define a ceiling for South Zone 3rd Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_SouthZone_3rdFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nSouthZone_3rdFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_SouthZone_4thFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create a roof with solar panels object for main building",
+    "assistant": "RoofCeiling:Detailed, Main_RoofSolar1, ROOF-WITH-PV-ASSEMBLY, MainZone_2ndFloor, Outdoors, , SunExposed, WindExposed, 0.8, 4, 0,20,5, 30,20,5, 30,0,5, 0,0,5;"
   },
   {
-    "user": "Define an interior wall for South Zone 2nd Floor",
-    "assistant": "Wall:Detailed ,\nWall_SouthZone_2ndFloor , !- Name\nINTERIOR-WALL-ASSEMBLY , !- Construction Name\nSouthZone_2ndFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nInteriorWall_SouthZone_3rdFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0, !- View Factor to Ground\n4, !- Number of Vertices\n25, 5.5, 3.7, !- X,Y,Z 1 {m}\n25, 5.5, 0, !- X,Y,Z 2 {m}\n0, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 3.7; !- X,Y,Z 4 {m}"
+    "user": "Define an interior partition wall object between offices",
+    "assistant": "Wall:Detailed, Office_Partition1, GYP-BOARD-PARTITION, OfficeZone_3, Surface, Office_Partition2, NoSun, NoWind, 0, 4, 10,5,2.7, 10,5,0, 15,5,0, 15,5,2.7;"
   },
   {
-    "user": "Define a floor surface for North Zone 4th Floor",
-    "assistant": "Floor:Detailed ,\nFloor_NorthZone_4thFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nNorthZone_4thFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Set up an energyplus idf sloped roof for garage structure",
+    "assistant": "RoofCeiling:Detailed, Garage_SlopedRoof1, METAL-ROOF-ASSEMBLY, GarageZone, Outdoors, , SunExposed, WindExposed, 0.7, 4, 0,0,4, 12,0,3, 12,8,3, 0,8,4;"
   },
   {
-    "user": "Create a ceiling for North Zone 4th Floor",
-    "assistant": "RoofCeiling:Detailed ,\nCeiling_NorthZone_4thFloor , !- Name\nCEILING -FLOOR -ASSEMBLY , !- Construction Name\nNorthZone_4thFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nFloor_NorthZone_5thFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 0, 3.4, !- X,Y,Z 1 {m}\n25, 0, 3.4, !- X,Y,Z 2 {m}\n25, 5.5, 3.4, !- X,Y,Z 3 {m}\n0, 5.5, 3.4; !- X,Y,Z 4 {m}"
+    "user": "Create  an energyplus idf foundation wall with insulation",
+    "assistant": "Wall:Detailed, Foundation_Wall1, INSULATED-CONCRETE-WALL, BasementZone, Ground, , NoSun, NoWind, 0.2, 4, 0,0,0, 0,-1,0, 20,-1,0, 20,0,0;"
   },
   {
-    "user": "Define an interior wall for North Zone 3rd Floor",
-    "assistant": "Wall:Detailed ,\nWall_NorthZone_3rdFloor , !- Name\nINTERIOR-WALL-ASSEMBLY , !- Construction Name\nNorthZone_3rdFloor , !- Zone Name\nSurface , !- Outside Boundary Condition\nInteriorWall_NorthZone_4thFloor , !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0, !- View Factor to Ground\n4, !- Number of Vertices\n25, 5.5, 3.7, !- X,Y,Z 1 {m}\n25, 5.5, 0, !- X,Y,Z 2 {m}\n0, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 3.7; !- X,Y,Z 4 {m}"
+    "user": "Define  an energyplus idf ceiling with acoustic treatment for conference room",
+    "assistant": "RoofCeiling:Detailed, Conference_Ceiling1, ACOUSTIC-CEILING-ASSEMBLY, ConferenceZone, Surface, Floor_OfficeZone2, NoSun, NoWind, 0.0, 4, 5,5,3, 10,5,3, 10,10,3, 5,10,3;"
   },
   {
-    "user": "Create a floor for North Zone 5th Floor",
-    "assistant": "Floor:Detailed ,\nFloor_NorthZone_5thFloor , !- Name\nFLOOR -SLAB-ASSEMBLY , !- Construction Name\nNorthZone_5thFloor , !- Zone Name\nGround , !- Outside Boundary Condition\n, !- Outside Boundary Condition Object\nNoSun , !- Sun Exposure\nNoWind , !- Wind Exposure\n0.0, !- View Factor to Ground\n4, !- Number of Vertices\n0, 11, 0, !- X,Y,Z 1 {m}\n25, 11, 0, !- X,Y,Z 2 {m}\n25, 5.5, 0, !- X,Y,Z 3 {m}\n0, 5.5, 0; !- X,Y,Z 4 {m}"
+    "user": "Set up  an energyplus idf storefront glass system for retail space",
+    "assistant": "Wall:Detailed, Retail_Storefront1, GLASS-STORE-FRONT, RetailZone, Outdoors, , SunExposed, WindExposed, 0.4, 4, 0,0,3, 0,0,0, 8,0,0, 8,0,3;"
+  },
+  {
+    "user": "Create  an idf parapet wall around roof perimeter",
+    "assistant": "Wall:Detailed, Roof_Parapet1, PARAPET-WALL-ASSEMBLY, RoofZone, Outdoors, , SunExposed, WindExposed, 0.6, 4, 0,0,6, 0,0,5, 30,0,5, 30,0,6;"
   },
   
   
