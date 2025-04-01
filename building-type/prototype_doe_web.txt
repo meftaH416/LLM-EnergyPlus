@@ -1,13 +1,13 @@
-Prototype Building Models
+# Prototype Building Models
 The U.S. Department of Energy (DOE) supports the development of commercial and residential building energy codes and standards by participating in industry review and update processes, and providing technical analyses to support both published model codes and potential changes. DOE publishes its findings in an effort to ensure transparency in its support, and to make its analysis available for public review and use.
 
 The Pacific Northwest National Laboratory (PNNL) simulates energy savings associated with changes in energy codes and standards. This analysis is used by the U.S. Department of Energy's Building Energy Codes Program to evaluate published versions of the code, as well as in developing proposed code changes.
 
-Commercial prototype building models
-Residential prototype building models
-Manufactured Housing prototype building models
+1. Commercial prototype building models
+2. Residential prototype building models
+3. Manufactured Housing prototype building models
 
-Commercial
+## Commercial
 The suite of commercial prototype buildings covers 75% of the commercial building floor area in the United States for new construction, including both commercial buildings and mid- to high-rise residential buildings, and across all U.S. climate zones. As ASHRAE Standard 90.1 and IECC evolve, PNNL makes modifications to the commercial prototype building models, with extensive input from ASHRAE 90.1 Standing Standards Project Committee members and other building industry experts.
 
 The prototype models include 16 commercial building types in 19 climate locations (16 in the U.S. and 3 international locations) for recent editions of ASHRAE Standard 90.1 and IECC and versions following the methodology of Standard 90.1 Performance Rating Method (Appendix G). The current combination results in an overall set of 5,168 total building models (in EnergyPlus™ Version 22.1.0).
@@ -42,7 +42,7 @@ ARE_Dubai.Intl.AP.411940_IWEC2.epw
 IND_Delhi_New.Delhi-Safdarjung.AP.421820_IWEC2.epw
 
 
-Residential
+## Residential
 For residential buildings, PNNL uses two base prototypes to simulate the following building types:
 Single-family detached house
 Multi-family low-rise apartment building
@@ -82,7 +82,7 @@ Climate Zone and Representative City	Weather Data
 7 International Falls, MN	USA_MN_International.Falls_.Intl_.AP_.727470_TMY3.epw
 8 Fairbanks, AK	USA_AK_Fairbanks.Intl_.AP_.702610_TMY3.epw
 
-Manufactured Housing
+## Manufactured Housing
 For manufactured housing, PNNL uses two base prototypes to simulate the following manufactured housing configurations:
 Single-section house
 Multi-section house
