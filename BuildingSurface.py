@@ -48,10 +48,10 @@ def generate_combined_query(description):
     """Returns a user query asking for a Zone, Space, SpaceList, BuildingSurface, and FenestrationSurface."""
     templates = [
         f"Create an EnergyPlus IDF component including a Zone, Space, and SpaceList along with a building surface and its fenestration."
-        f"Building details: FA={description['FA']} ft2, L={description['L']} ft, W={description['W']} ft, H={description['H']}ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Building details: FA={description['FA']:.1f} ft2, L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f}ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
 
         f"Generate an IDF snippet defining a Zone, Space, SpaceList, a building surface, and an associated window/aperture."
-        f"Building: {description['FA']} ft2, {description['L']}ft x {description['W']}ft x {description['H']}ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Building: {description['FA']:.1f} ft2, {description['L']:.1f}ft x {description['W']:.1f}ft x {description['H']:.1f}ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
 
         f"Provide an EnergyPlus IDF file that includes a Zone, Space, SpaceList, a building surface, and a window/aperture."
         f"Details: L={description['L']}ft, W={description['W']}ft, H={description['H']}ft, AR={description['AR']}, WWR={description['WWR']}.",
