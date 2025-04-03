@@ -68,43 +68,43 @@ def generate_combined_query(description):
         f"Building properties: {description['FA']:.1f} sq.ft total, {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Generate an EnergyPlus IDF section containing a Zone, Space, SpaceList, a building surface with fenestration, and necessary geometric details."
-        f"Dimensions: {description['L']} ft (L) x {description['W']} ft (W) x {description['H']} ft (H), Total Area={description['FA']} sq.ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Dimensions: {description['L']:.1f} ft (L) x {description['W']:.1f} ft (W) x {description['H']:.1f} ft (H), Total Area={description['FA']:.1f} sq.ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Create a valid IDF file for EnergyPlus that defines a Zone, Space, SpaceList, a building envelope surface, and an opening such as a window."
-        f"Given parameters: FA={description['FA']} square ft, L={description['L']} ft, W={description['W']} ft, H={description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Given parameters: FA={description['FA']:.1f} square ft, L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Write an IDF script containing a Zone, Space, SpaceList, an building surface, and its corresponding fenestration."
-        f"Input specifications: Floor Area={description['FA']} square ft, Length={description['L']} ft, Width={description['W']} ft, Height={description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Input specifications: Floor Area={description['FA']:.1f} square ft, Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
         
         f"Design an IDF file that incorporates a Zone, Space, SpaceList, a key building surface, and its fenestration for EnergyPlus simulation."
-        f"Parameters: Floor Area={description['FA']} square feet, L={description['L']} ft, W={description['W']} ft, H={description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Parameters: Floor Area={description['FA']:.1f} square feet, L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Prepare an EnergyPlus IDF definition that includes a Zone, Space, SpaceList, an building surface, and an associated window or aperture."
-        f"Building configuration: {description['FA']} square feet, {description['L']} ft x {description['W']} ft x {description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Building configuration: {description['FA']:.1f} square feet, {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Write an IDF file for a building with a Zone, Space, SpaceList, a building surface, and an opening fenestration for EnergyPlus analysis."
-        f"Specifications: L={description['L']} ft, W={description['W']} ft, H={description['H']} ft, FA={description['FA']} sq. feet, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Specifications: L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f} ft, FA={description['FA']:.1f} sq. feet, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Develop an EnergyPlus IDF file that defines a Zone, Space, SpaceList, building surface and fenestration element, and other necessary details."
-        f"Inputs: Floor Area={description['FA']} sq ft, Length={description['L']} ft, Width={description['W']} ft, Height={description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Inputs: Floor Area={description['FA']:.1f} sq ft, Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Formulate an IDF snippet that includes a Zone, Space, SpaceList, building surface, and a window or glazing element."
-        f"Building parameters: {description['FA']} sq ft total, Dimensions: {description['L']} ft x {description['W']} ft x {description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Building parameters: {description['FA']:.1f} sq ft total, Dimensions: {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
 
         f"How can I generate an EnergyPlus IDF file that includes a Zone, Space, SpaceList, a building surface, and a window?"
-        f"My building details are: Floor Area={description['FA']} SF, Length={description['L']} ft, Width={description['W']} ft, Height={description['H']} ft, Aspect Ratio={description['AR']}, and Window-to-Wall Ratio={description['WWR']}.",
+        f"My building details are: Floor Area={description['FA']:.1f} SF, Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, Aspect Ratio={description['AR']:.1f}, and Window-to-Wall Ratio={description['WWR']:.1f}.",
     
         f"Can you provide an IDF file containing a Zone, Space, SpaceList, building surface, and its fenestration?"
-        f"The building parameters are: {description['FA']} SF total, {description['L']} ft x {description['W']} ft x {description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"The building parameters are: {description['FA']:.1f} SF total, {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"What would an EnergyPlus IDF look like for a building with a Zone, Space, SpaceList, a building surface, and fenestration?"
-        f"Here are my specifications: L={description['L']} ft, W={description['W']} ft, H={description['H']} ft, FA={description['FA']} ft2, AR={description['AR']}, WWR={description['WWR']}.",
+        f"Here are my specifications: L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f} ft, FA={description['FA']:.1f} ft2, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"Can you help me create an IDF snippet for EnergyPlus that includes a Zone, Space, SpaceList, a building surface, and a glazing element?"
-        f"The building details are: {description['FA']} ft², Dimensions: {description['L']} ft x {description['W']} ft x {description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"The building details are: {description['FA']:.1f} ft², Dimensions: {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     
         f"What is the correct IDF structure for defining a Zone, Space, SpaceList, an building surface, and a fenestration in EnergyPlus?"
-        f"My building specifications are: Floor Area={description['FA']} ft², Length={description['L']} ft, Width={description['W']} ft, Height={description['H']} ft, AR={description['AR']}, WWR={description['WWR']}.",
+        f"My building specifications are: Floor Area={description['FA']:.1f} ft², Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.1f}.",
     ]
     return random.choice(templates)
 
