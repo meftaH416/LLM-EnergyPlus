@@ -101,10 +101,10 @@ def generate_combined_query(description):
         f"Here are my specifications: L={description['L']:.1f} ft, W={description['W']:.1f} ft, H={description['H']:.1f} ft, FA={description['FA']:.1f} ft2, AR={description['AR']:.1f}, WWR={description['WWR']:.2f}.",
     
         f"Can you help me create an IDF snippet for EnergyPlus that includes a Zone, Space, SpaceList, a building surface, and a glazing element?"
-        f"The building details are: {description['FA']:.1f} ft², Dimensions: {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.2f}.",
+        f"The building details are: {description['FA']:.1f} sq ft , Dimensions: {description['L']:.1f} ft x {description['W']:.1f} ft x {description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.2f}.",
     
         f"What is the correct IDF structure for defining a Zone, Space, SpaceList, an building surface, and a fenestration in EnergyPlus?"
-        f"My building specifications are: Floor Area={description['FA']:.1f} ft², Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.2f}.",
+        f"My building specifications are: Floor Area={description['FA']:.1f} ft2, Length={description['L']:.1f} ft, Width={description['W']:.1f} ft, Height={description['H']:.1f} ft, AR={description['AR']:.1f}, WWR={description['WWR']:.2f}.",
     ]
     return random.choice(templates)
 
