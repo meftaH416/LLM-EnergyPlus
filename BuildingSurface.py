@@ -159,3 +159,37 @@ with open(output_json_path, 'w', encoding='utf-8') as json_file:
     json.dump(json_pairs, json_file, indent=2)
 
 print(f"Fine-tuning dataset saved to {output_json_path}")
+
+## Making 0.2f or two significant digitsimport json
+import re
+file_path = r'C:\Users\Desktop\LLM Eplus\BuildingGeometricDataset.json'
+
+def round_numbers_in_text(text, precision=2):
+    # Match float or int numbers in string, including negatives
+    number_pattern = re.compile(r'-?\d+\.\d+|-?\d+')
+
+    def round_match(match):
+        num = float(match.group())
+        return f"{num:.{precision}f}"
+
+    return number_pattern.sub(round_match, text)
+
+def round_json_numbers(json_data, precision=2):
+    for item in json_data:
+        for key in item:
+            if isinstance(item[key], str):
+                item[key] = round_numbers_in_text(item[key], precision)
+    return json_data
+
+# === Usage ===
+# Load your JSON file
+with open(file_path, "r") as f:
+    data = json.load(f)
+
+# Round numbers in the JSON
+rounded_data = round_json_numbers(data, precision=2)
+
+# Save the modified JSON
+with open(file_path, "w") as f:
+    json.dump(rounded_data, f, indent=2)
+
