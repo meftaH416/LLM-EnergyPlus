@@ -28,10 +28,11 @@ def generate_example():
 
         # Random unit variations for fraction (area units only)
         area_unit = random.choice(area_units)  # Only area-related units for this case
+        linear_unit = random.choice(linear_units)
         fraction_phrase = random.choice(fraction_phrases)
 
         # Random prompt and response for fraction
-        prompt = f"What is {fraction}% of a wall area that is {width} {random.choice(linear_units)} wide and {height} {random.choice(linear_units)} high?"
+        prompt = f"What is {fraction}% of a wall area that is {width} {linear_unit} wide and {height} {linear_unit} high?"
         response = f"Wall area = {width} × {height} = {area} {area_unit}. {fraction}% {fraction_phrase} {area} = {window_area} {area_unit}."
 
     elif example_type == "geometry":
