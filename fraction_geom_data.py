@@ -38,7 +38,10 @@ def generate_example(example_type=None, forced_surface_type=None):
         fraction_phrase = random.choice(fraction_phrases).replace("{surface_type}", surface_type)
 
         user = f"What is {fraction} {percent_dec} of a {surface_type} area that is {width} {linear_unit} wide and {height} {linear_unit} high?"
-        assistant = f"{surface_type.capitalize()} area = {width} * {height} = {area} {area_unit}. {fraction}% {fraction_phrase} is {area} * {fraction}% = {window_area} {area_unit}."
+        assistant = (
+                        f"{surface_type.capitalize()} area = {width} * {height} = {area:.4g} {area_unit}. "
+                        f"{fraction}% {fraction_phrase} is {area:.4g} * {fraction}% = {window_area:.4g} {area_unit}."
+                    )
 
     elif example_type == "geometry":
         length = random.randint(2, 30)
@@ -100,8 +103,8 @@ n = 1000
 dataset = generate_dataset(n)
 
 # Save dataset
+# Save as a proper JSON array
 with open("geometry_fraction_dataset.json", "w") as f:
-    for example in dataset:
-        f.write(json.dumps(example) + "\n")
+    json.dump(dataset, f, indent=2)
 
 print(f"Dataset of {n} examples saved as 'geometry_fraction_dataset.json'")
